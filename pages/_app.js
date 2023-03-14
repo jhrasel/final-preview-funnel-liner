@@ -25,7 +25,7 @@ import '../styles/landing-pages-css/landing-common-css/landing-common.css';
 
 import '../styles/landing-pages-css/landing-4.css';
 
-// import '../styles/landing-pages-css/landing-5.css';
+import '../styles/landing-pages-css/landing-5.css';
 
 
 
