@@ -8,116 +8,116 @@
     --white_color: #fff;
     --primary_text: #E81E28;
 
-  }
-  
+}
 
-  .Landing__5{
-      font-family: 'Noto Sans Bengali', sans-serif !important;
-  }
-  
-  .Landing__5 h1{
-      font-weight: 700;
-      font-size: 55px;
-      line-height: 70px;
-      color: var(--header_color);
-  }
-  
-  .Landing__5 h2{
-      font-size: 40px;
-      line-height: 50px;
-      color: var(--primary_text);
-      font-weight: 700;
-  }
-  
-  .Landing__5 h3{
-      font-size: 24px;
-      line-height: 35px;
-      color: var(--primary_text);
-      font-weight: 600;
-  }
-  
-  .Landing__5 p{
-      color: var(--text_color);
-      font-size: 18px;
-      line-height: 30px;
-      font-weight: 400;
-      margin-top: 15px;
-  }
-  
-           
-  .Landing__5 a {
-      transition: 0.5s;
-      display: block;
-      font-size: 20px;
-      line-height: 35px;
-      font-weight: 600;
-  }
-  
-  .Landing__5 a.bg{
-      margin-top: 30px;
-      padding: 12px 50px;
-      padding-top: 15px;
-      color: var(--white_color); 
-      background-image: linear-gradient(to right, #E81E28 0%, #b82930  51%, #E81E28  100%);
-      background-size: 200% auto;
-      border-radius: 10px;
-      display: inline-block;
-  }
-  
-  .Landing__5 a svg{
-      font-size: 25px;
-      margin-top: -5px;
-      margin-right: 10px;
-  }
 
-  .Landing__5 .hLine{
+.Landing__5 {
+    font-family: 'Noto Sans Bengali', sans-serif !important;
+}
+
+.Landing__5 h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    color: var(--header_color);
+}
+
+.Landing__5 h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--primary_text);
+    font-weight: 700;
+}
+
+.Landing__5 h3 {
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--primary_text);
+    font-weight: 600;
+}
+
+.Landing__5 p {
+    color: var(--text_color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+.Landing__5 a {
+    transition: 0.5s;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.Landing__5 a.bg {
+    margin-top: 30px;
+    padding: 12px 50px;
+    padding-top: 15px;
+    color: var(--white_color);
+    background-image: linear-gradient(to right, #E81E28 0%, #b82930 51%, #E81E28 100%);
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.Landing__5 a svg {
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.Landing__5 .hLine {
     margin-top: 10px;
     height: 2px;
     width: 300px;
     background: var(--primary_text);
-  }
-  
-  .Landing__5 a.bg:hover {
-      background-position: right center;
-      color: #fff;
-      text-decoration: none;
-  }
-   
-  .Landing__5 .section_gaps{
-      margin-top: 100px;
-  }
+}
 
-  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+.Landing__5 a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Landing__5 .section_gaps {
+    margin-top: 100px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
     START Banner PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.Banner{
+.Landing__5 .Banner {
     background: url('../../public/images/landing-5/banner6.png');
     background-position: center top;
     background-repeat: no-repeat;
     padding-top: 50px;
-    
+
 }
 
-.Banner .text{
+.Landing__5 .Banner .text {
     margin-top: 50px;
-    
+
 
 }
 
-.Banner .imgWhite{
+.Landing__5 .Banner .imgWhite {
     display: none;
 }
 
-.Banner .text h3{
+.Landing__5 .Banner .text h3 {
     color: var(--primary_text);
 }
 
-.Banner .BannerContent{
+.Landing__5 .Banner .Landing__5 .BannerContent {
     padding-bottom: 150px;
 }
 
-.Banner .titleHeader{
+.Landing__5 .Banner .titleHeader {
 
     margin-top: 50px;
     display: flex;
@@ -125,17 +125,17 @@
     width: 60%;
 }
 
-.Banner .titleHeader h1{
+.Landing__5 .Banner .titleHeader h1 {
     font-size: 83px;
     letter-spacing: 0.11em;
     margin-right: 30px;
 }
 
-.Banner .titleHeader h1 span{
+.Landing__5 .Banner .titleHeader h1 span {
     color: var(--primary_text);
 }
 
-.Spec{
+.Landing__5 .Spec {
     background: var(--primary_text);
     padding: 40px;
     margin-top: -80px;
@@ -143,7 +143,7 @@
     display: inline-block;
 }
 
-.Spec ul li{
+.Landing__5 .Spec ul li {
     display: inline-block;
     text-align: center;
     padding-right: 30px;
@@ -151,198 +151,120 @@
     border-right: 1px solid var(--white_color);
 }
 
-.Spec ul li:last-child{
+.Landing__5 .Spec ul li:last-child {
     margin-right: 0;
     padding-right: 0;
     border-right: 0;
 }
 
-.Spec ul li p{
+.Landing__5 .Spec ul li p {
 
-    text-align:center;
+    text-align: center;
     color: #fff;
 }
 
-.Spec .vLine{
+.Landing__5 .Spec .vLine {
     width: 2px;
     height: 150px;
     margin: auto 0;
     background: #fff;
 }
 
-  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
     START Feature PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.Features{
+.Landing__5 .Features {
     margin-top: 150px;
 }
 
-.Features h2{
+.Landing__5 .Features h2 {
     color: var(--primary_text);
 }
 
-.Features .FeatureList{
+.Landing__5 .Features .FeatureList {
     margin-top: 50px;
 }
 
-.Features .imageScooter img{
+.Landing__5 .Features .imageScooter img {
     width: auto;
 }
 
-.Features .FeatureList ul li{
+.Landing__5 .Features .FeatureList ul li {
     margin-top: 20px;
 }
 
-.Features .FeatureList svg{
+.Landing__5 .Features .FeatureList svg {
     color: var(--primary_text);
     margin-right: 5px;
     font-size: 24px;
 }
 
-.Features .FeatureList p{
+.Landing__5 .Features .FeatureList p {
     font-size: 22px;
     font-weight: 700;
 }
 
-  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
     OurStories PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.OurStories h2{
+.Landing__5 .OurStories h2 {
     text-align: center;
 
 }
 
-.OurStories .hLine{
+.Landing__5 .OurStories .hLine {
     margin: 0 auto;
     margin-top: 10px;
     width: 170px;
-    height:3px;
+    height: 3px;
 }
 
-.OurStories p{
+.Landing__5 .OurStories p {
     text-align: center;
 }
 
- /* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    Youtube PART
---------------------------------------------------------------------------------------------------------------------------------------------------- */
-.YouTubeVid img{
-    width: 100%;
-}
 
-.YouTubeVid .buttonGroup{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-
-}
-
-.YouTubeVid .buttonGroup .bg{
-
-    margin: 0 20px;
-
-}
-
-.YouTubeVid .buttonGroup .bg:last-child{
-    background: #fff;
-    border: 1px solid var(--primary_text);
-    color: var(--primary_text);
-    /* background-size: 200% auto;
-    background-image: linear-gradient(to right, #ffffff 0%, #dddddd  51%, #ffffff  100%); */
-
-}
-
- /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
     OrderSection PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.OrderSection .OrderDiv{
+.Landing__5 .OrderSection .OrderDiv {
     background: var(--primary_text);
     text-align: center;
     padding: 30px 80px;
-    border-radius:10px
-
+    border-radius: 10px
 }
 
-.OrderSection .OrderDiv h1{
+.Landing__5 .OrderSection .OrderDiv h1 {
     font-size: 40px;
 }
 
- /* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    SocialIcons PART
---------------------------------------------------------------------------------------------------------------------------------------------------- */
-.SocialIcons .SocialIconsList{
-    display: flex;
-    justify-content: center;
-}
-
-.SocialIcons .SocialIconsList a{
-    margin:10px;
-}
-
-.SocialIcons .SocialIconsList a.Fb svg{
-    color: #2E69DB;
-}
-
-.SocialIcons .SocialIconsList a.Yt svg{
-    color: #FF0000;
-}
-
-.SocialIcons .SocialIconsList a.InS svg{
-    background: linear-gradient(180deg, #F65D34 0%, #FF0917 47.92%, #FDCE56 100%);
-    color: #fff;
-    border-radius: 7px;
-}
-
-.SocialIcons .SocialIconsList a.Tw svg{
-    color: #33AAFF;
-}
-
-
-
- /* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    OrderSection PART
---------------------------------------------------------------------------------------------------------------------------------------------------- */
- 
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
     Footer Section PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
-.FooterSection{
+.Landing__5 .FooterSection {
     margin-bottom: 50px;
 }
 
-.FooterSection .Logo img{
+.Landing__5 .FooterSection .Logo img {
     margin-right: auto;
     display: flex;
 }
-.FooterSection .FooterMenu{
+
+.Landing__5 .FooterSection .FooterMenu {
     display: flex;
     justify-content: flex-end;
 }
 
-.FooterSection .FooterMenu ul li{
+.Landing__5 .FooterSection .FooterMenu ul li {
     display: inline-block;
     margin-left: 40px;
 }
 
-/* Other------- */
-/* Ibrahim--------- */
 
-.tinyFooter p {
-    text-align: center;
-  }
-
-.tinyFooter p a{
-    display: inline;
-    font-size: 16px;
-    font-weight: 600;
-    color: #FF0000;
-    padding: 0 5px;
-  }
-  
 
 
 
@@ -351,15 +273,15 @@
    Order Confram
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.Landing__5 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0{
+.Landing__5 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
     background: #E81E28;
 }
 
-.Landing__5 .order_OrderConfirmRight__DSDPT button{
+.Landing__5 .order_OrderConfirmRight__DSDPT button {
     background: #E81E28;
 }
 
-.Landing__5 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p{
+.Landing__5 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
     color: #ffffff;
 }
 
@@ -375,35 +297,37 @@
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (max-width: 1440px) {
 
-    .Landing__5 .container{
+    .Landing__5 .container {
         width: 90%;
     }
 
-    .Banner .titleHeader h1{
+    .Landing__5 .Banner .titleHeader h1 {
         font-size: 70px;
         letter-spacing: 0.11em;
         margin-right: 30px;
     }
-    
+
 
     .Landing__5 .container h3 {
         font-size: 22px;
         line-height: 30px;
     }
+
     .Landing__5 .container h2 {
         font-size: 35px;
         line-height: 45px;
     }
+
     .Landing__5 .container h1 {
         font-size: 50px;
         line-height: 60px;
     }
 
-    .Landing__5 .section_gaps{
+    .Landing__5 .section_gaps {
         margin-top: 60px;
     }
 
-    
+
 }
 
 
@@ -413,109 +337,110 @@
 
 @media (max-width: 1024px) {
 
-    .Banner .titleHeader h1{
+    .Landing__5 .Banner .titleHeader h1 {
         font-size: 40px;
         margin-top: 10px;
     }
-    .Landing__5 h2{
+
+    .Landing__5 h2 {
         font-size: 24px;
     }
 
-    .Landing__5 .section_gaps{
+    .Landing__5 .section_gaps {
         margin-top: 40px;
     }
 
-    .Landing__5 .hLine{
+    .Landing__5 .hLine {
         margin: 0 auto;
     }
 
-    .Landing__5 p{
+    .Landing__5 p {
         font-size: 14px;
     }
-   
-    .Banner .text {
+
+    .Landing__5 .Banner .text {
         margin-top: 20px;
     }
 
-    .Banner .text h3{
+    .Landing__5 .Banner .text h3 {
         font-size: 20px;
     }
 
-    .Banner .titleHeader {
+    .Landing__5 .Banner .titleHeader {
         margin-top: 10px;
     }
 
-    .Spec {
+    .Landing__5 .Spec {
         padding: 20px;
     }
 
-    .Spec .item img{
+    .Landing__5 .Spec .item img {
         width: 30%;
     }
 
-    .Spec .item p{
+    .Landing__5 .Spec .item p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .Spec ul li {
+    .Landing__5 .Spec ul li {
         display: inline-block;
-        
         margin: 10px 0;
         text-align: center;
         padding-right: 15px;
-        margin-right:15px;
+        margin-right: 15px;
         border-right: none;
         border-right: 1px solid #ffffff;
     }
 
-    .Spec ul li .item{
+    .Landing__5 .Spec ul li .item {
         padding: 5px;
     }
 
-    .Landing__5 a.bg{
+    .Landing__5 a.bg {
         margin-top: 25px;
         padding: 10px 25px;
         padding-top: 12px;
     }
 
-    .Features .imageScooter img{
+    .Landing__5 .Features .imageScooter img {
         text-align: center;
-        
+
     }
 
-    .Features .imageScooter{
+    .Landing__5 .Features .imageScooter {
         display: flex;
         justify-content: center;
     }
 
-    .Features{
+    .Landing__5 .Features {
         margin-top: 60px;
     }
 
-    .Features h2{
+    .Landing__5 .Features h2 {
         text-align: center;
     }
 
-    .Features .FeatureList p {
+    .Landing__5 .Features .FeatureList p {
         font-size: 16px;
         font-weight: 700;
     }
-    .Features .FeatureList ul li {
+
+    .Landing__5 .Features .FeatureList ul li {
         margin-top: 5px;
     }
 
-    .OrderSection .OrderDiv{
-        padding: 20px ;
+    .Landing__5 .OrderSection .OrderDiv {
+        padding: 20px;
 
     }
 
-    .OrderSection .OrderDiv h1{
+    .Landing__5 .OrderSection .OrderDiv h1 {
         font-size: 24px;
     }
 
-    
-    
+
+
 
 }
 
@@ -531,50 +456,51 @@
 
 @media (max-width: 768px) {
 
-    .Banner .titleHeader h1{
+    .Landing__5 .Banner .titleHeader h1 {
         font-size: 40px;
         margin-top: 10px;
     }
-    .Landing__5 h2{
+
+    .Landing__5 h2 {
         font-size: 24px;
     }
 
-    .Landing__5 .section_gaps{
+    .Landing__5 .section_gaps {
         margin-top: 60px;
     }
 
-    .Landing__5 .hLine{
+    .Landing__5 .hLine {
         margin: 0 auto;
     }
-   
-    .Banner .text {
+
+    .Landing__5 .Banner .text {
         margin-top: 30px;
     }
 
-    .Banner .text h3{
+    .Landing__5 .Banner .text h3 {
         font-size: 20px;
     }
 
-    .Banner .titleHeader {
+    .Landing__5 .Banner .titleHeader {
         margin-top: 10px;
     }
 
-    .Spec {
+    .Landing__5 .Spec {
         padding: 20px;
     }
 
-    .Spec .item img{
+    .Landing__5 .Spec .item img {
         width: 30%;
     }
 
-    .Spec .item p{
+    .Landing__5 .Spec .item p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .Spec ul li {
+    .Landing__5 .Spec ul li {
         display: inline-block;
-        
+
         margin: 10px 0;
         text-align: center;
         padding-right: 8px;
@@ -583,49 +509,49 @@
         border-right: 1px solid #ffffff;
     }
 
-    .Spec ul li .item{
+    .Landing__5 .Spec ul li .item {
         padding: 5px;
     }
 
-    .Landing__5 a.bg{
+    .Landing__5 a.bg {
         margin-top: 25px;
         padding: 10px 25px;
         padding-top: 12px;
     }
 
-    .Features .imageScooter img{
+    .Landing__5 .Features .imageScooter img {
         text-align: center;
-        
+
     }
 
-    .Features .imageScooter{
+    .Landing__5 .Features .imageScooter {
         display: flex;
         justify-content: center;
     }
 
-    .Features{
+    .Landing__5 .Features {
         margin-top: 60px;
     }
 
-    .Features h2{
+    .Landing__5 .Features h2 {
         text-align: center;
     }
 
-    .Features .imageScooter img {
+    .Landing__5 .Features .imageScooter img {
         width: auto;
     }
 
-    .OrderSection .OrderDiv{
-        padding: 20px ;
+    .Landing__5 .OrderSection .OrderDiv {
+        padding: 20px;
 
     }
 
-    .OrderSection .OrderDiv h1{
+    .Landing__5 .OrderSection .OrderDiv h1 {
         font-size: 24px;
     }
 
-    
-    
+
+
 
 }
 
@@ -633,37 +559,37 @@
 /* // Xm-Small devices (from mobile to tab) */
 @media (max-width: 575px) {
 
-    .Landing__5 .section_gaps{
+    .Landing__5 .section_gaps {
         margin-top: 50px;
     }
-  
 
-    .Landing__5 h1{
+
+    .Landing__5 h1 {
         font-size: 26px;
         line-height: 30px;
     }
 
-    .Landing__5 h2{
+    .Landing__5 h2 {
         font-size: 22px;
         line-height: 30px;
     }
 
-    .Landing__5 p{
+    .Landing__5 p {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .Banner{
+    .Landing__5 .Banner {
         padding-top: 30px;
-        
+
     }
-    
-    .Banner .titleHeader{
+
+    .Landing__5 .Banner .titleHeader {
         display: block;
         width: 100%;
     }
 
-    .Banner .titleHeader h1{
+    .Landing__5 .Banner .titleHeader h1 {
         font-size: 32px;
         margin-top: 30px;
         color: #fff;
@@ -672,49 +598,49 @@
         line-height: 11px;
     }
 
-    .Banner .text h3{
+    .Landing__5 .Banner .text h3 {
         font-size: 20px;
         text-align: center;
     }
 
-    .Banner .btnBox{
+    .Landing__5 .Banner .btnBox {
         display: flex;
         justify-content: center;
     }
 
-    .Banner .text {
+    .Landing__5 .Banner .text {
         margin-top: 30px;
     }
 
-    .Landing__5 a.bg{
+    .Landing__5 a.bg {
         margin-top: 30px;
         padding: 7px 20px;
         padding-top: 8px;
     }
 
-    .Banner .imgWhite{
+    .Landing__5 .Banner .imgWhite {
         display: block;
         /* margin: 0 auto; */
     }
 
-    .Banner .imgBlack{
+    .Landing__5 .Banner .imgBlack {
         display: none;
     }
 
-    .Spec {
+    .Landing__5 .Spec {
         padding: 20px;
     }
 
-    .Spec .item img{
+    .Landing__5 .Spec .item img {
         width: 30%;
     }
 
-    .Spec .item p{
+    .Landing__5 .Spec .item p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .Spec ul li {
+    .Landing__5 .Spec ul li {
         display: inline-block;
         width: 50%;
         margin: 10px 0;
@@ -725,11 +651,11 @@
         /* border-bottom-width: 50%; */
     }
 
-    .Spec ul li .item{
+    .Landing__5 .Spec ul li .item {
         padding: 5px;
     }
-    
-    .Spec ul li:last-child {
+
+    .Landing__5 .Spec ul li:last-child {
 
         display: flex;
         justify-content: center;
@@ -737,65 +663,66 @@
 
     }
 
-    .Features .imageScooter img{
+    .Landing__5 .Features .imageScooter img {
         text-align: center;
         width: 100%;
     }
 
-    .Features{
+    .Landing__5 .Features {
         margin-top: 50px;
     }
 
-    .Features .FeatureList p {
+    .Landing__5 .Features .FeatureList p {
         font-size: 14px;
     }
 
     .Landing__5 a {
-       
+
         font-size: 12px;
-        line-height: 20px;    
+        line-height: 20px;
     }
 
-    .OrderSection .OrderDiv {
+    .Landing__5 .OrderSection .OrderDiv {
         padding: 20px 30px;
     }
 
-    .OrderSection .OrderDiv h1 {
+    .Landing__5 .OrderSection .OrderDiv h1 {
         font-size: 16px;
     }
 
-    .FooterSection .Logo img{
+    .Landing__5 .FooterSection .Logo img {
         margin: 0 auto;
         display: flex;
     }
 
-    .FooterSection .FooterMenu{
+    .Landing__5 .FooterSection .FooterMenu {
         margin-top: 20px;
         justify-content: center;
 
     }
 
-    .FooterSection .FooterMenu ul li{
+    .Landing__5 .FooterSection .FooterMenu ul li {
         margin: 0 10px;
         justify-content: space-between;
     }
+
     /* .FooterSection .FooterMenu ul{
         margin: 0 auto;
     } */
 
-    .FooterSection {
+    .Landing__5 .FooterSection {
         margin-bottom: 20px;
     }
 
 
-/* Ibrahim ----- */
-    .imgWhite {
+    /* Ibrahim ----- */
+    .Landing__5 .imgWhite {
         display: block;
         margin: 0 auto;
         width: 160px;
     }
 
-    .FooterSection .Logo img {
+    .Landing__5 .FooterSection .Logo img {
         margin: 0 auto;
         display: flex;
         width: 160px;
