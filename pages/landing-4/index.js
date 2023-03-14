@@ -19,6 +19,10 @@ import landingImageUrl from "../../public/images/landing-4/logo.svg";
 import Menubar from '@/components/LandingPage/Common/Menubar/Menubar';
 
 import Order from '@/components/LandingPage/Common/Order/Order';
+import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
+import SocialMedia from '@/components/LandingPage/Common/SocialMedia/SocialMedia';
+import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
+import Video from '@/components/LandingPage/Common/Video/Video';
 
 
 
@@ -163,7 +167,9 @@ const index = () => {
                     <Row className='justify-content-center'>
 
                         <Col lg={12}>
-                            <img src="/images/landing-4/YouTube2.png" alt="" />
+                            
+                            <Video></Video>
+
                         </Col>
 
                     </Row>
@@ -479,6 +485,11 @@ const index = () => {
             <div className="Section__Gaps"></div>
 
             {/* -------------------------------------------------------------------------------------------
+                CustomerReview
+            -----------------------------------------------------------------------------------------------*/}
+            <CustomerReview></CustomerReview>
+
+            {/* -------------------------------------------------------------------------------------------
               Order  
             -----------------------------------------------------------------------------------------------*/}
             <section id="placeAnOrder">
@@ -568,17 +579,7 @@ const index = () => {
 
                             <div className='SocialIcons'>
 
-                                <div className='SocialIconsList'>
-
-                                    <Link href='' className='Fb' > <FaFacebookF /></Link>
-
-                                    <Link href='' className='Yt' > <FaYoutube /></Link>
-
-                                    <Link href='' className='InS' > <AiFillInstagram /></Link>
-
-                                    <Link href='' className='Tw' > <FaTwitter /></Link>
-
-                                </div>
+                                <SocialMedia></SocialMedia>
 
                             </div>
 
@@ -603,6 +604,10 @@ const index = () => {
                         </Col>
 
                     </Row>
+
+                    <TinyFooter></TinyFooter>
+
+                    
 
                 </Container>
 

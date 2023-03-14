@@ -487,36 +487,6 @@
     font-size: 40px;
 }
 
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    SocialIcons PART
---------------------------------------------------------------------------------------------------------------------------------------------------- */
-.SocialIcons .SocialIconsList {
-    display: flex;
-    justify-content: center;
-}
-
-.SocialIcons .SocialIconsList a {
-    margin: 10px;
-}
-
-.SocialIcons .SocialIconsList a.Fb svg {
-    color: #2E69DB;
-}
-
-.SocialIcons .SocialIconsList a.Yt svg {
-    color: #FF0000;
-}
-
-.SocialIcons .SocialIconsList a.InS svg {
-    background: linear-gradient(180deg, #F65D34 0%, #FF0917 47.92%, #FDCE56 100%);
-    color: #fff;
-    border-radius: 7px;
-}
-
-.SocialIcons .SocialIconsList a.Tw svg {
-    color: #33AAFF;
-}
-
 
 
 
@@ -834,10 +804,6 @@
         width: 60%;
     }
 
-    .SocialIcons {
-        margin-top: 20px;
-    }
-
     .FooterSection .FooterMenu ul li {
         margin: 0 10px;
         justify-content: space-between;
@@ -1033,10 +999,6 @@
 
     .FooterSection .imgLayer img {
         width: 60%;
-    }
-
-    .SocialIcons {
-        margin-top: 20px;
     }
 
     .FooterSection .FooterMenu ul li {
@@ -1358,10 +1320,6 @@
 
     .FooterSection .imgLayer img {
         width: 30%;
-    }
-
-    .SocialIcons {
-        margin-top: 40px;
     }
 
     /* Ibrahim----------------- */
