@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import React from 'react';
-import './tiny-footer.css';
+
 
 // Css
-import style from './tiny-footer.css';
+import style from './tiny-footer.module.css';
 
 const TinyFooter = () => {
 
@@ -14,10 +15,12 @@ const TinyFooter = () => {
         <>
 
             {/* Tiny Footer */}
-            <div className='tinyFooter'>
+            <div className={style.tinyFooter}>
 
-                <p>@ {year} All Rights Reserved </p>
-                <p>System developed by <Link href='https://funnelliner.com/'>Funnel Liner</Link> </p>
+                <div className={style.d_flex}>
+                    <p>@ {year} All Rights Reserved </p>
+                    <p>System developed by <Link href='https://funnelliner.com/'>Funnel Liner</Link> </p>
+                </div>
 
             </div>
 
