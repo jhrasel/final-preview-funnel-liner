@@ -21,8 +21,10 @@ import TinyFooter from "@/components/LandingPage/Common/TinyFooter/TinyFooter";
 import Video from "@/components/LandingPage/Common/Video/Video";
 import landingImageUrl from "../../public/images/landing-6/logo.svg";
 
-export default function LandingSeven() {
+export default function index() {
+
   const today = new Date();
+  
   const year = today.getFullYear();
 
   return (

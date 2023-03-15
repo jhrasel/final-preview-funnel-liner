@@ -21,13 +21,17 @@ import '../styles/landing-pages-css/landing-common-css/landing-common.css';
 
 // import '../styles/landing-pages-css/landing-2.css';
 
-// import '../styles/landing-pages-css/landing-3.css';
+import '../styles/landing-pages-css/landing-3.css';
 
 import '../styles/landing-pages-css/landing-4.css';
 
 import '../styles/landing-pages-css/landing-5.css';
 
 import '../styles/landing-pages-css/landing-6.css';
+
+import '../styles/landing-pages-css/landing-7.css';
+
+import '../styles/landing-pages-css/landing-8.css';
 
 
 
