@@ -20,7 +20,7 @@ const ShippingAddress = (props) => {
                     {/* item */}
                     <Col lg={3} sm={6}>
 
-                        <div className={style.ShippingAddress}>
+                        <div className={style.ShippingAddressItem}>
 
                             <div className={style.img}>
                                 <Image src={props.DelivaryImage1} />

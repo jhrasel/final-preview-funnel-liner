@@ -67,14 +67,12 @@ const index = () => {
                                             <h2>ডিস্কাউন্ট মূল্য:</h2>
 
                                             <div className="textDecoration">
+
                                                 <img src="/images/landing-4/Frame.png" alt="" />
 
                                                 <div className="PriceBox">
                                                     <h2>১৬৫০ টাকা</h2>
-
                                                 </div>
-
-
 
                                             </div>
 
@@ -111,7 +109,6 @@ const index = () => {
 
                                         <h2>25% OFF</h2>
                                         <h5>Free Gift</h5>
-
 
                                     </div>
 
