@@ -16,7 +16,7 @@ import CustomerReview from '@/components/LandingPage/Common/CustomerReview/Custo
 import SocialMedia from '@/components/LandingPage/Common/SocialMedia/SocialMedia';
 import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 import Video from '@/components/LandingPage/Common/Video/Video';
-import landingImageUrl from "../../public/images/landing_6/logo.svg";
+import landingImageUrl from "../../public/images/landing-6/logo.svg";
 
 
 
@@ -47,7 +47,7 @@ export default function LandingSeven() {
 
                 <div className="logoBox">
 
-                    {/* <img src="images/landing_7/logo.svg" alt="img" /> */}
+                    {/* <img src="/images/landing-6/logo.svg" alt="img" /> */}
 
                 </div>
 
@@ -57,7 +57,7 @@ export default function LandingSeven() {
 
                     <div className="bgImgIcon3Small">
 
-                          <img src="images/landing_7/d3.png" alt="" />
+                          <img src="/images/landing-6/d3.png" alt="" />
 
                     </div>
 
@@ -72,8 +72,8 @@ export default function LandingSeven() {
                     <Col xs={12} md={7}>
                             <div className="textBoxBg bgImgIconBox">
                                   
-                                  <div className="bgImgIcon1"><img src="images/landing_7/d1.svg" alt="drone" /></div>
-                                  <div className="bgImgIcon2"><img src="images/landing_7/d2.svg" alt="drone" /></div>
+                                  <div className="bgImgIcon1"><img src="/images/landing-6/d1.svg" alt="drone" /></div>
+                                  <div className="bgImgIcon2"><img src="/images/landing-6/d2.svg" alt="drone" /></div>
                                   
                                 <p>Get The Best Drone</p>
 
@@ -97,7 +97,7 @@ export default function LandingSeven() {
 
         <Col xs={5} xl={4} xxl={4}  xxxl={2} className="bgImgIcon3">
 
-          <img className="myDroneImg" src="images/landing_7/d3.png" alt="drone" />
+          <img className="myDroneImg" src="/images/landing-6/d3.png" alt="drone" />
           
         </Col>
 
@@ -155,7 +155,7 @@ export default function LandingSeven() {
 
                     <div className="banner3TopTxt">
                         <h2>Best Feature Drone </h2>
-                        <div><img src="images/landing_7/d4.svg" alt="Img" /></div>
+                        <div><img src="/images/landing-6/d4.svg" alt="Img" /></div>
                     </div>
 
 
@@ -167,7 +167,7 @@ export default function LandingSeven() {
                                    
                                         <div className="IcodBorderDev">
                                            <BsCameraReels className="Banner3Icon"/>
-                                           <div className="icon3SideImg" > <img src="images/landing_7/d5.svg" alt="img" /></div>
+                                           <div className="icon3SideImg" > <img src="/images/landing-6/d5.svg" alt="img" /></div>
                                         </div>
                                     </div>
                                     
@@ -193,7 +193,7 @@ export default function LandingSeven() {
                                    
                                         <div className="IcodBorderDev">
                                            <GiDeliveryDrone className="Banner3Icon"/>
-                                           <div className="icon3SideImg" > <img src="images/landing_7/d5.svg" alt="img" /></div>
+                                           <div className="icon3SideImg" > <img src="/images/landing-6/d5.svg" alt="img" /></div>
                                         </div>
                                     </div>
                                     
@@ -218,7 +218,7 @@ export default function LandingSeven() {
                                    
                                         <div className="IcodBorderDev">
                                            <IoGameControllerOutline className="Banner3Icon"/>
-                                           <div className="icon3SideImg" > <img src="images/landing_7/d5.svg" alt="img" /></div>
+                                           <div className="icon3SideImg" > <img src="/images/landing-6/d5.svg" alt="img" /></div>
                                         </div>
                                     </div>
                                     
@@ -243,7 +243,7 @@ export default function LandingSeven() {
                                    
                                         <div className="IcodBorderDev">
                                            <IoBatteryChargingOutline className="Banner3Icon"/>
-                                           <div className="icon3SideImg" > <img src="images/landing_7/d5.svg" alt="img" /></div>
+                                           <div className="icon3SideImg" > <img src="/images/landing-6/d5.svg" alt="img" /></div>
                                         </div>
                                     </div>
                                     
@@ -283,7 +283,7 @@ export default function LandingSeven() {
                   <Col xs={12} sm={12} md={6}>
                     <div className="vidioBox">
                           <div className="borderDev">
-                                <img src="images/landing_7/d16.png" alt="" />
+                                <img src="/images/landing-6/d16.png" alt="" />
                           
                             {/* <iframe width="" height="497" src="https://www.youtube.com/embed/I19QtXQGIUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                         </div>
@@ -325,7 +325,7 @@ export default function LandingSeven() {
                 <Col xs={12} sm={12} md={7}>
                           <div className="banner3TopTxt2">
                                 <h2 className="Sec5h2">Deal Of The Day</h2>
-                                <div><img src="images/landing_7/d6.svg" alt="Img" />
+                                <div><img src="/images/landing-6/d6.svg" alt="Img" />
                                 </div>
                           </div>
                           <div className="banner3TopTxt3">
@@ -346,7 +346,7 @@ export default function LandingSeven() {
                 <Col xs={12} sm={12} md={5}>
 
                   <div className="imgBorder5">
-                    <img src="images/landing_7/d7.png" alt="img" />
+                    <img src="/images/landing-6/d7.png" alt="img" />
                   </div>
 
 
@@ -368,7 +368,7 @@ export default function LandingSeven() {
           <Container>
                     <div className="banner3TopTxt6">
                         <h2>Photos Taken From This Drone</h2>
-                        <div><img src="images/landing_7/d4.svg" alt="Img" /></div>
+                        <div><img src="/images/landing-6/d4.svg" alt="Img" /></div>
                     </div>
 
                     {/* Light gelary start */}
@@ -385,14 +385,14 @@ export default function LandingSeven() {
                             <Row className="Banner6Img">
 
 
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d8.png"> <img src="images/landing_7/d8.png" alt="img" /> </Link>  </div></Col>
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d9.png"> <img src="images/landing_7/d9.png" alt="img" /> </Link></div></Col>
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d10.png"> <img src="images/landing_7/b10.png" alt="img" /> </Link></div></Col>
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d11.png"> <img src="images/landing_7/b11.png" alt="img" /> </Link></div></Col>
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d12.png"> <img src="images/landing_7/b12.png" alt="img" /> </Link></div></Col>
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d13.png"> <img src="images/landing_7/b13.png" alt="img" /> </Link></div></Col>
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d14.png"> <img src="images/landing_7/b14.png" alt="img" /></Link></div></Col>
-                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="images/landing_7/d15.png"><img src="images/landing_7/b15.png" alt="img" /></Link> </div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d8.png"> <img src="/images/landing-6/d8.png" alt="img" /> </Link>  </div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d9.png"> <img src="/images/landing-6/d9.png" alt="img" /> </Link></div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d10.png"> <img src="/images/landing-6/b10.png" alt="img" /> </Link></div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d11.png"> <img src="/images/landing-6/b11.png" alt="img" /> </Link></div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d12.png"> <img src="/images/landing-6/b12.png" alt="img" /> </Link></div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d13.png"> <img src="/images/landing-6/b13.png" alt="img" /> </Link></div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d14.png"> <img src="/images/landing-6/b14.png" alt="img" /></Link></div></Col>
+                              <Col className="myImg" xs={12} sm={6} md={3}><div>  <Link href="/images/landing-6/d15.png"><img src="/images/landing-6/b15.png" alt="img" /></Link> </div></Col>
                            
                            
                            
@@ -432,7 +432,7 @@ export default function LandingSeven() {
 
                    <div className="banner3TopTxtF">
                         <h2>Join Us On Our Social Media</h2>
-                        <div><img src="images/landing_7/d4.svg" alt="Img" /></div>
+                        <div><img src="/images/landing-6/d4.svg" alt="Img" /></div>
                     </div>
 
         
@@ -441,10 +441,10 @@ export default function LandingSeven() {
 
           <div className="hovereffect2">
             <ul>
-              <li><Link href="#" title="Facebook"><img src="images/landing_7/facebook.png" alt="img"/> </Link></li>
-              <li><Link href="#" title="Youtube"><img src="images/landing_7/youtube.png" alt="img"/> </Link></li>
-              <li><Link href="#" title="Instagram"><img src="images/landing_7/instagram.png" alt="img"/> </Link></li>
-              <li><Link href="#" title="Twiter"><img src="images/landing_7/twiter.png" alt="img"/> </Link></li>
+              <li><Link href="#" title="Facebook"><img src="/images/landing-6/facebook.png" alt="img"/> </Link></li>
+              <li><Link href="#" title="Youtube"><img src="/images/landing-6/youtube.png" alt="img"/> </Link></li>
+              <li><Link href="#" title="Instagram"><img src="/images/landing-6/instagram.png" alt="img"/> </Link></li>
+              <li><Link href="#" title="Twiter"><img src="/images/landing-6/twiter.png" alt="img"/> </Link></li>
              
             </ul>
           </div>
@@ -458,7 +458,7 @@ export default function LandingSeven() {
 
             <div className="lastlogo">
                 <div>
-                  <img src="images/landing_7/logoend.png" alt="Img"></img>
+                  <img src="/images/landing-6/logoend.png" alt="Img"></img>
                 </div>
             </div>
 
