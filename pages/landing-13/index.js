@@ -54,7 +54,9 @@ const index = () => {
       <section>
 
         <Container fluid className="ConPad">
+
           <div className="ImgRelBox">
+
             <img
               className="ImgAbsTree"
               src="/images/landing-13/img2.png"
@@ -63,10 +65,15 @@ const index = () => {
           </div>
 
           <Container>
+
             <Row className="ColumnReverce">
+
               <Col md={12} lg={6}>
+
                 <div className="HeaderTxtBoxRel">
+
                   <div className="HeaderTxtBox">
+                    
                     <img
                       className="LogoNone"
                       src="/images/landing-13/logo.svg"
