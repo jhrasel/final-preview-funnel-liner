@@ -35,22 +35,31 @@ const index = () => {
 
   return (
     <section className="Landing__12">
-        
+
             {/* =========================================================================================================
                    Banner One 
             =============================================================================================================*/}
 
       <Container fluid className="ContainerPad">
+
         <div className="bgImgBox">
+
           <div className="LogoBox">
+
             <img src="/images/landing-12/logo.svg" alt="Img" />
+
           </div>
 
           <Container>
+
             <Row className="BannerRow">
+
               <Col xs={12} md={12} lg={6}>
+
                 <div className="Bannertxtbox">
+
                   <h1>
+
                     {" "}
                     ড্রাই ফ্রুটের অনন্য স্বাদ আর ন্যাচারাল হানির পুষ্টিকর গুন
                     এখন এক জায়গায়{" "}
@@ -63,6 +72,7 @@ const index = () => {
                   </Link>
                   <h5>১২০০ টাকা</h5>
                 </div>
+                
               </Col>
 
               {/* col---- */}
