@@ -281,7 +281,7 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
     ProductAbout PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
-.Landing__4 .ProductAbout p {
+.ProductAbout p {
     color: var(--primary_text);
     font-size: 28px;
     line-height: 50px;
@@ -292,24 +292,24 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
     Youtube PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
-.Landing__4 .YouTubeVid img {
+.YouTubeVid img {
     width: 100%;
 }
 
-.Landing__4 .YouTubeVid .buttonGroup {
+.YouTubeVid .buttonGroup {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 
 }
 
-.Landing__4 .YouTubeVid .buttonGroup .bg {
+.YouTubeVid .buttonGroup .bg {
 
     margin: 0 20px;
 
 }
 
-.Landing__4 .YouTubeVid .buttonGroup .bg:last-child {
+.YouTubeVid .buttonGroup .bg:last-child {
     background: #fff;
     border: 1px solid var(--primary_text);
     color: var(--primary_text);
@@ -319,7 +319,7 @@
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    UsefullnessItems PART
+   UsefullnessItems PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 .Landing__4 .UsefullnessItems {
     background: #E8F2E4;
@@ -356,7 +356,7 @@
 }
 
 
-.UsefullnessItems .ItemCards .IconBox {
+.Landing__4 .UsefullnessItems .ItemCards .IconBox {
     background: var(--primary_text);
     height: 60px;
     width: 60px;
@@ -367,7 +367,7 @@
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    DiscountSection PART
+   DiscountSection PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 .Landing__4 .DiscountSection h1 {
     text-align: center;
@@ -434,7 +434,7 @@
 
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    WhyUs PART
+   WhyUs PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 .Landing__4 .WhyUs {
     position: relative;
@@ -563,7 +563,7 @@
     margin-right: 10px;
 }
 
-.Landing__4 .Landing__4 .FooterSection .footerMenu .footerBox {
+.FooterSection .footerMenu .footerBox {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -576,7 +576,7 @@
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
-    BottomFooterMenu PART
+   BottomFooterMenu PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 .Landing__4 .BottomFooterMenu {
     display: flex;
@@ -787,7 +787,7 @@
         width: 60%;
     }
 
-    .Landing__4 .WhyUs {
+    .Landing__4 .Landing__4 .WhyUs {
         padding: 30px 0;
     }
 
@@ -984,7 +984,7 @@
         width: 60%;
     }
 
-    .Landing__4 .WhyUs {
+    .Landing__4 .Landing__4 .WhyUs {
         padding: 30px 0;
     }
 
@@ -1266,7 +1266,7 @@
         font-size: 20px;
     }
 
-    .Landing__4 .WhyUs {
+    .Landing__4 .Landing__4 .WhyUs {
         padding: 60px 0;
     }
 
