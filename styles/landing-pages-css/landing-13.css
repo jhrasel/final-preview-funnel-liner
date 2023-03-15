@@ -1044,7 +1044,7 @@
                 }
             
                 .Landing__13 .Button3BoxImgAbs2 {
-                    right: -4%;
+                    right: -2%;
                 }
                 .Landing__13 .Button3BoxImgAbs1 {
                     left: -4%;
@@ -1172,7 +1172,7 @@
             
                 .Landing__13 .Button3BoxImgAbs2 {
                     top: -11px;
-                    right: -9%;
+                    right: -2%;
                     width: 32%;
                 }
             
@@ -1242,13 +1242,13 @@
                 .Landing__13 .ImgDiv2Abs1, .Landing__13 .ImgDiv2Abs2 {
                     padding: 4px 15px;
                     font-size: 14px;
-                    left: -5%;
+                    left: 0%;
             
                 }
                 .Landing__13 .ImgDiv2Abs3{
                     padding: 4px 15px;
                     font-size: 14px;
-                    right: -5%;
+                    right: 0%;
                 }
             
                 .Landing__13 .OrderBgh3{
@@ -1311,13 +1311,13 @@
                     .Landing__13 .ImgDiv2Abs1, .Landing__13 .ImgDiv2Abs2 {
                         padding: 2px 10px;
                         font-size: 10px;
-                        left: -5%;
+                        left: 0%;
                 
                     }
                     .Landing__13 .ImgDiv2Abs3{
                         padding: 2px 10px;
                         font-size: 10px;
-                        right: -5%;
+                        right: 0%;
                     }
                 
             

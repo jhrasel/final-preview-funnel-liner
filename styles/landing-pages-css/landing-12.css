@@ -452,11 +452,11 @@
 
 .Landing__12 .BannerMAbsImgAll {
 
-    animation: mymove 25s infinite alternate;
+    animation: mymove4 25s infinite alternate;
 
 }
 
-@keyframes mymove {
+@keyframes mymove4 {
 
     0% {
         top: 0px;
@@ -467,17 +467,17 @@
     }
 
     100% {
-        top: -6400px;
+        top: -7900px;
     }
 }
 
 
 .Landing__12 .BannerMAbsImgAll2 {
 
-    animation: mymove2 25s infinite alternate;
+    animation: mymove6 25s infinite alternate;
 }
 
-@keyframes mymove2 {
+@keyframes mymove6 {
 
     0% {
         top: 0px;
@@ -488,7 +488,7 @@
     }
 
     100% {
-        top: -6400px;
+        top: -7900px;
         transform: rotate(180deg);
     }
 
@@ -1013,27 +1013,27 @@ top: -95px;
         width: 222px;
     }
 
-    @keyframes mymove {
+    @keyframes mymove4 {
 
         0% {
             top: 0px;
         }
 
         100% {
-            top: -6800px;
+            top: -8400px;
         }
     }
 
 
 
-    @keyframes mymove2 {
+    @keyframes mymove6 {
 
         0% {
             top: 0px;
         }
 
         100% {
-            top: -6800px;
+            top: -8400px;
             transform: rotate(180deg);
         }
 
@@ -1042,6 +1042,7 @@ top: -95px;
     .Landing__12 .Banner2imgAbs2 {
         width: 338px;
     }
+
 
 }
 
