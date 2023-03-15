@@ -281,11 +281,40 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
     ProductAbout PART
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
-.Landing__4  .ProductAbout p {
+.ProductAbout p {
     color: var(--primary_text);
     font-size: 28px;
     line-height: 50px;
     text-align: center;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Youtube PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.YouTubeVid img {
+    width: 100%;
+}
+
+.YouTubeVid .buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.YouTubeVid .buttonGroup .bg {
+
+    margin: 0 20px;
+
+}
+
+.YouTubeVid .buttonGroup .bg:last-child {
+    background: #fff;
+    border: 1px solid var(--primary_text);
+    color: var(--primary_text);
+    /* background-size: 200% auto;
+    background-image: linear-gradient(to right, #ffffff 0%, #dddddd  51%, #ffffff  100%); */
 
 }
 
@@ -534,7 +563,7 @@
     margin-right: 10px;
 }
 
-.Landing__4 .FooterSection .footerMenu .footerBox {
+.FooterSection .footerMenu .footerBox {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -566,7 +595,7 @@
     font-size: 16px;
 }
 
-.DiscountBox h2 {
+.Landing__4 .DiscountBox h2 {
 
     right: 11px;
     font-size: 35px;
@@ -601,11 +630,11 @@
 
     /* Ibrahim---- */
 
-    .ImageLayer2 {
+    .Landing__4 .ImageLayer2 {
         width: 120px;
     }
 
-    .ImageLayer {
+    .Landing__4 .ImageLayer {
         width: 120px;
     }
 
@@ -742,7 +771,7 @@
     }
 
 
-    .Landing__4 a.bg {
+    .Landing__4 .Landing__4 a.bg {
         margin-top: 25px;
         padding: 10px 25px;
         padding-top: 12px;
@@ -767,7 +796,7 @@
         width: 30%;
     }
 
-    .OnlyOrderBtn {
+    .Landing__4 .OnlyOrderBtn {
         padding: 30px 0;
     }
 
@@ -964,7 +993,7 @@
         width: 30%;
     }
 
-    .OnlyOrderBtn {
+    .Landing__4 .OnlyOrderBtn {
         padding: 30px 0;
     }
 
@@ -997,16 +1026,16 @@
     }
 
     /* Ibrahim------------------ */
-    .ImageLayer2 {
+    .Landing__4 .ImageLayer2 {
         width: 120px;
     }
 
-    .ImageLayer {
+    .Landing__4 .ImageLayer {
         width: 120px;
     }
 
 
-    .DiscountBox img {
+    .Landing__4 .DiscountBox img {
         top: 22px;
         /* left: 145px; */
         width: 130px !important;
@@ -1015,14 +1044,14 @@
     }
 
 
-    .DiscountBox h2 {
+    .Landing__4 .DiscountBox h2 {
         padding-bottom: 0px;
         padding-left: 61px;
         margin-top: -45px;
         right: 11px;
     }
 
-    .DiscountBox h5 {
+    .Landing__4 .DiscountBox h5 {
         padding-bottom: 0px;
         padding-left: 60px;
     }
@@ -1082,35 +1111,35 @@
 
     }
 
-    .Leaf {
+    .Landing__4 .Leaf {
         padding-top: 30px;
         padding-bottom: 100px;
 
     }
 
-    .Leaf .pricediv {
+    .Landing__4 .Leaf .pricediv {
         margin-top: 20px;
     }
 
-    .Leaf .phonediv {
+    .Landing__4 .Leaf .phonediv {
         margin-top: 20px;
     }
 
-    .Leaf .price2 {
+    .Landing__4 .Leaf .price2 {
         margin-top: 20px;
     }
 
-    .Leaf .DiscountBox img {
+    .Landing__4 .Leaf .DiscountBox img {
         width: 40%;
     }
 
 
-    .Leaf .titleHeader {
+    .Landing__4 .Leaf .titleHeader {
         display: block;
         width: 100%;
     }
 
-    .Leaf .titleHeader h1 {
+    .Landing__4 .Leaf .titleHeader h1 {
         font-size: 50px;
         margin-top: 30px;
         color: #fff;
@@ -1118,56 +1147,56 @@
         margin-right: 0;
     }
 
-    .Leaf .text h3 {
+    .Landing__4 .Leaf .text h3 {
         font-size: 20px;
         text-align: center;
     }
 
-    .Leaf .btnBox {
+    .Landing__4 .Leaf .btnBox {
         display: flex;
         justify-content: center;
     }
 
-    .Leaf .text {
+    .Landing__4 .Leaf .text {
         margin-top: 30px;
         padding-bottom: 10px;
     }
 
-    .Leaf .phoneDiv {
+    .Landing__4 .Leaf .phoneDiv {
         margin-top: 30px;
     }
 
-    .Leaf .textDecoration .PriceBox {
+    .Landing__4 .Leaf .textDecoration .PriceBox {
         width: 108px;
     }
 
-    .Leaf .textDecoration img {
+    .Landing__4 .Leaf .textDecoration img {
         position: absolute;
         bottom: -20px;
         width: 140px;
         left: inherit;
     }
 
-    .Leaf .DiscountBox {
+    .Landing__4 .Leaf .DiscountBox {
         padding-top: 0;
         padding-bottom: 100px;
     }
 
-    .Leaf .DiscountBox .text {
+    .Landing__4 .Leaf .DiscountBox .text {
         top: 15px;
         right: -18px;
     }
 
-    .Leaf .DiscountBox img {
+    .Landing__4 .Leaf .DiscountBox img {
         top: 10px;
     }
 
-    .Leaf .textDecoration .PriceBox {
+    .Landing__4 .Leaf .textDecoration .PriceBox {
         margin-left: 20px;
 
     }
 
-    .Leaf .DiscountBox .text h2 {
+    .Landing__4 .Leaf .DiscountBox .text h2 {
         padding-bottom: 0px;
     }
 
@@ -1246,16 +1275,16 @@
         width: 30%;
     }
 
-    .OnlyOrderBtn {
+    .Landing__4 .OnlyOrderBtn {
         padding: 30px 0;
     }
 
 
-    .OrderSection .OrderDiv {
+    .Landing__4 .OrderSection .OrderDiv {
         padding: 20px 30px;
     }
 
-    .OrderSection .OrderDiv h1 {
+    .Landing__4 .OrderSection .OrderDiv h1 {
         font-size: 16px;
     }
 
@@ -1295,15 +1324,15 @@
 
     /* Ibrahim----------------- */
 
-    .ImageLayer2 {
+    .Landing__4 .ImageLayer2 {
         width: 80px;
     }
 
-    .ImageLayer {
+    .Landing__4 .ImageLayer {
         width: 80px;
     }
 
-    .ItemCards {
+    .Landing__4 .ItemCards {
         padding: 13px 8px;
         height: 113px;
     }
@@ -1318,20 +1347,20 @@
         display: block;
     }
 
-    .DiscountBox img {
+    .Landing__4 .DiscountBox img {
         top: 22px;
         /* left: 145px; */
         width: 110px !important;
     }
 
 
-    .DiscountBox h2 {
+    .Landing__4 .DiscountBox h2 {
         padding-bottom: 0px;
         padding-left: 27px;
         margin-top: -15px;
     }
 
-    .DiscountBox h5 {
+    .Landing__4 .DiscountBox h5 {
         padding-bottom: 0px;
         padding-left: 27px;
     }

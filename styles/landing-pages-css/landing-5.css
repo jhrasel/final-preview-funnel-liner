@@ -10,6 +10,69 @@
 
 }
 
+  .Landing__5 {
+      font-family: 'Noto Sans Bengali', sans-serif ;
+  }
+  
+  .Landing__5 h1{
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 70px;
+      color: var(--header_color);
+  }
+  
+  .Landing__5 h2{
+      font-size: 40px;
+      line-height: 50px;
+      color: var(--primary_text);
+      font-weight: 700;
+  }
+  
+  .Landing__5 h3{
+      font-size: 24px;
+      line-height: 35px;
+      color: var(--primary_text);
+      font-weight: 600;
+  }
+  
+  .Landing__5 p{
+      color: var(--text_color);
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-top: 15px;
+  }
+  
+           
+  .Landing__5 a {
+      transition: 0.5s;
+      display: block;
+      font-size: 20px;
+      line-height: 35px;
+      font-weight: 600;
+  }
+  
+  .Landing__5 a.bg{
+      margin-top: 30px;
+      padding: 12px 50px;
+      padding-top: 15px;
+      color: var(--white_color); 
+      background-image: linear-gradient(to right, #E81E28 0%, #b82930  51%, #E81E28  100%);
+      background-size: 200% auto;
+      border-radius: 10px;
+      display: inline-block;
+  }
+
+  .Landing__5 a.bg3{
+      margin-left: 30px;
+      
+  }
+  
+  .Landing__5 a svg{
+      font-size: 25px;
+      margin-top: -5px;
+      margin-right: 10px;
+  }
 
 .Landing__5 {
     font-family: 'Noto Sans Bengali', sans-serif !important;
@@ -357,7 +420,6 @@
     .Landing__5 p {
         font-size: 14px;
     }
-
     .Landing__5 .Banner .text {
         margin-top: 20px;
     }
@@ -425,7 +487,6 @@
         font-size: 16px;
         font-weight: 700;
     }
-
     .Landing__5 .Features .FeatureList ul li {
         margin-top: 5px;
     }
@@ -472,7 +533,6 @@
     .Landing__5 .hLine {
         margin: 0 auto;
     }
-
     .Landing__5 .Banner .text {
         margin-top: 30px;
     }

@@ -7,17 +7,21 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 // Icon
 
-import { AiFillInstagram, AiOutlineShoppingCart } from 'react-icons/ai';
-import { BsInstagram, BsPlayFill } from 'react-icons/bs';
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+import { BsPlayFill } from 'react-icons/bs';
 
 import landingImageUrl from "../../public/images/landing-5/bike_logo.svg";
 import landingImageUrl2 from "../../public/images/landing-5/logo-2.svg";
 
-
+// Common 
 
 import Order from '@/components/LandingPage/Common/Order/Order';
 import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
+import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
+import SocialMedia from '@/components/LandingPage/Common/SocialMedia/SocialMedia';
+import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
+import Video from '@/components/LandingPage/Common/Video/Video';
+
 
 
 const index = () => {
@@ -271,7 +275,9 @@ const index = () => {
 
                     <Col lg={12}>
 
-                        <img src="/images/landing-5/youtube.png" alt="" />
+                        {/* <img src="/images/landing-5/youtube.png" alt="" /> */}
+
+                        <Video></Video>
 
                     
                     </Col>
@@ -285,7 +291,7 @@ const index = () => {
                         <div className="buttonGroup">
 
                             <Link href='#placeAnOrder' className="bg">  অর্ডার করুন</Link>
-                            <Link href='#placeAnOrder' className="bg">  যোগাযোগ করুন</Link>
+                            <Link href='#placeAnOrder' className="bg bg3">  যোগাযোগ করুন</Link>
 
                         </div>
 
@@ -334,10 +340,23 @@ const index = () => {
 
         </section>
 
+
+        {/* Section Gaps */}
+        <div className="section_gaps"></div>
+        
+        {/* -------------------------------------------------------------------------------------------
+                CustomerReview
+        -----------------------------------------------------------------------------------------------*/}
+
+
+            <CustomerReview></CustomerReview>    
+
+
  
         {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
             Checkout Form
         ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
+
         {/* Section Gaps */}
         <div className="section_gaps"></div>
 
@@ -362,18 +381,14 @@ const index = () => {
 
                     <Col lg={12}>
 
-                        <div className="SocialIconsList">
-                            <Link href='' className="Fb" > <FaFacebookF/></Link>
-                            <Link href='' className="Yt" > <FaYoutube/></Link>
-                            <Link href='' className="InS" > <AiFillInstagram/></Link>
-                            <Link href='' className="Tw" > <FaTwitter/></Link>
 
+                        <SocialMedia></SocialMedia>
 
-                        </div>
-
-                    
+                        
                     </Col>
+
                 </Row>
+
             </Container>
         </section>
 
@@ -424,22 +439,22 @@ const index = () => {
 
                 </Row>
 
-                                       {/* Tiny Footer */}
-                       
-                            <div className="tinyFooter">
-                            
-                            <p>@ {year} All Rights Reserved </p>
-                            <p>System developed by <Link href='https://funnelliner.com/'>Funnel Liner</Link> </p>
 
-                        </div>
+              
+                <TinyFooter></TinyFooter>
+
 
             </Container>
 
         </section>
 
         
+        
+
+              
 
         
+    
 
     
     
