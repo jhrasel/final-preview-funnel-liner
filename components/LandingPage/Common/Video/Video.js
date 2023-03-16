@@ -16,7 +16,7 @@ const Video = () => {
 
             <div className={style.VideoPlayers}>
 
-                <ReactPlayer url='https://www.youtube.com/watch?v=gt9GiVJNG5U' />
+                <ReactPlayer url='https://www.youtube.com/watch?v=uFjU5zFJx3E&ab_channel=FunnelLiner' />
 
             </div>
         
