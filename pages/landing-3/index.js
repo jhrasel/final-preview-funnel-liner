@@ -13,6 +13,7 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import { FiPhoneCall } from 'react-icons/fi';
 import { BsEnvelope } from 'react-icons/bs';
 
+// Logo Img
 import landingImageUrl from "../../public//images/landing-3/logo.svg";
 
 // Common 
