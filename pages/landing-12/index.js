@@ -27,10 +27,13 @@ import { VscDebugBreakpointData } from "react-icons/vsc";
 // Common
 
 import Order from "@/components/LandingPage/Common/Order/Order";
-// import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
+import Menubar from '@/components/LandingPage/Common/Menubar/Menubar';
 import CustomerReview from "@/components/LandingPage/Common/CustomerReview/CustomerReview";
 import TinyFooter from "@/components/LandingPage/Common/TinyFooter/TinyFooter";
 import Video from "@/components/LandingPage/Common/Video/Video";
+
+import landingImageUrl from "../../public//images/landing-12/logo.svg";
+
 
 const index = () => {
     const swiperRef = useRef();
@@ -53,7 +56,7 @@ const index = () => {
 
                 <div className="LogoBox">
 
-                    <img src="/images/landing-12/logo.svg" alt="Img" />
+                    <Menubar logoImage={landingImageUrl}></Menubar>
 
                 </div>
 

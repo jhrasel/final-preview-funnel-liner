@@ -28,10 +28,12 @@ import { VscDebugBreakpointData } from "react-icons/vsc";
 // Common 
 
 import Order from '@/components/LandingPage/Common/Order/Order';
-// import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
+import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
 import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
 import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 import Video from '@/components/LandingPage/Common/Video/Video';
+
+import landingImageUrl from "../../public//images/landing-13/logo.svg";
 
 
 const index = () => {
@@ -73,11 +75,12 @@ const index = () => {
 
                   <div className="HeaderTxtBox">
 
-                    <img
-                      className="LogoNone"
-                      src="/images/landing-13/logo.svg"
-                      alt="img"
-                    />
+                    <div className="LogoNone">
+
+                        <MenubarLeft logoImageLeft={landingImageUrl}></MenubarLeft>
+
+                    </div>
+                  
 
                     <h1>
                       ড্রাই ফ্রুটের অনন্য স্বাদ আর ন্যাচারাল হানির পুষ্টিকর গুন
@@ -106,11 +109,11 @@ const index = () => {
 
                 <div className="LogoNone2Div">
 
-                  <img
-                    className="LogoNone2"
-                    src="/images/landing-13/logo.svg"
-                    alt="img"
-                  />
+                  <div className="LogoNone2">
+
+                    <MenubarLeft logoImageLeft={landingImageUrl}></MenubarLeft>
+
+                  </div>
 
                 </div>
 
