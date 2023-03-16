@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 
-
 import { Col, Container, Row } from 'react-bootstrap';
 
 import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
@@ -133,6 +132,7 @@ const index = () => {
             {/* =========================================================================================================
                 Landing__14__Welcome
             ===============================================================================================================*/}
+           
             <section className='Landing__14__Welcome'>
 
                 <div className="Landing__14__Welcome__bg">
@@ -181,6 +181,7 @@ const index = () => {
             {/* =========================================================================================================
                 Landing__14__WhyBuy
             ===============================================================================================================*/}
+           
             <div className="Landing__14__WhyBuy">
 
                 <div className="Landing__14__whybuy__bg">
@@ -561,6 +562,7 @@ const index = () => {
             {/* =========================================================================================================
                 Landing__14__Footer
             ===============================================================================================================*/}
+           
             <footer className='Landing__14__Footer'>
 
                 <img className='footer_bg' src="/images/landing-14/footer_bg.png" alt="" />
