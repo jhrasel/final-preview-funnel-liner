@@ -128,28 +128,25 @@ const index = () => {
 
             <Container>
 
+                <section className="Landing__15_BggImg1">
 
-            <section className="Landing__15_BggImg1">
+                    <ShippingAddress
+                    DelivaryImage1={DelivaryImgUrl1}
+                    DelivaryImage2={DelivaryImgUrl2}
+                    DelivaryImage3={DelivaryImgUrl3}
+                    DelivaryImage4={DelivaryImgUrl4}
+                    DelivaryTitle1="Free 2 Days Shipping"
+                    DelivaryTitle2="Money Back Gurantee"
+                    DelivaryTitle3="Return Upto 30 Days"
+                    DelivaryTitle4="24/7 Customer Support"
+                    />
 
-                <ShippingAddress
-                DelivaryImage1={DelivaryImgUrl1}
-                DelivaryImage2={DelivaryImgUrl2}
-                DelivaryImage3={DelivaryImgUrl3}
-                DelivaryImage4={DelivaryImgUrl4}
-                DelivaryTitle1="Free 2 Days Shipping"
-                DelivaryTitle2="Money Back Gurantee"
-                DelivaryTitle3="Return Upto 30 Days"
-                DelivaryTitle4="24/7 Customer Support"
-                />
-
-            </section>
-
+                </section>
 
             </Container>
 
         </section>
 
-        
         <div className='Landing__15_section_gaps'></div>
         {/* =======================================================================================
                  Modal 
@@ -174,7 +171,6 @@ const index = () => {
 
                             </div>
                            
-
                         </div>
                     
                     </Col>
@@ -192,7 +188,6 @@ const index = () => {
                                 এই গরমে থ্রি পিসটি ব্যবহারে অনেক আরামদায়ক হবে রিজনেবল প্রাইজে 
                                 এই ফুল কটন সুন্দর থ্রি পিসটি পেয়ে যাচ্ছেন fashion.com থেকে।
                             </p>
-
 
                             <div className="Landing__15_Model_Ul_Div">
 
@@ -249,18 +244,17 @@ const index = () => {
         {/* =======================================================================================
                Order Template One
         ============================================================================================*/}
+      
         <section>
 
-        <div className="Landing__15_OrderT1_BgImgBox">
-                
+            <div className="Landing__15_OrderT1_BgImgBox">
+                    
                 <img src="/images/landing-15/img12.png" alt="" />
 
-        </div>
+            </div>
           
-
             <Container>
 
-                    
                     <h2 >আমাদের এই ইন্ডিয়ান রাজস্থানী বুটিক 3 পিস কেন নিবেন !</h2>
 
                     <div className="Landing__15_OrderT1_ptxt">  
@@ -273,7 +267,6 @@ const index = () => {
                             এই ফুল কটন সুন্দর থ্রি পিসটি পেয়ে যাচ্ছেন fashion.com থেকে।
                         </p>
 
-                  
                     </div>
 
                     <div className="Landing__15_OrderT1_div">
@@ -289,7 +282,6 @@ const index = () => {
 
                         </div>
 
-                       
                     </div>
 
                     <img className="Landing__15_OrderT1_divImgArr" src="/images/landing-15/img14.png" alt="" />
@@ -314,7 +306,6 @@ const index = () => {
                          <img className="Landing__15_Product_DetailsImg" src="/images/landing-15/img15.png" alt="" />
 
                     </div>
-
 
                     <Row>
 
@@ -429,7 +420,6 @@ const index = () => {
 
                 </div>
 
-
                 <div className='Landing__15_section_gaps'></div>
                 {/*-----------Refund-----------  */}
 
@@ -444,13 +434,10 @@ const index = () => {
 
                 </div>
 
-
             </Container>
 
         </section>
 
-
-   
 
         {/* =======================================================================================
               Place Order
@@ -458,14 +445,12 @@ const index = () => {
        
         <section className='Landing__15_Footer_Bg'>
 
-
             <div id="placeAnOrder">
             
                 <Order></Order>
 
            </div>
 
-        
             <Container>
 
                 <div className='Landing__15_Place2Rel'>
@@ -485,8 +470,6 @@ const index = () => {
 
             </Container>
          
-        
-        
         </section>
 
 
@@ -522,9 +505,7 @@ const index = () => {
                                     <p><Link  className='Landing__15_Footer_a' href="">Terms and Conditions</Link> </p>
                                 </li>
 
-
                             </ul>
-
 
                         </div>
 
@@ -532,11 +513,9 @@ const index = () => {
 
                     <Col sm={12} md={12} lg={6}>
 
-                        
                         <div className="Landing__15_Footer_ulBox2">
 
                             <ul>
-
 
                                 <li>                          
                                     <h2>প্যাকেজ মূল্যঃ  719 টাকা</h2>
