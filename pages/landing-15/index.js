@@ -220,12 +220,9 @@ const index = () => {
 
                                 </ul>
 
-
                             </div>
 
                             <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
-
-
 
                         </div>
                     
@@ -297,7 +294,6 @@ const index = () => {
 
                     <img className="Landing__15_OrderT1_divImgArr" src="/images/landing-15/img14.png" alt="" />
 
-
             </Container>
 
         </section>
@@ -310,8 +306,6 @@ const index = () => {
         ============================================================================================*/}
 
         <section  className="Landing__15_OrderT1_BgImgBox_bg">
-
-            
 
             <Container >
 
@@ -554,10 +548,7 @@ const index = () => {
 
                                 </li>
 
-
-
                             </ul>
-
 
                         </div>
 
@@ -583,9 +574,7 @@ const index = () => {
                                     <p>support@funnelliner.com </p>
                                 </li>
 
-
                             </ul>
-
 
                         </div>
 
@@ -595,20 +584,17 @@ const index = () => {
 
                 <div className="Landing__15_socialMidia">
 
-                <SocialMedia></SocialMedia>
+                    <SocialMedia></SocialMedia>
 
+                    <div className="Landing__15_socialMidia_hr" ></div>
 
-                <div className="Landing__15_socialMidia_hr" ></div>
-
-                <TinyFooter></TinyFooter>
+                    <TinyFooter></TinyFooter>
 
                 </div>
                
-
             </Container>
 
         </section>
-
 
 
         <div className='Landing__15_section_gaps'></div>
