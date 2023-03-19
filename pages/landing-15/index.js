@@ -62,7 +62,7 @@ const index = () => {
 
                             <h1>ইন্ডিয়ান রাজস্থানী সুতি বুটিক রাজপরী থ্রি পিস</h1>
 
-                            <h3 className='Landing__15_Bannar_txth3'>৳800 টাকা 
+                            <h3 className='Landing__15_Bannar_txth3'>৳৮00 টাকা 
 
                                 <span> ৳ 1,100 </span>
 
