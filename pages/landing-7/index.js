@@ -40,9 +40,7 @@ export default function index() {
             <section className="banner">
                
               <Container>
-
-              
-               
+ 
                   <Row className="Rowrvs">
 
                        <Col xs={12} sm={12} md={6} className="ClmPad">

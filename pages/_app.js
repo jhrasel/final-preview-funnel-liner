@@ -43,6 +43,8 @@ import '../styles/landing-pages-css/landing-13.css';
 
 import '../styles/landing-pages-css/landing-14.css';
 
+import '../styles/landing-pages-css/landing-15.css';
+
 
 
 

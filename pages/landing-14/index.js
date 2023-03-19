@@ -6,6 +6,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
 
 import { Swiper, SwiperSlide } from "swiper/react";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -256,6 +257,7 @@ const index = () => {
             {/* =========================================================================================================
                 Landing__14__StartingPrice
             ===============================================================================================================*/}
+          
             <div className="Landing__14__StartingPrice">
 
                 <div className="Landing__14__StartingPrice__bg">

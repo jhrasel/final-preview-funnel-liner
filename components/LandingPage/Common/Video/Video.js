@@ -12,6 +12,7 @@ const Video = () => {
 
     return (
 
+
         <div className='VideoPlay'>
 
             <div className={style.VideoPlayers}>
