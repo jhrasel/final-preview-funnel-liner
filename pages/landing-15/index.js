@@ -13,7 +13,6 @@ import { IoCallOutline,CallOutline } from "react-icons/io5";
 import { FiMail } from "react-icons/fi";
 
 
-
 // Common 
 
 import Order from '@/components/LandingPage/Common/Order/Order';
@@ -27,12 +26,11 @@ import SocialMedia from "../../components/LandingPage/Common/SocialMedia/SocialM
 
 
 // ShippingAddress Img
+
 import DelivaryImgUrl1 from '../../public/images/landing-15/img5.png';
 import DelivaryImgUrl2 from '../../public/images/landing-15/img6.png';
 import DelivaryImgUrl3 from '../../public/images/landing-15/img7.png';
 import DelivaryImgUrl4 from '../../public/images/landing-15/img9.png';
-
-
 
 
 
@@ -467,11 +465,9 @@ const index = () => {
 
                 </div>
 
-
             </Container>
          
         </section>
-
 
 
         <div className='Landing__15_section_gaps'></div>
@@ -481,18 +477,21 @@ const index = () => {
 
         <section>
 
+
             <Container>
 
                 <Row>
 
-                    <Col sm={12} md={12} lg={3}>
+                <div className='Landing__15_section_gaps'></div>
+
+                    <Col sm={12} md={12} lg={4} className="Landing__15_Footer_ulBox2_h4">
 
                         <div className="Landing__15_Footer_ulBox2">
 
                             <ul>
 
-                                <li>                          
-                                    <h4>Important Link</h4>
+                                <li >                          
+                                    <h4 >Important Link</h4>
                                 </li>
 
                                 <li>
@@ -533,7 +532,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col sm={12} md={12} lg={3}>
+                    <Col sm={12} md={12} lg={2}>
 
                         <div className="Landing__15_Footer_ulBox2">
 
