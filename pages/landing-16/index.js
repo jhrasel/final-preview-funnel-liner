@@ -16,7 +16,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { FreeMode, Autoplay, Pagination, Navigation } from "swiper";
+import { FreeMode, Autoplay, Pagination, Navigation} from "swiper";
+import { useRef } from 'react';
 
 // Common 
 
@@ -34,7 +35,10 @@ import SocialMedia from "../../components/LandingPage/Common/SocialMedia/SocialM
 
 const index = () => {
 
+
   return (
+
+   
 
     <div className='Landing__16'>
 
@@ -48,9 +52,9 @@ const index = () => {
 
              <MenubarLeft logoImageLeft={landingImageUrl}></MenubarLeft>
 
-            <Row>
+            <Row  className='Landing__16__RowReverce'>
 
-              <Col md={12} lg={6}>
+              <Col sm={12} md={6} className='Landing__16__Padding'>
 
                 <div className='Landing__16__Banner_div'>
 
@@ -70,49 +74,38 @@ const index = () => {
 
               </Col>
 
-              <Col md={12} lg={6}>
+              <Col sm={12} md={6}>
 
-                  <div>
+                  <div className='Landing__16__Slider_Box'>
 
-                        <Swiper
-                            slidesPerView={3}
-                            spaceBetween={30}
-                            navigation={true}
-                            modules={[Navigation]}
-                            className="mySwiper"
-                            loop={true}
-                            breakpoints={{
-                                240: {
-                                slidesPerView: 1,
-                                slidesPerGroup: 1,
-                                spaceBetween: 0,
-                                }
-                            }}
-                            >
+                        <div className='Landing__16__Slider_B_Box' >
 
-                            {/* item */}
-                            <SwiperSlide className="Landing__16__SliderImg">
+                            <button className='Landing__16__Slider_B1'></button>
 
-                                <Link href="#">
+                            <button className='Landing__16__Slider_B1' ></button>
 
-                                <img src="/images/landing-16/img.png" alt="img"></img>
+                            <button className='Landing__16__Slider_B2' ></button>
 
-                                </Link>
+                            <button className='Landing__16__Slider_B2' ></button>
 
-                            </SwiperSlide>
+                        </div>
 
-                            {/* item */}
-                            <SwiperSlide className="Landing__16__SliderImg">
+                        <img className='Landing__16__Slider_Box_img' src="/images/landing-16/img.png" alt="" />
 
-                                <Link href="#">
+                        <img className='Landing__16__Slider_Box_img1' src="/images/landing-16/img15.png" alt="" />
 
-                                <img src="/images/landing-16/img.png" alt="img"></img>
+                        <div className='Landing__16__txt_B'>
 
-                                </Link>
+                            <ul>
 
-                            </SwiperSlide>
+                                 <li><img src="/images/landing-16/img11.png" alt="" />  <h4> 01894844452</h4> </li>
 
-                        </Swiper>
+                            </ul>
+
+                            <h5>সরাসরি কিনতে ফোন করুন</h5> 
+
+                        </div>
+                        
 
                   </div>
 
@@ -125,74 +118,443 @@ const index = () => {
         </div>
 
 
-
+        <div className='Landing__16_section_gaps'></div>
         {/* ---------------------------------------------------------------------------------------------------------------
-            
+            Product Details
         -------------------------------------------------------------------------------------------------------------------*/}
+        <section>
+
+          <Container>
+
+                <div>
+
+                  <p className='Landing__16_P_Gap' >
+
+                    আমাদের এই ডেনিম ফেব্রিক ১০০% কটন টুইল বা স্টেচ টুইল দিয়ে তৈরি হয়।
+                    এই ফেব্রিক দিয়ে তৈরি হয় শার্ট, জিন্স, ব্যাগ, জ্যাকেটসহ আরও অনেক কিছু। 
+                    নিয়মিত ব্যবহারের জন্য জিন্স প্যান্টের কোনো তুলনা হয় না। জিন্স তৈরিতে ব্যবহার করা হয় ডেনিম কটন যা সম্পূর্ণ সুতি। 
+                    ছেলেদের জিন্স প্যান্টের দাম ও ডিজাইন দেখে কিনুন বাংলাদেশের অন্যতম সেরা অনলাইন শপ অফুরন্ত থেকে।
+
+                  </p>
+
+                </div>
+
+              <Row>
+
+                <Col sm={12} md={5}>
+                
+                </Col>
+
+                <Col sm={12} md={7}>
+
+                  <h2>আমাদের ডেনিম জিন্স প্যান্ট প্রোডাক্টের বিবরণ</h2>
+
+                  <Row>
+
+                      <Col xs={12} sm={5}>
+
+                        <div className='Landing__16__Ul_div'>
+
+                          <ul>
+
+                            <li><img src="/images/landing-16/img4.png" alt="" /> <p>Men's Denim Pant.</p> </li>
+
+                            <li><img src="/images/landing-16/img4.png" alt="" /> <p>Size- 30/32/34/36</p> </li>
+
+                            <li><img src="/images/landing-16/img4.png" alt="" /> <p>Spandax- 2%</p> </li>
+
+                            <li><img src="/images/landing-16/img4.png" alt="" /> <p>Fabrics- Denim</p> </li>
+
+                          </ul>
+
+                        </div>
+                      
+                      </Col>
+
+                      <Col xs={12} sm={7}>
+
+                        <div className='Landing__16__Ul_div'>
+
+                          <ul>
+
+                            <li><img src="/images/landing-16/img4.png" alt="" /> <p>Style- Narrow Slim Fit</p> </li>
+
+                            <li><img src="/images/landing-16/img4.png" alt="" /> <p>Very Comfortable to Wear.</p> </li>
+
+                            <li><img src="/images/landing-16/img4.png" alt="" /> <p>Nice Stylish Narrow Slim Fit.</p> </li>
+
+                          </ul>
+
+                        </div>
+                      
+                      </Col>
+
+                  </Row>
+                
+                </Col>
+
+              </Row>
+
+          </Container>
+
+        </section>
 
 
 
+        <div className='Landing__16_section_gaps'></div>
+        {/* ---------------------------------------------------------------------------------------------------------------
+            Denim
+        -------------------------------------------------------------------------------------------------------------------*/}
+        <section>
+
+          <div className='Landing__16__DanimBg'>
+
+            <Container>
+
+              <Row>
+
+                <Col sm={5}>
+
+                  <img className='Landing__16__DanimBg_Img' src="/images/landing-16/img2.png" alt="" />
+                
+                </Col>
+
+                <Col sm={7}>
+
+                  <h2 className='Landing__16__DanimBg_h2'>ডেনিম ফেব্রিক জিন্স সাইজ</h2>
+
+                  <img  className='Landing__16__DanimBg_Img2' src="/images/landing-16/img12.png" alt="" />
+                
+                </Col>
+
+                <div className='Landing__16__DanimBg_h2_div'>
+
+                  <h2 className='Landing__16__DanimBg_h2_two'>সবচেয়ে চেয়ে কম দামে আমাদের <br/>থেকে কিনুন।</h2>
+
+                  <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+
+                </div>
+
+              </Row>
+
+            </Container>
+
+          </div>
+
+
+
+          
+        </section>
+
+
+        
+        {/* ---------------------------------------------------------------------------------------------------------------
+              Card
+        -------------------------------------------------------------------------------------------------------------------*/}
+          <section className='Landing__16__CardSec'>
+
+
+            <Container>
+
+                  <Row>
+
+                    <Col xs={12} sm={6} lg={3}>
+
+                      <div className='Landing__16_Card'>
+
+                        <div className='Landing__16_Carddiv' >
+
+                          <img src="/images/landing-16/img5.png" alt="" />
+
+                        </div>
+
+                        <p className='Landing__16_Cardp1'>মেনস ডেনিম জিন্স প্যান্ট</p>
+
+                      </div>
+
+                    </Col>
+
+
+                    <Col xs={12} sm={6} lg={3}>
+
+                      <div className='Landing__16_Card'>
+
+                        <div className='Landing__16_Carddiv' >
+
+                          <img src="/images/landing-16/img6.png" alt="" />
+
+                        </div>
+
+                        <p>স্লিম ফিট স্ট্রেচেবল ডেনিম জিন্স ফর মেন</p>
+
+                      </div>
+
+                    </Col>
+
+
+                    <Col xs={12} sm={6} lg={3}>
+
+                      <div className='Landing__16_Card'>
+
+                        <div className='Landing__16_Carddiv' >
+
+                          <img src="/images/landing-16/img7.png" alt="" />
+
+                        </div>
+
+                        <p>সেমি ন্যারো ক্লাসিক ফিট বেসিক ডেনিম জিন্স...</p>
+
+                      </div>
+
+                    </Col>
+
+
+                    <Col xs={12} sm={6} lg={3}>
+
+                      <div className='Landing__16_Card'>
+
+                        <div className='Landing__16_Carddiv' >
+
+                          <img src="/images/landing-16/img8.png" alt="" />
+
+                        </div>
+
+                        <p>সেমি ন্যারো ক্লাসিক ফিট বেসিক ডেনিম জিন্স...</p>
+
+                      </div>
+
+                    </Col>
+
+                      <div className='Landing__16_Card_Hr'></div>
+                  </Row>
+
+            </Container>
+
+          </section>
 
 
         {/* ---------------------------------------------------------------------------------------------------------------
-            
+            Danim Nature
+        -------------------------------------------------------------------------------------------------------------------*/}
+        <section className='Landing__16__Dn_Bg'>
+
+          <Container>
+
+              <div className='Landing__16_DNH2'>
+
+                <h2>আমাদের ডেনিম ও জিন্সের কিছু বৈশিষ্ট্য</h2>
+
+              </div>
+              
+            <Row>
+
+              <Col md={12} lg={6} >
+
+                <div className='Landing__16__Ul_div'>
+
+                  <ul>
+
+                    <li><img src="/images/landing-16/img4.png" alt="" /> <p> ডেনিম ফেব্রিক ১০০% কটন টুইল বা স্টেচ টুইল দিয়ে তৈরি হয়। </p> </li>
+
+                    <li><img src="/images/landing-16/img4.png" alt="" /> <p>ডেনিম ফেব্রিক দিয়ে তৈরি পোশাক অনেকদিন ব্যবহার করা যায়।</p> </li>
+
+                    <li><img src="/images/landing-16/img4.png" alt="" /> <p>Spandax- 2%</p> </li>
+
+                  </ul>
+
+                </div>
+
+                </Col>
+
+                <Col md={12} lg={6}>
+
+                <div className='Landing__16__Ul_div'>
+
+                  <ul>
+
+                    <li><img src="/images/landing-16/img4.png" alt="" /> <p>সহজে ভাঁজ পড়ে না। ফলে আয়রনের ঝামেলা ছাড়াই পরা যায়।</p> </li>
+
+                    <li><img src="/images/landing-16/img4.png" alt="" /> <p>জিন্স বারবার ধোয়ার প্রয়োজন হয় না।</p> </li>
+
+                  </ul>
+
+                </div>
+
+              </Col>
+
+
+            </Row>
+
+          </Container>
+
+        </section>
+
+        {/* ---------------------------------------------------------------------------------------------------------------
+                Video
         -------------------------------------------------------------------------------------------------------------------*/}
         
+        <div className='Landing__16__Video_div'>
 
+          <Container>
 
+            <Video></Video>
 
-        {/* ---------------------------------------------------------------------------------------------------------------
-            
-        -------------------------------------------------------------------------------------------------------------------*/}
+          </Container>
 
+        </div>
+           
 
-
-
-
-        {/* ---------------------------------------------------------------------------------------------------------------
-            
-        -------------------------------------------------------------------------------------------------------------------*/}
-        
-
-
+        <div className='Landing__16_section_gaps'></div>
 
         {/* ---------------------------------------------------------------------------------------------------------------
-            
-        -------------------------------------------------------------------------------------------------------------------*/}
-
-
-
-
-
-        {/* ---------------------------------------------------------------------------------------------------------------
-            
+              Advice
         -------------------------------------------------------------------------------------------------------------------*/}
         
+        <section>
+
+          <Container>
+              
+            <div className='Landing__16_DNH2'>
+
+              <h2>লেনদেনকালে কিভাবে নিরাপদ থাকবেন তার কিছু নির্দেশনাবলী</h2>
+
+              <p>প্রোডাক্টটি ভালোভাবে যাচাই করে নিন এবং পুরোপুরি সন্তুষ্ট হলে তারপর দাম পরিশোধ করুন।</p>
+
+              <p>প্রোডাক্ট ও অর্থ দুটোই একই সময় লেনদেন করুন</p>
+
+
+            </div>
+              
+          </Container>
+
+        </section>
+
+
+        <div className='Landing__16_section_gaps'></div>
+        {/* ---------------------------------------------------------------------------------------------------------------
+            Order2
+        -------------------------------------------------------------------------------------------------------------------*/}
+        <section>
+
+          <Container>
+
+            <div className='Landing__16__Order2'>
+
+              <img src="/images/landing-16/img9.png" alt="" />
+
+              <div className='Landing__16__Order2Abs'>
+
+                <h4>মুল্য-550.00 টাকা</h4>
+
+                <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
+
+                <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+
+              </div>
+
+            </div>
+
+          </Container>
+
+        </section>
+
+        <div className='Landing__16_section_gaps'></div>
+
+        {/* ---------------------------------------------------------------------------------------------------------------
+             CustomerReview
+        -------------------------------------------------------------------------------------------------------------------*/}
+   
+
+        <CustomerReview></CustomerReview>    
+
+
+        <div className='Landing__16_section_gaps'></div>
+        {/* ---------------------------------------------------------------------------------------------------------------
+            Order Place
+        -------------------------------------------------------------------------------------------------------------------*/}
+
+      <section className='Landing__16__FooterBg'>
+
+            <div id="placeAnOrder">
+                
+                <Order></Order>
+
+            </div>
+
+       
+
+
+        {/* ---------------------------------------------------------------------------------------------------------------
+            Footer
+        -------------------------------------------------------------------------------------------------------------------*/}
+
+        <section>
+
+          <Container>
+
+             <div className='Landing__16__FooterBgRow_Div'>
+
+                <div>
+
+                   <h4>Important Link</h4>
+
+                    <div className='Landing__16__FooterHr'></div>
+
+                   <ul>
+
+                      <li><Link href="#">Privacy Policy</Link></li>
+
+                      <li><Link href="#">Terms and Conditions</Link></li>
+
+                   </ul>
+
+                </div>
+
+              {/* ---------- */}
+
+                <div>
+
+                    <img src="/images/landing-16/logo2.png" alt="" />
+
+                </div>
+
+              {/* ---------- */}
+                <div>
+
+                    <h4 className='Landing__16__FooterH3'>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
+
+                    <h3>+8801894844452</h3>
+
+                </div>
+
+              {/* ---------- */}
+
+
+             </div>
+
+              <div className="Landing__16_socialMidia">
+
+                <SocialMedia></SocialMedia>
+
+                <div className="Landing__16_socialPad" ></div>
+
+                <TinyFooter></TinyFooter>
+
+              </div>
 
 
 
+
+          </Container>
+
+        </section>
+
+      </section>
         {/* ---------------------------------------------------------------------------------------------------------------
             
         -------------------------------------------------------------------------------------------------------------------*/}
 
-
-
-
-
-        {/* ---------------------------------------------------------------------------------------------------------------
-            
-        -------------------------------------------------------------------------------------------------------------------*/}
         
-
-
-
-        {/* ---------------------------------------------------------------------------------------------------------------
-            
-        -------------------------------------------------------------------------------------------------------------------*/}
-
-
-
-
 
         {/* ---------------------------------------------------------------------------------------------------------------
             

@@ -510,7 +510,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col sm={12} md={12} lg={6}>
+                    <Col sm={12} md={12} lg={5}>
 
                         <div className="Landing__15_Footer_ulBox2">
 
@@ -532,7 +532,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col sm={12} md={12} lg={2}>
+                    <Col sm={12} md={12} lg={3}>
 
                         <div className="Landing__15_Footer_ulBox2">
 
