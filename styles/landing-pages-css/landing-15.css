@@ -132,10 +132,9 @@
   .Landing__15_bg_div{
 
         background-image: url('../../public/images/landing-15/bg.png');
-        padding: 40px 0px;
+        padding: 40px 0px 60px 0px;
         background-size: cover;
         width: 100%;
-
   }
 
   .Landing__15_Bannar_txt1{
@@ -662,13 +661,17 @@
     .Landing__15_Bannar_Col2Div_img1 {
         width: 119%;
         text-align: center;
-        margin-left: 164px;
+        margin-left: 91px;
         margin-top: -70px;
     }
 
   }
   
    @media (max-width: 1440px) {
+
+    .Landing__15_bg_div{
+        padding: 40px 0px 40px 0px;
+  }
   
     .Landing__15 h1 {
         font-size: 52px;
@@ -693,14 +696,14 @@
         padding-left: 5%;
     }
 
-
+  
     .Landing__15_Bannar_Col2Div_img1 {
         width: 100%;
         text-align: center;
-        margin-left: 67px;
-        margin-top: -81px;
+        margin-left: 116px;
+        margin-top: -89px;
     }
-  
+
     .Landing__15 h1 {
         font-size: 40px;
         line-height:50px;
