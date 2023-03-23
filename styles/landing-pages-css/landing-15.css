@@ -567,6 +567,9 @@
     background: #EE0252;
 }
 
+.Landing__15 .order_OrderConfirmRight__DSDPT ul .order_left__tYuKG p {
+    color:#FFF;
+}
 
    /* ================================================================================================
             Footer
@@ -619,10 +622,35 @@
     margin-top: 36px;
     border-bottom: 1px solid #EE0252;
     margin-bottom: 40px;
+    margin: 0 15%;
+}
+
+.Landing__15_sectionFooter{
+    position: relative;
+}
+
+.Landing__15_FooterUl1{
+    padding-left: 20%;
+}
+
+.Landing__15_FooterAbs1{
+    position: absolute;
+    bottom:-100px;
+    left:0;
+    height: 300px;
+
+}
+
+.Landing__15_FooterAbs2{
+    position: absolute;
+    bottom: -100px;
+    right:0;
+    height: 300px;
 }
 
 
-/*  */
+
+
    /* ================================================================================================
            Media
   ===================================================================================================*/
@@ -632,10 +660,10 @@
 
 
     .Landing__15_Bannar_Col2Div_img1 {
-        width: 110%;
+        width: 119%;
         text-align: center;
-        margin-left: 55px;
-        margin-top: -50px;
+        margin-left: 164px;
+        margin-top: -70px;
     }
 
   }
@@ -648,8 +676,8 @@
     }
     
     .Landing__15 h3 {
-        font-size: 52px;
-        line-height: 90px;
+        font-size: 40px;
+        line-height: 20px;
     }
 
     .Landing__15_Bannar_Col2Div_img2 {
@@ -666,23 +694,18 @@
     }
 
 
-      
     .Landing__15_Bannar_Col2Div_img1 {
-        width: 129%;
+        width: 100%;
         text-align: center;
-        margin-left: 19px;
-        margin-top: -50px;
+        margin-left: 67px;
+        margin-top: -81px;
     }
   
     .Landing__15 h1 {
         font-size: 40px;
-        line-height: 64px;
+        line-height:50px;
     }
 
-    .Landing__15 h3 {
-        font-size: 40px;
-        line-height: 49px;
-    }
 
     .Landing__15 a.bg {
         padding: 18px 66px;
@@ -690,8 +713,9 @@
     }
 
     .Landing__15_Bannar_txt1 {
-        font-size: 24px;
-        padding: 12px 40px;
+        font-size: 20px;
+        padding: 6px 30px;
+        margin-top: 34px;
     }
 
     .Landing__15_Bannar_LinkDiv h5 {
@@ -712,25 +736,38 @@
         color:#fff;
       }
 
+      .Landing__15 h3 span {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .Landing__15_Bannar_LinkDiv {
+        padding-top: 32px;
+    }
+
+    .Landing__15_Bannar_LinkDiv h4 {
+        font-size: 35px;
+    }
 
   }
   
   
   @media (max-width: 1280px) {
 
-    .Landing__15 h1 {
-        font-size: 34px;
-        line-height: 52px;
-    }
-
     .Landing__15_Bannar_txt1 {
         font-size: 20px;
-        padding: 7px 40px;
+        padding: 6px 30px;
+        margin-top: 34px;
+    }
+
+    .Landing__15 h1 {
+        font-size: 34px;
+        line-height: 45px;
     }
 
     .Landing__15 h3 {
         font-size: 34px;
-        line-height: 37px;
+        line-height: 20px;
     }
 
     .Landing__15 h3 span {
@@ -739,7 +776,7 @@
     }
 
     .Landing__15 a.bg {
-        padding: 16px 49px;
+        padding: 13px 49px;
         font-size: 20px;
     }
 
@@ -764,10 +801,10 @@
     }
 
     .Landing__15_Bannar_Col2Div_img1 {
-        width: 115%;
+        width: 100%;
         text-align: center;
-        margin-left: 19px;
-        margin-top: 31px;
+        margin-left: 55px;
+        margin-top: -29px;
     }
 
     .Landing__15_Bannar_Col2Div_img2 {
@@ -812,6 +849,12 @@
       }
 
 
+      .Landing__15_Bannar_LinkDiv h6 {
+        color: #882A32;
+        text-align: right;
+        padding-top: 18px;
+    }
+
   }
   
   @media (max-width: 991px) {
@@ -840,7 +883,6 @@
     }
 
     .Landing__15_BggImg1 {
-        background-image: url(/_next/static/media/img4.93bd02be.png);
         padding-top: 28px;
         padding-bottom: 40px;
         background-size: cover;
@@ -912,7 +954,26 @@
         color:#fff;
       }
 
-  
+      .Landing__15_FooterUl1{
+        padding-left: 0%;
+    }
+
+    .Landing__15_FooterAbs1{
+        position: absolute;
+        bottom:-100px;
+        left:0;
+        height: 200px;
+    
+    }
+    
+    .Landing__15_FooterAbs2{
+        position: absolute;
+        bottom: -100px;
+        right:0;
+        height: 200px;
+    }
+
+
   }
   
   
@@ -1047,7 +1108,6 @@
     }
 
     .Landing__15_BggImg1 {
-        background-image: url(/_next/static/media/img4.93bd02be.png);
         padding-top: 28px;
         padding-bottom: 78px;
         background-size: cover;
@@ -1126,6 +1186,25 @@
         width: 100%;
         margin-top: -7px;
     }
+
+
+    .Landing__15_FooterAbs1{
+        position: absolute;
+        bottom:-100px;
+        left:0;
+        height: 100px;
+    
+    }
+    
+    .Landing__15_FooterAbs2{
+        position: absolute;
+        bottom: -100px;
+        right:0;
+        height: 100px;
+    }
+
+
+
 
       }
 

@@ -30,25 +30,6 @@
       
   }
   
-  .Landing__15 h3{
-      font-size: 60px;
-      line-height: 90px;
-      color:#882A32;
-      font-weight: 700;
-      padding-top: 35px;
-      padding-bottom: 40px;
-      
-  }
-
-  .Landing__15 h3 span{
-      font-size: 30px;
-      line-height: 40px;
-      color:#882A32;
-      font-weight: 600;
-      text-decoration: line-through;
-      vertical-align: 7px;
-    
-  }
 
   .Landing__16 p{
       color:#003B60;
@@ -79,19 +60,6 @@
       font-weight: 600;
     }
   
-  .Landing__15 a.bg2{
-      /* margin-top: 30px; */
-      padding: 24px 35px;
-      color: #FFFFFF; 
-      background-image: linear-gradient(to right, #EE0252 0%, #FA674B 51%, #EE0252 100%);
-      background-size: 180% auto;
-      border-radius: 10px;
-      font-size: 24px;
-      display: inline-block;
-  }
-
-
-
 
   .Landing__16 a svg{
       font-size: 32px;
@@ -111,7 +79,7 @@
       margin-top: 100px;
   }
  
-  .Landing__15 ul{
+  .Landing__16 ul{
 
     list-style: none;
 
@@ -938,7 +906,6 @@ margin-top: 35px;
 }
 
 .Landing__16__bg_div {
-  background-image: url(/_next/static/media/bg.924e2cbd.png);
   padding: 54px 0px 20px 0px;
   background-size: cover;
 }

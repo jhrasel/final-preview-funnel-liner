@@ -475,7 +475,7 @@ const index = () => {
                 Footer
         ============================================================================================*/}
 
-        <section>
+        <section className='Landing__15_sectionFooter'>
 
 
             <Container>
@@ -486,7 +486,7 @@ const index = () => {
 
                     <Col sm={12} md={12} lg={4} className="Landing__15_Footer_ulBox2_h4">
 
-                        <div className="Landing__15_Footer_ulBox2">
+                        <div className="Landing__15_Footer_ulBox2  Landing__15_FooterUl1">
 
                             <ul>
 
@@ -572,10 +572,18 @@ const index = () => {
                
             </Container>
 
+            <div className='Landing__15_section_gaps'></div>
+
+            <img className="Landing__15_FooterAbs1" src="/images/landing-15/img20.png" alt="" />
+
+            <img  className="Landing__15_FooterAbs2" src="/images/landing-15/img21.png" alt="" />
+
+            
+
         </section>
 
 
-        <div className='Landing__15_section_gaps'></div>
+     
    
 
     </div>
