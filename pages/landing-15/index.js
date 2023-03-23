@@ -8,8 +8,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 // icon
 
-import { AiOutlineShoppingCart, AiOutlineInstagram} from 'react-icons/ai';
-import { IoCallOutline,CallOutline } from "react-icons/io5";
+import { AiOutlineShoppingCart} from 'react-icons/ai';
+import { IoCallOutline} from "react-icons/io5";
 import { FiMail } from "react-icons/fi";
 
 
@@ -146,9 +146,11 @@ const index = () => {
         </section>
 
         <div className='Landing__15_section_gaps'></div>
+
         {/* =======================================================================================
                  Modal 
         ============================================================================================*/}
+
         <section>
 
             <Container>
@@ -228,6 +230,7 @@ const index = () => {
         </section>
 
         <div className='Landing__15_section_gaps'></div>
+
         {/* =======================================================================================
                 Video
         ============================================================================================*/}
@@ -239,6 +242,7 @@ const index = () => {
         </Container>
       
         <div className='Landing__15_section_gaps'></div>
+
         {/* =======================================================================================
                Order Template One
         ============================================================================================*/}
@@ -394,6 +398,7 @@ const index = () => {
 
 
         <div className='Landing__15_section_gaps'></div>
+
         {/* =======================================================================================
                Order Tem2
         ============================================================================================*/}
@@ -471,6 +476,7 @@ const index = () => {
 
 
         <div className='Landing__15_section_gaps'></div>
+
         {/* =======================================================================================
                 Footer
         ============================================================================================*/}
@@ -581,10 +587,6 @@ const index = () => {
             
 
         </section>
-
-
-     
-   
 
     </div>
 

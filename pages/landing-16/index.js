@@ -7,17 +7,8 @@ import Link from 'next/link';
 import { Col, Container, Row } from 'react-bootstrap';
 
 // icon
-import { AiOutlineShoppingCart, AiOutlineInstagram} from 'react-icons/ai';
-import { IoCallOutline,CallOutline } from "react-icons/io5";
-import { FiMail } from "react-icons/fi";
 
-// Import Swiper 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { FreeMode, Autoplay, Pagination, Navigation} from "swiper";
-import { useRef } from 'react';
+import { AiOutlineShoppingCart} from 'react-icons/ai';
 
 // Common 
 
@@ -26,19 +17,14 @@ import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
 import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
 import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 import Video from '@/components/LandingPage/Common/Video/Video';
-import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
 import landingImageUrl from "../../public//images/landing-16/logo.png";
 import SocialMedia from "../../components/LandingPage/Common/SocialMedia/SocialMedia"
 
 
 
-
 const index = () => {
 
-
   return (
-
-   
 
     <div className='Landing__16'>
 
@@ -104,8 +90,7 @@ const index = () => {
 
                             <h5>সরাসরি কিনতে ফোন করুন</h5> 
 
-                        </div>
-                        
+                        </div>                      
 
                   </div>
 
@@ -241,18 +226,12 @@ const index = () => {
 
           </div>
 
-
-
-          
         </section>
 
-
-        
         {/* ---------------------------------------------------------------------------------------------------------------
               Card
         -------------------------------------------------------------------------------------------------------------------*/}
           <section className='Landing__16__CardSec'>
-
 
             <Container>
 
@@ -326,6 +305,7 @@ const index = () => {
                     </Col>
 
                       <div className='Landing__16_Card_Hr'></div>
+
                   </Row>
 
             </Container>
@@ -336,6 +316,7 @@ const index = () => {
         {/* ---------------------------------------------------------------------------------------------------------------
             Danim Nature
         -------------------------------------------------------------------------------------------------------------------*/}
+        
         <section className='Landing__16__Dn_Bg'>
 
           <Container>
@@ -429,11 +410,12 @@ const index = () => {
 
         </section>
 
-
         <div className='Landing__16_section_gaps'></div>
+
         {/* ---------------------------------------------------------------------------------------------------------------
             Order2
         -------------------------------------------------------------------------------------------------------------------*/}
+       
         <section>
 
           <Container>
@@ -464,11 +446,10 @@ const index = () => {
              CustomerReview
         -------------------------------------------------------------------------------------------------------------------*/}
    
-
         <CustomerReview></CustomerReview>    
 
-
         <div className='Landing__16_section_gaps'></div>
+
         {/* ---------------------------------------------------------------------------------------------------------------
             Order Place
         -------------------------------------------------------------------------------------------------------------------*/}
@@ -480,9 +461,6 @@ const index = () => {
                 <Order></Order>
 
             </div>
-
-       
-
 
         {/* ---------------------------------------------------------------------------------------------------------------
             Footer
@@ -542,31 +520,12 @@ const index = () => {
 
               </div>
 
-
-
-
           </Container>
 
         </section>
 
+
       </section>
-        {/* ---------------------------------------------------------------------------------------------------------------
-            
-        -------------------------------------------------------------------------------------------------------------------*/}
-
-        
-
-        {/* ---------------------------------------------------------------------------------------------------------------
-            
-        -------------------------------------------------------------------------------------------------------------------*/}
-
-        
-
-        
-
-        
-
-    
     
     </div>
 
