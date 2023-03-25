@@ -19,18 +19,19 @@
       color:#012A4A;
       font-weight: 900;
       padding-top: 20px;
-      padding-bottom: 25px;
+      padding-bottom: 50px;
   }
 
   .Landing__17 h2{
-      font-size: 44px;
-      line-height: 60px;
-      color: #003B60;
-      font-weight: 700;     
+      font-size: 40px;
+      line-height: 52px;
+      color: #012A4A;
+      font-weight: 900;     
+      text-align: center;
   }
   
   .Landing__17 p{
-      color:#003B60;
+      color:#012A4A;
       font-size: 24px;
       line-height: 31px;
   }
@@ -49,31 +50,31 @@
   
   .Landing__17 a.bg{
       /* margin-top: 30px; */
-      padding: 24px 74px;
-      color: #092E67; 
-      background-image: linear-gradient(to right,#F0E615 0%, #fff203 51%, #F0E615 100%);
+      padding: 35px 74px;
+      color: #FFFFFF; 
+      background-image: linear-gradient(to right,#16A4E9 0%, #45D5F6 51%, #16A4E9 100%);
       background-size: 180% auto;
-      border-radius:  50px 0px 50px 0px;
       display: inline-block;
       transition: .2s;
       font-weight: 600;
     }
+
   
   .Landing__17 a svg{
       font-size: 32px;
       margin-top: -5px;
       margin-right: 10px;
+      color: #FFFFFF; 
   }
   
   .Landing__17 a.bg:hover {
       background-position: right center;
       color: #fff;
       text-decoration: none;
-      border-radius:  0px 50px 0px 50px;
   }
    
   .Landing__17_section_gaps{
-      margin-top: 100px;
+      padding-top: 100px;
   }
  
 
@@ -107,6 +108,7 @@
 
   .Landing__17__RowPad{
     padding-top: 163px;
+    padding-bottom: 140px;
   }
 
   .Landing__17__Banner1{
@@ -133,16 +135,9 @@
     font-weight: 900;
     display: flex;
     align-items: center;
+  
   }
 
-  .Landing__17__Banner1 h5{
-    font-size: 56px;
-    line-height: 74px;
-    color:#012A4A;
-    font-weight: 900;
-    display: flex;
-    align-items: center;
-  }
 
   .Landing__17__Banner1 span{
     font-size: 30px;
@@ -151,48 +146,360 @@
     font-weight: 400;
    text-decoration: line-through;
    margin-left: 10px;
-    
   }
 
+  .Landing__17__Banner1 h5{
+    font-size: 35px;
+    line-height: 46px;
+    color:#06476E;
+    font-weight: 400;
+    padding: 10px 50px 10px 26px;
+    border: 4px solid #FFFFFF;
+    display: inline-block;
+    font-weight: 600px;
+  }
+
+  .Landing__17__RelText img{
+      height: 83px;
+      margin-top: -7px;
+      margin-left: -3px;
+  }
+
+  .Landing__17__RelText {
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+ .Landing__17__AbsB_Box{
+    position: absolute;
+    top:-80px;
+    left: 350px;
+  }
+
+ .Landing__17__AbsB_Box img{
+    position: absolute;
+   
+  }
+
+  .Landing__17__RelButton{
+    position: relative;
+    display: inline-block;
+  }
+
+ .Landing__17__Button1{
+  top:-18px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #1396D0;
+  left: -18px;
+}
+
+ .Landing__17__Button2{
+  position: absolute;
+  right: -18px;
+  width: 18px;
+  height: 18px;
+  background-color: #1396D0;
+  display: block;
+}
+
+/* Col --2 */
+
+.Landing__17__Col_2Rel{
+    position: relative;
+  
+}
+
+.Landing__17__img2Abs{
+  width: 90%;
+  margin-left: 30px;
+  position: absolute;
+  top:0;
+  left: 80px;
+  z-index: 1;
+}
+
+.Landing__17__Col_2Rel .Landing__17__img3{
+  margin-left: 50px;
+  width: 120%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+}
+
   /* ================================================================================================
-            Banner
+            Card
+  ===================================================================================================*/
+.Landing__17__CardSec{
+  padding: 100px 0px 235px 0px;
+  background-color:#ECFBFF;
+}
+
+.Landing__17__Card{
+    background-color:#D7F3FB;
+    padding: 50px 45px 90px 45px;
+    height: 414px;
+    text-align: center;
+    border-radius: 150px;
+}
+
+.Landing__17__Card:hover {
+    outline: 2px dashed #FC8730;
+    outline-offset: 10px;
+}
+
+.Landing__17__Card:hover.Landing__17__Card h4 {
+    color:#1EA6DD;
+}
+
+.Landing__17__CardImgHei{
+  height: 215px;
+  box-sizing: border-box;
+}
+
+.Landing__17__Card img{
+   width: 100%;
+
+}
+
+.Landing__17__Card h4{
+   width: 100%;
+   font-size: 24px;
+   line-height: 31px;
+   color:#012A4A;
+}
+
+  /* ================================================================================================
+          Shipping
   ===================================================================================================*/
 
+  .Landing__17__ShippingDiv{
+      margin-top: -100px;
+      background-color: #fff;
+      border-radius: 10px;
+  }
+
+  .Landing__17 .shipping-address_ShippingAddressItem__nZd0I p {
+    color:#012A4A;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+.Landing__17 .shipping-address_ShippingAddressItem__nZd0I {
+
+  padding: 50px 0px;
+
+}
+
+.Landing__17 .shipping-address_ShippingAddressItem__nZd0I:hover {
+
+  background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
+
+}
 
 
   /* ================================================================================================
-            Banner
+            Order Template 1
   ===================================================================================================*/
+ 
+  .Landing__17 .Landing__17__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__17 .Landing__17__Order2 img{
+    height: 962px;
+
+  }
+
+  .Landing__17__Order2Abs{
+      position: absolute;
+      text-align: center;
+      top: 250px;
+  }
+
+  .Landing__17__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#16A3E8;
+      font-weight: 900;
+  }
+
+  .Landing__17__Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#16A3E8;
+      margin: 30px 0px;
+
+  }
 
 
 
   /* ================================================================================================
-            Banner
+            Video
   ===================================================================================================*/
+  .Landing__17 .Landing__17__VideoH2Sec h2{
+    padding: 80px 30% 317px 30%;
+    background-color: #ECFBFF;
+  }
+
+.Landing__17__Video_div{
+  margin-top: -280px;
+}
+
+.Landing__17 .Landing__17__Order3 {
+  margin-top: -60px;
+}
+
+.Landing__17 .Landing__17__Order3 img{
+  height: 129px;
+}
+
+.Landing__17 .Landing__17__Order3 {
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+
+.Landing__17__Order2Abs2{
+    position: absolute;
+    text-align: center;
+}
+
+.Landing__17__Order2Abs2 h4{
+    font-size: 51px;
+    line-height: 69px;
+    color:#FFFFFF;
+    font-weight: 900;
+}
+
+.Landing__17__Order2Abs2 h5{
+    font-size: 30px;
+    line-height: 42px;
+    color:#FFFFFF;
+
+}
 
 
 
   /* ================================================================================================
-            Banner
+           Table
   ===================================================================================================*/
+  .Landing__17__TableSec{
+    background-image: url('../../public/images/landing-17/bg3.png');
+    padding: 80px 130px 55px 130px;
+    background-size: cover;
+  }
 
+  .Landing__17__TableSec h2{
+    padding-bottom: 40px;
+  }
+
+  .Landing__17__Ul_div p{
+    display: inline;
+    margin-left: 10px;
+    vertical-align: -2px;
+    font-weight: 600;
+  }
+  .Landing__17__Ul_div {
+    margin-top: 10px;
+  }
+
+  .Landing__17__Ul_div li{
+    margin-top: 24px;
+  }
+
+  /* Table ------------------------*/
+
+  .Landing__17__TableBox{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #FFF;
+  }
+
+  .Landing__17__TableBox h4{
+    font-size: 30px;
+    color:#012A4A;
+    line-height: 31px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-weight: 900;
+  }
+
+
+  .Landing__17__TableRow {
+      border: 1px solid #012A4A;
+      border-right: none;
+  }
+  .Landing__17__TableRow div{
+     border: none;
+     border-right: 1px solid #012A4A;
+     color: #012A4A;
+     font-size: 24px;
+     line-height: 31px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 0px;
+     font-weight: 900;
+     
+  }
 
 
   /* ================================================================================================
-            Banner
+             Order template 4
   ===================================================================================================*/
+  
+  .Landing__17__Order4Sec{
+    background-image: url('../../public/images/landing-17/bg2.png');
+    padding: 0px 0px 191px 0px;
+    background-size: cover;
+    margin-top: -55px;
+  }
+  
+  .Landing__17 .Landing__17__Order4 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
 
+  .Landing__17 .Landing__17__Order4 img{
+    height:690px;
+  }
+
+  .Landing__17__Order4Abs{
+      position: absolute;
+      text-align: center;
+  }
+
+  .Landing__17_Order4Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#FFFFFF;
+      font-weight: 900;
+  }
+
+  .Landing__17__Order4Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#FFFFFF;
+      margin: 30px 0px;
+  }
 
 
   /* ================================================================================================
-            Banner
-  ===================================================================================================*/
-
-
-
-
-  /* ================================================================================================
-            Banner
+            Slider
   ===================================================================================================*/
 
 

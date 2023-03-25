@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-
 import { Col, Container, Row } from 'react-bootstrap';
 
-import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -21,7 +19,7 @@ import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
 import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
 import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 import Video from '@/components/LandingPage/Common/Video/Video';
-
+import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
 import landingImageUrl from "../../public//images/landing-14/banner2.png";
 
 
