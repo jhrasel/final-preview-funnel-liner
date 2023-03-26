@@ -220,6 +220,18 @@
   z-index: 1;
 }
 
+.Landing__17__img2Abs {
+  animation: ibrahim256s 12s infinite linear;
+}
+
+@keyframes ibrahim256s {
+  from {transform: rotate(0);}
+  to {transform: rotate(360deg);}
+}
+
+
+
+
 .Landing__17__Col_2Rel .Landing__17__img3{
   margin-left: 50px;
   width: 120%;
