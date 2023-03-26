@@ -438,11 +438,21 @@ const index = () => {
 
                     <div className='Landing__17__Order4Abs'>
 
-                        <h4>মুল্য-550.00 টাকা</h4>
-
                         <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
 
-                        <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+                        <h4>মুল্য-550.00 টাকা</h4>
+
+                        <h6>5G Casual Classic সুজ ফর মেন</h6>
+
+                        <div className='Landing__17__RelButton'>
+
+                            <button className='Landing__17__Button1'></button>
+
+                            <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>এখনই কিনুন</Link>
+
+                            <button className='Landing__17__Button2'></button>
+
+                        </div>
 
                     </div>
 
@@ -452,6 +462,8 @@ const index = () => {
 
         </section>
 
+        <div className='Landing__17_section_gaps'></div>
+
         {/* =======================================================================================
                     Slider
         ============================================================================================*/}
@@ -460,8 +472,10 @@ const index = () => {
 
             <Container>
 
+                <h2 className='Landing__17__SliderH2'>এই জুতাগুলার  বিক্রির আরও কিছু প্রোডাক্ট</h2>
+
                 <Swiper
-                    slidesPerView={3}
+                    slidesPerView={4}
                     spaceBetween={30}
                     navigation={true} 
                     modules={[Navigation]}
@@ -472,33 +486,253 @@ const index = () => {
                             240: {
                             slidesPerView: 2,
                             slidesPerGroup: 2,
-                            spaceBetween: 0,
+                            spaceBetween: 10,
                             },
                             768: {
                             slidesPerView: 3,
                             slidesPerGroup: 3,
-                            spaceBetween: 0,
+                            spaceBetween: 20,
                             },
                             1024: {
-                            slidesPerView: 3,
-                            slidesPerGroup: 3,
-                            spaceBetween: 0,
+                            slidesPerView: 4,
+                            slidesPerGroup: 4,
+                            spaceBetween: 30,
                             },
                         }}
                 >
 
-                    <SwiperSlide className="SliderImg">
+                    <SwiperSlide className="Landing__17__SliderImg">
 
-                    <Link href="#">
+                        <Link href="#">
 
-                        <img src="/images/landing-17/img12.png" alt="img"></img>
+                            <div className="Landing__17__Slider_CardDiv">
 
-                    </Link>
+                                <img src="/images/landing-17/img12.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+                    
+                    <SwiperSlide className="Landing__17__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__17__Slider_CardDiv">
+
+                                <img src="/images/landing-17/img13.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide className="Landing__17__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__17__Slider_CardDiv">
+
+                                <img src="/images/landing-17/img14.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide className="Landing__17__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__17__Slider_CardDiv">
+
+                                <img src="/images/landing-17/img15.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide className="Landing__17__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__17__Slider_CardDiv">
+
+                                <img src="/images/landing-17/img12.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide className="Landing__17__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__17__Slider_CardDiv">
+
+                                <img src="/images/landing-17/img13.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide className="Landing__17__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__17__Slider_CardDiv">
+
+                                <img src="/images/landing-17/img14.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide className="Landing__17__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__17__Slider_CardDiv">
+
+                                <img src="/images/landing-17/img15.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
 
                     </SwiperSlide>
 
                 </Swiper>
 
+            </Container>
+
+        </section>
+
+        <div className='Landing__17_section_gaps'></div>
+
+        {/* =======================================================================================
+                   Fashion
+        ============================================================================================*/}
+
+        <section className='Landing__17__FashionSecMain'>
+
+                <div className='Landing__17__FashionSec'>
+
+                    <img className='Landing__17__FashionSecImgAbs' src="/images/landing-17/img18.png" alt="" /> 
+
+                </div>
+
+         
+
+            <Container>
+  
+                <Row>
+
+                    <Col xs={12} sm={7}>
+
+                        <h2 className='Landing__17__FashionH2'> ফ্যাশনেবল এবং আরামদায়ক <br/> রাবার সোল  জুতা </h2>
+
+                        <div className='Landing__17__Ul_div'>
+
+                            <ul>
+
+                                <li>
+
+                                    <img src="/images/landing-17/img16.png" alt="" /> 
+                                    <p>পুরুষদের জন্য ব্রাউন ক্যান্ডেল 100% জেনুইন ভার্জিন লেদারের জুতা</p> 
+
+                                </li>
+
+                                <li>
+
+                                    <img src="/images/landing-17/img16.png" alt="" /> 
+                                    <p>100% খাঁটি জেনুইন লেদার জুতা রপ্তানি করুন</p> 
+                                    
+                                </li>
+
+                                <li>
+
+                                    <img src="/images/landing-17/img16.png" alt="" /> 
+                                    <p>3 মাসের ওয়ারেন্টি </p> 
+
+                                </li>
+
+                                <li>
+
+                                    <img src="/images/landing-17/img16.png" alt="" /> 
+                                    <p>কালো রং জেনুইন লেদার সু ফর মেন </p> 
+
+                                </li>
+
+                                <li>
+
+                                    <img src="/images/landing-17/img16.png" alt="" /> 
+                                    <p>সাইজ ৩২-৪৫ available পাওয়া যায়  </p> 
+
+                                </li>
+
+                                <li>
+
+                                    <img src="/images/landing-17/img16.png" alt="" /> 
+                                    <p>আমাদের এই পণ্য ফ্রান্স রপ্তানি করেছে </p> 
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </Col>
+
+                    <Col xs={12} sm={5} className='Landing__17__FashionSec'>
+
+                       
+
+                    </Col>
+
+                </Row>
+
+            </Container>
+
+        </section>
+
+        <div className='Landing__17_section_gaps'></div>
+
+        {/* =======================================================================================
+                    Coustomar Review
+        ============================================================================================*/}
+
+         <CustomerReview></CustomerReview>    
+
+         <div className='Landing__17_section_gaps'></div>
+
+        {/* =======================================================================================
+                    Plase in Order 
+        ============================================================================================*/}
+        <section>
+
+            <Container>
+
+                <div className='Landing__17__PlaseInOdr'>
+
+                    <div id="placeAnOrder">
+                    
+                        <Order></Order>
+
+                     </div>
+
+                </div>
 
             </Container>
 
@@ -506,26 +740,59 @@ const index = () => {
 
 
         {/* =======================================================================================
-                    Banner
+                   Footer
         ============================================================================================*/}
+        <section className='Landing__17__FooterBgRow_DivMain'>
+
+            <Container>
+
+                <div className='Landing__17__FooterBgRow_Div'>
+
+                    <div>
+
+                        <h4>Important Link</h4>
+
+                        <div className='Landing__17__FooterHr'></div>
+
+                        <ul>
+
+                            <li><Link href="#">Privacy Policy</Link></li>
+
+                            <li><Link href="#">Terms and Conditions</Link></li>
+
+                        </ul>
+
+                    </div>
+
+                    {/* ---------- */}
+
+                    <div className='Landing__17__FooterMidDiv'>
+
+                        <img src="/images/landing-17/logo2.png" alt="" />
+
+                            <SocialMedia></SocialMedia>
+
+                    </div>
+
+                    {/* ---------- */}
+                    <div>
+
+                        <h4 className='Landing__17__FooterH3'>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
+
+                        <h3>+8801894844452</h3>
+
+                    </div>
+
+                    {/* ---------- */}
 
 
+                </div>
 
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
+                <TinyFooter></TinyFooter> 
 
+            </Container>
 
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
+        </section>
 
 
 
