@@ -1,0 +1,248 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__18 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden;
+  
+  }
+
+.Landing__18 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__18 h1{
+      font-size: 55px;
+      line-height: 75px;
+      color:#1D4696;
+      font-weight: 900;
+      padding-top: 46px;
+      padding-bottom: 35px;
+  }
+
+  .Landing__18 h2{
+      font-size: 40px;
+      line-height: 52px;
+      color: #012A4A;
+      font-weight: 900;     
+      text-align: center;
+  }
+  
+  .Landing__18 p{
+      color:#012A4A;
+      font-size: 24px;
+      line-height: 31px;
+  }
+  
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__18 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+     
+  }
+  
+  .Landing__18 a.bg{
+      padding: 24px 36px;
+      color: #FFFFFF; 
+      background-image: linear-gradient(to right,#FA3B61 0%, #1D4696 51%, #FA3B61 100%);
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 10px;
+      font-size: 24px;
+    }
+
+  
+  .Landing__18 a svg{
+      font-size: 28px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #FFFFFF; 
+  }
+  
+  .Landing__18 a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+  }
+   
+  .Landing__18_section_gaps{
+      padding-top: 100px;
+  }
+ 
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+.Landing__18__bg_div{
+    background-image: url('../../public/images/landing-18/bg.png');
+    padding: 50px 0px 250px 0px;
+    background-size:cover;
+}
+
+.Landing__18__BannerTxt h4{
+    font-size: 24px;
+    color:#1D4696;
+    
+}
+
+.Landing__18__BannerTxt h3{
+    font-size: 48px;
+    line-height: 74px;
+    color:#FA3B61;
+    font-weight: 900;
+    padding-top: 35px;
+    padding-bottom: 56px;
+    
+}
+  
+.Landing__18__RelText{
+    position: relative;
+    
+}
+
+.Landing__18__AbsB_Box{
+    position: absolute;
+    top:-80px;
+    left: 300px;
+    display: flex;
+    border: 1px solid #1D4696;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+
+.Landing__18__BannerTxt h5{
+   font-size: 32px;
+   color:#1D4696;
+  }
+
+ .Landing__18__AbsB_Box img{
+    margin-right: 20px;
+    width: 40px;
+  
+  }
+
+
+/* Col--2 */
+
+.Landing__18__Col_2Rel{
+    position: relative;
+}
+
+.Landing__18__img1DisAbs{
+    position: absolute;
+    top:-110px;
+    left:550px;
+    width: 38%;
+    z-index: 2;
+}
+
+.Landing__18__img2BagAbs{
+    position: absolute;
+    top:230px;
+    left:100px;
+    width: 105%;
+}
+
+
+ /* ================================================================================================
+          Shipping
+  ===================================================================================================*/
+
+  .Landing__18__ShippingDiv{
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+
+.Landing__18 .shipping-address_ShippingAddressItem__nZd0I p {
+  color:#012A4A;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+
+.Landing__18 .shipping-address_ShippingAddressItem__nZd0I {
+  background-color: #FFEBEF;
+  padding: 50px 0px;
+}
+
+
+
+.Landing__18 .shipping-address_ShippingAddressItem__nZd0I:hover {
+  background-color:#1D4696;
+}
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+    /* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+

@@ -2,11 +2,9 @@ import React from 'react'
 import Link from 'next/link';
 
 // Bootstrap
-
 import { Col, Container, Row } from 'react-bootstrap';
 
 // icon
-
 import { AiOutlineShoppingCart} from 'react-icons/ai';
 
 
@@ -15,8 +13,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { FreeMode, Autoplay, Pagination, Navigation} from "swiper";
-import { useRef } from 'react';
+import {Navigation} from "swiper";
 
 // Common 
 
@@ -62,7 +59,6 @@ const index = () => {
                         </div>
 
                     </div>
-
 
                     <Row className='Landing__17__RowPad'>
 
@@ -286,7 +282,6 @@ const index = () => {
 
                 </div>
 
-
                 <div className='Landing__17__Video_div'>
 
                     <Container>
@@ -307,11 +302,9 @@ const index = () => {
 
                     </div>
 
-
                     </Container>
 
                 </div>
-
 
         </section>
 
@@ -631,8 +624,6 @@ const index = () => {
                     <img className='Landing__17__FashionSecImgAbs' src="/images/landing-17/img18.png" alt="" /> 
 
                 </div>
-
-         
 
             <Container>
   
