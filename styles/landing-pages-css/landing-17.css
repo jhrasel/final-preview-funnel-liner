@@ -86,6 +86,7 @@
     background-image: url('../../public/images/landing-17/bg.png');
     padding: 0px 0px 100px 0px;
     background-size:cover;
+    height: 100vh;
   }
 
   .Landing__17__MenuDiv{
@@ -732,29 +733,99 @@ padding: 0 5px;
 .Landing__17 .socia-media_SocialMediaContent__A6ShX a.socia-media_TW__qnuIS {
   color: #33ffff;
 }
-  /* ================================================================================================
-            Banner
-  ===================================================================================================*/
-
-
-
 
   /* ================================================================================================
             Banner
   ===================================================================================================*/
 
+   
+ @media (min-width: 1441px) {
+
+
+ }
+ 
+  @media (max-width: 1440px) {
+ 
+    .Landing__17__Banner1 h4 {
+      top: 10px;
+      padding: 4px 37px;
+      font-size: 24px;
+  }
+
+  .Landing__17__Banner1 img {
+    height: 71px;
+    margin-top: -1px;
+}
+
+.Landing__17 h1 {
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Landing__17__Banner1 h3 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.Landing__17__Banner1 h5 {
+  font-size: 28px;
+  line-height: 30px;
+  padding: 10px 50px 10px 26px;
+
+}
+
+.Landing__17__RelText img {
+  height: 55px;
+  margin-top: 0px;
+}
+
+.Landing__17__AbsB_Box {
+  position: absolute;
+  top: -58px;
+  left: 300px;
+}
+
+.Landing__17 a.bg {
+  padding: 22px 60px;
+  font-size: 24px;
+}
+
+.Landing__17__RelText {
+  position: relative;
+  margin-bottom: 52px;
+}
 
 
 
-  /* ================================================================================================
-            Banner
-  ===================================================================================================*/
+
+
+ }
+ 
+ 
+ @media (max-width: 1280px) {
+ 
+ 
+ }
+ 
+ @media (max-width: 991px) {
+ 
+ 
+ }
+ 
+ 
+ @media (max-width: 767px) {
+ 
+ 
+ }
+ 
+ 
+ @media (max-width: 575px) {
+ 
+    
+     }
 
 
 
-
-  /* ================================================================================================
-            Banner
-  ===================================================================================================*/
-
-
+  
