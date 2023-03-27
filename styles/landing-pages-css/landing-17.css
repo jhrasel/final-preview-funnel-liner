@@ -733,6 +733,14 @@ padding: 0 5px;
   color: #33ffff;
 }
 
+/* Other */
+
+.Landing__17 .tiny-footer_tinyFooter__Tr3b1 {
+  margin-top: 30px;
+}
+
+
+
   /* ================================================================================================
             Banner
   ===================================================================================================*/
@@ -1111,6 +1119,10 @@ padding: 0 5px;
   font-size: 20px;
 }
 
+.Landing__17__Card {
+  margin: 20px 0%;
+}
+
  }
  
  
@@ -1425,6 +1437,10 @@ padding: 0 5px;
   padding-top: 50px;
 }
 
+
+.Landing__17 .tiny-footer_tinyFooter__Tr3b1 {
+  margin-top: 0px;
+}
 
      }
 
