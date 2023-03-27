@@ -6,22 +6,18 @@ import Link from "next/link";
 
 import { Col, Container, Row } from "react-bootstrap";
 import { useRef, useState } from "react";
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 
-// Import Swiper styles
-
+// Import Swiper 
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { FreeMode, Autoplay, Pagination, Navigation } from "swiper";
 
 // import required modules
-import { FreeMode, Autoplay, Pagination, Navigation } from "swiper";
 import { FiPhoneCall } from "react-icons/fi";
 import { IoIosMail } from "react-icons/io";
-import { RiShoppingCart2Line } from "react-icons/ri";
 import { VscDebugBreakpointData } from "react-icons/vsc";
 
 // Common
@@ -31,16 +27,12 @@ import Menubar from '@/components/LandingPage/Common/Menubar/Menubar';
 import CustomerReview from "@/components/LandingPage/Common/CustomerReview/CustomerReview";
 import TinyFooter from "@/components/LandingPage/Common/TinyFooter/TinyFooter";
 import Video from "@/components/LandingPage/Common/Video/Video";
-
 import landingImageUrl from "../../public//images/landing-12/logo.svg";
 
 
 const index = () => {
-    const swiperRef = useRef();
 
-    const today = new Date();
-    const year = today.getFullYear();
-    
+    const swiperRef = useRef();
 
   return (
 

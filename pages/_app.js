@@ -33,19 +33,21 @@ import '../styles/landing-pages-css/landing-7.css';
 
 import '../styles/landing-pages-css/landing-8.css';
 
+import '../styles/landing-pages-css/landing-9.css';
+
 import '../styles/landing-pages-css/landing-12.css';
+
+import '../styles/landing-pages-css/landing-11.css';
 
 import '../styles/landing-pages-css/landing-13.css';
 
+import '../styles/landing-pages-css/landing-14.css';
+
+import '../styles/landing-pages-css/landing-15.css';
+
 import '../styles/landing-pages-css/landing-16.css';
 
-// import '../styles/landing-pages-css/landing-13.css';
-
-// import '../styles/landing-pages-css/landing-13.css';
-
-// import '../styles/landing-pages-css/landing-13.css';
-
-// import '../styles/landing-pages-css/landing-13.css';
+import '../styles/landing-pages-css/landing-17.css';
 
 
 
