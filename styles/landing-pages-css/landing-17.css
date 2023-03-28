@@ -326,7 +326,6 @@
 
   .Landing__17 .Landing__17__Order2 img{
     height: 962px;
-
   }
 
   .Landing__17__Order2Abs{
@@ -401,10 +400,10 @@
 }
 
 
-
   /* ================================================================================================
            Table
   ===================================================================================================*/
+  
   .Landing__17__TableSec{
     background-image: url('../../public/images/landing-17/bg3.png');
     padding: 80px 130px 55px 130px;
@@ -421,6 +420,7 @@
     vertical-align: -2px;
     font-weight: 600;
   }
+
   .Landing__17__Ul_div {
     margin-top: 10px;
   }
@@ -446,11 +446,11 @@
     font-weight: 900;
   }
 
-
   .Landing__17__TableRow {
       border: 1px solid #012A4A;
       border-right: none;
   }
+
   .Landing__17__TableRow div{
      border: none;
      border-right: 1px solid #012A4A;

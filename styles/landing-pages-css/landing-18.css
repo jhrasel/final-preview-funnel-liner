@@ -5,7 +5,6 @@
     font-family: 'Noto Serif Bengali', serif;
     list-style-type: none;
     overflow-x: hidden;
-  
   }
 
 .Landing__18 ul{
@@ -25,15 +24,15 @@
   .Landing__18 h2{
       font-size: 40px;
       line-height: 52px;
-      color: #012A4A;
+      color: #0B1B38;
       font-weight: 900;     
       text-align: center;
   }
   
   .Landing__18 p{
-      color:#012A4A;
-      font-size: 24px;
-      line-height: 31px;
+      color:#575757;
+      font-size: 20px;
+      line-height: 26px;
   }
   
   /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
@@ -60,7 +59,7 @@
     }
 
   
-  .Landing__18 a svg{
+  .Landing__18 a.bg svg{
       font-size: 28px;
       margin-top: -5px;
       margin-right: 10px;
@@ -171,7 +170,8 @@
 
 .Landing__18 .shipping-address_ShippingAddressItem__nZd0I {
   background-color: #FFEBEF;
-  padding: 50px 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -182,53 +182,374 @@
 
 
     /* ================================================================================================
-            Banner
+            Requirement
   ===================================================================================================*/
 
+  .Landing__18__RelImgDiv{
+    position: relative;
+  }
+
+.Landing__18__ImgAbsR1{
+  position: absolute;
+  width: 140%;
+  left:-200px;
+  top:-100px;
+}
+
+.Landing__18__ImgAbsR2{
+  position: absolute;
+  width: 65%; 
+  left:-30px;
+  top:150px;
+}
+
+.Landing__18__ReqTxt h2{
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.Landing__18__ReqTxt h4{
+  font-size: 32px;
+  line-height: 48px;
+  color:#FA3B61;
+  padding-bottom: 18px;
+  font-weight: 900;
+}
+
+.Landing__18__ReqTxt ul li p{
+ display: inline;
+}
+
+.Landing__18__ReqTxt ul li img{
+  width: 20px;
+  margin-right: 15px;
+}
+
+.Landing__18__ReqTxt ul li {
+  margin-bottom: 30px;
+}
+
+    /* ================================================================================================
+            Card
+  ===================================================================================================*/
+
+  .Landing__18__Card {
+   background-color: #1D4696;
+   padding: 85px 50px;
+   outline: 1px dashed #4E82E8;
+   outline-offset: -18px;
+   position: relative;
+   margin-bottom: 30px;
+   margin-right: 5px; 
+}
+
+.Landing__18__Card h3{
+    font-size: 32px;
+    line-height: 42px;
+    color:#FFFFFF;
+}
+
+.Landing__18__Card p{
+    color:#FFFFFF;
+    padding-top: 16px;
+}
+
+.Landing__18__CardAbs1{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70px;
+}
+
+.Landing__18 .Landing__18__CardH2{
+  padding-bottom: 46px;
+}
+
+
+  /* ================================================================================================
+             Circle
+  ===================================================================================================*/
+
+  .Landing__18__CircleDiv{
+      position: relative;
+      display:flex ;
+      justify-content: center;
+      align-items: center;
+      margin-top: 500px;
+      margin-bottom: 500px;
+  }
+
+  .Landing__18__CircleDiv h4{
+    font-size: 28px;
+    line-height: 36px;
+    color:#FFFFFF;
+    text-align: center;
+  }
+
+.Landing__18__CircleImg1{
+    position: absolute;
+    width: 72%;
+}
+
+.Landing__18__CircleImg2{
+  position: absolute;
+  margin-top: -100px;
+  width: 26%;
+}
+
+.Landing__18__CircleTxt1{
+    position: absolute;
+    top:-230px;
+    left:260px;
+}
+
+.Landing__18__CircleTxt2{
+    position: absolute;
+    top:-440px;
+    left:590px;
+}
+
+.Landing__18__CircleTxt3{
+    position: absolute;
+    top:-230px;
+    right:240px;
+}
+
+.Landing__18__CircleTxt4{
+    position: absolute;
+    bottom:-230px;
+    right:270px;
+}
+
+.Landing__18__CircleTxt5{
+    position: absolute;
+    bottom:-422px;
+    
+}
+
+
+.Landing__18__CircleTxt6{
+    position: absolute;
+    bottom:-240px;
+    left:290px;
+}
+
+
+
+  /* ================================================================================================
+             OrderTem-1
+  ===================================================================================================*/
+ 
+  .Landing__18 .Landing__18__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__18 .Landing__18__Order2 img{
+    height: 525px;
+
+  }
+
+  .Landing__18__Order2Abs{
+      position: absolute;
+      text-align: center;
+  }
+
+  .Landing__18__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#1D4696;
+      font-weight: 900;
+  }
+
+  .Landing__18__Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#1D4696;
+      margin: 30px 0px;
+
+  }
 
 
     /* ================================================================================================
-            Banner
+            Slider
   ===================================================================================================*/
 
+.Landing__18__SliderSec{
+  background-image: url('../../public/images/landing-18/bg2.png');
+  padding: 72px 0px;
+}
 
+.Landing__18__Slider_CardDiv{
+  position: relative;
+  text-align: center;
+  background-color:#1D4696;
+  padding: 24px;
+}
 
-    /* ================================================================================================
-            Banner
+.Landing__18__Slider_CardDivImg{
+  width: 100%;
+}
+
+.Landing__18__Slider_CardDiv h4{
+  font-size: 32px;
+  line-height: 42px;
+  color:#FFF;
+  padding: 70px 0px 56px 0px;
+}
+
+.Landing__18__SliderAbs1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 28%;
+}
+.Landing__18__SliderAbs2{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 28%;
+}
+
+  /* ================================================================================================
+            Plasce In Order
   ===================================================================================================*/
+  
+  .Landing__18 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
+    background:#1D4696;
+  }
+  
+  .Landing__18 .order_OrderConfirmRight__DSDPT button {
+    background: #1D4696;
+  }
+  
+  .Landing__18 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
+    color: #ffffff;
+  }
+  
+  .Landing__18 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0::after {
+    border-bottom: solid 15px #1D4696;
+  }
+  
+  .Landing__18 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_CustomeInput__NQVsd input:checked+label:before {
+    background: #1D4696;
+  }
 
 
-
-    /* ================================================================================================
-            Banner
+/* ================================================================================================
+             Order 3
   ===================================================================================================*/
+  
+  .Landing__18 .Landing__18__Order3 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: -200px;
+  }
+
+  .Landing__18 .Landing__18__Order3 img{
+    height: 525px;
+
+  }
+
+  .Landing__18__Order3Abs{
+      position: absolute;
+      text-align: center;
+  }
+
+  .Landing__18__Order3Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#FFFFFF;
+      font-weight: 900;
+  }
+
+  .Landing__18__Order3Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#FFFFFF;
+      margin: 30px 0px;
+
+  }
 
 
-
-    /* ================================================================================================
-            Banner
+  /* ================================================================================================
+            Footer
   ===================================================================================================*/
+    .Landing__18__FooterDiv{
+      background-image: url('../../public/images/landing-18/bg3.png');
+      padding: 200px 0px 50px 0px;
+      background-size: cover;
+    }
 
 
 
-    /* ================================================================================================
-            Banner
-  ===================================================================================================*/
-
-
-
-    /* ================================================================================================
-            Banner
-  ===================================================================================================*/
-
-
-
-    /* ================================================================================================
-            Banner
-  ===================================================================================================*/
-
-
-
+    .Landing__18__FooterBgRow_Div{
+      padding: 0px 170px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius:  50px 0px 50px 0px;
+  }
+  
+  .Landing__18__FooterBgRow_Div h4{
+      color:#000000;;
+      font-size: 24px;
+      line-height: 32px;
+     
+  }
+  
+  .Landing__18__FooterBgRow_Div h3{
+      color:#FFFFFF;
+      font-size: 30px;
+      line-height: 42px;
+      padding-top: 10px;
+  }
+  
+  .Landing__18__FooterBgRow_Div a{
+      color:#FA3B61;;
+      font-size: 18px;
+      line-height: 32px;
+  }
+  
+   .Landing__18__FooterHr{
+      border-bottom: 1px solid #ffffff;
+      background-color: #000;
+      width: 50px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  
+  .Landing__18 .Landing__18__FooterH3{
+    color:#ffffff;
+  }
+  
+  .Landing__18_socialMidia{
+    padding-top: 121px;
+  
+  }
+  
+  /* Tiney Footer */
+  
+  .Landing__18 .tiny-footer_tinyFooter__Tr3b1 p {
+    line-height: 40px;
+    text-align: center;
+    color:#FFF;
+    font-size: 18px;
+  }
+  
+  .Landing__18 .tiny-footer_tinyFooter__Tr3b1 p a {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 0 5px;
+  }
     /* ================================================================================================
             Banner
   ===================================================================================================*/

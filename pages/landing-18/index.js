@@ -139,63 +139,610 @@ const index = () => {
         <div className='Landing__18_section_gaps'></div>
         
         {/* =======================================================================================
-                    Banner
+                    Requirement
         ============================================================================================*/}
 
+        <section>
+
+            <Container>
+                
+                <Row>
+                    
+                     <Col sm={12} md={5}>
+
+                        <div className='Landing__18__RelImgDiv'>
+
+                            <img className='Landing__18__ImgAbsR1' src="/images/landing-18/img4.png" alt="" />
+
+                            <img className='Landing__18__ImgAbsR2' src="/images/landing-18/img5.png" alt="" />
+
+                        </div>
+                     
+                     </Col>
+
+                     <Col sm={12} md={7}>
+                     
+                        <div className='Landing__18__ReqTxt'>
+                            
+                            <h2>লেডিস সফট লেদার ব্যাগ বা পার্স ফ্যাশন বাজাহাউসে আপনাকে স্বাগতম!</h2>
+
+                            <p>
+                                আমাদের সাইটে প্রচুর পার্স, প্রতিদিনের ব্যবহারের ব্যাগ, হ্যান্ডব্যাগ, চামড়ার ব্যাগ, 
+                                সাইড ব্যাগ, লেদার ব্যাগ, কিট বক্স ব্যাগ, কাঁধের ব্যাগ, ভ্যানিটি ব্যাগ, ব্যাকপ্যাক,
+                                 মানিব্যাগ পাওয়া যায়। বাজাহাউসে  থেকে সমস্ত ধরণের লেদার ব্যাগ খুঁজে বের করুন। 
+                                 লেদার ব্যাগগুলি সম্পূর্ণরূপে দৈনন্দিন উদ্দেশ্যে, উপলক্ষ, অফিসিয়াল ব্যবহার এবং যে 
+                                 কোনও ধরণের ব্যবহারের জন্য ব্যবহৃত হয়।
+                            </p>
+
+                            <br/>
+
+                            <p>
+                                কাজের জন্য উপযুক্ত, স্কুল, দৈনিক ব্যবহৃত, কেনাকাটা, পার্টি এবং ইত্যাদি এটি ব্যবহার করা 
+                                আরামদায়ক এবং লেডিস সফট লেদার ফ্যাশন অল-ম্যাচ মেসেঞ্জার ব্যাগের নৈমিত্তিক, সুন্দর স্টাইল রয়েছে।
+                            </p>
+
+                            <br/>
+
+                            <h4>শর্তাবলী</h4>
+
+                            <ul>
+
+                                <li>
+
+                                    <img src="/images/landing-18/img33.png" alt="" /> 
+                                    <p>প্রোডাক্টটি ভালোভাবে যাচাই করে নিন এবং পুরোপুরি সন্তুষ্ট হলে তারপর দাম পরিশোধ করুন।</p>
+
+                                </li>
+
+                                <li>
+
+                                    <img src="/images/landing-18/img33.png" alt="" /> 
+                                    <p>প্রোডাক্ট ও অর্থ দুটোই একই সময় লেনদেন করুন।</p>
+
+                                </li>
+
+                                <li>
+
+                                    <img src="/images/landing-18/img33.png" alt="" /> 
+                                    <p>আপনার আর্থিক তথ্য প্রকাশ করা থেকে বিরত থাকুন।</p>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                     </Col>
+
+                </Row>
+
+            </Container>
+
+        </section>
+
+
+        <div className='Landing__18_section_gaps'></div>
+        
+        {/* =======================================================================================
+                    Video
+        ============================================================================================*/}
+       
+        <Container>
+
+            <Video></Video>
+        
+        </Container>
+
+        <div className='Landing__18_section_gaps'></div>
+
+        {/* =======================================================================================
+                    Card
+        ============================================================================================*/}
+        
+        <section>
+
+            <Container>
+
+                <h2 className='Landing__18__CardH2'> আমাদের  বিভিন্ন ধরণের লেডিস স্টাইলিস্ট  লেদার ব্যাগ গুলি কি কি!</h2>
+
+                    <Row>
+
+                        <Col sm={12} md={6}>
+
+                            <div className='Landing__18__Card'>
+
+                                <img className='Landing__18__CardAbs1' src="/images/landing-18/img11.png" alt="" />
+
+                                <h3>ফ্যাশনেবল মহিলাদের জন্যে পার্স ব্যাগ</h3>
+
+                                  <img src="/images/landing-18/img34.png" alt="" />
+
+                                <p>
+                                    মহিলাদের জন্য মানিব্যাগ রয়েছে যা উচ্চ মানের টেকসই উপাদান এবং ফ্যাশনেবল পাতলা নকশায় আছে।
+                                     যা কিনা দৈনন্দিন ব্যবহারের জন্য আদর্শ। পার্স ব্যাগগুলো মার্জিত নকশা আছে।
+                                </p>
+
+                            </div>
+
+                        </Col>
+                        {/* Col-- */}
+
+                        <Col sm={12} md={6}>
+
+                            <div className='Landing__18__Card'>
+
+                                <img className='Landing__18__CardAbs1' src="/images/landing-18/img11.png" alt="" />
+
+                                <h3>মায়েদের জন্য লেদার পার্স ব্যাগ</h3>
+
+                                  <img src="/images/landing-18/img34.png" alt="" />
+
+                                <p>
+                                    এই ধরণের পার্স ব্যাগটি মায়েদের জন্য উপযুক্ত, যারা সর্বদা সুন্দরভাবে গুছিয়ে সাজানোর চেষ্টা করেন।
+                                    আপনি আপনার কার্ড, কয়েন এবং নগদ টাকা এবং অন্যান্য ছোট ছোট আইটেমগুলি রাখতে পারেন
+                                </p>
+
+                            </div>
+
+                        </Col>
+                        {/* Col-- */}
+
+                        <Col sm={12} md={6}>
+
+                            <div className='Landing__18__Card'>
+
+                                <img className='Landing__18__CardAbs1' src="/images/landing-18/img11.png" alt="" />
+
+                                <h3>মেয়েদের জন্য পারফেক্ট লেদার হ্যান্ডব্যাগ</h3>
+
+                                  <img src="/images/landing-18/img34.png" alt="" />
+
+                                <p>
+                                সাধারণত, মেয়েরা তার প্রতিদিনের নিয়মিত ব্যস্ত দিনগুলি চালিয়ে যাওয়ার জন্য নিখুঁত হ্যান্ডব্যাগটি বেছে নেয়। যখন কোনও মেয়ে একটি নিখুঁত পোশাক এবং সাজসজ্জা
+                                 পরিপূর্ণ করে, তখন জুতো এবং অবশ্যই ব্যাগের মতো নিখুঁত আনুষাঙ্গিক গুলো ঠিক সময়ে বাছাই পারে
+                                </p>
+
+                            </div>
+
+                        </Col>
+                        {/* Col-- */}
+
+                        <Col sm={12} md={6}>
+
+                            <div className='Landing__18__Card'>
+
+                                <img className='Landing__18__CardAbs1' src="/images/landing-18/img11.png" alt="" />
+
+                                <h3>জেনুইন লেদার কিট বক্স ব্যাগ</h3>
+
+                                  <img src="/images/landing-18/img34.png" alt="" />
+
+                                <p>
+                                চিজেল আপনার কাছে এই সহজ সরল স্পন্দিত সুন্দর পেন্সিল ব্যাগ নিয়ে
+                                 আসে। আপনার অবশ্যই অনেক রঙের চামড়ার ব্যাগ বাছাই করতে পছন্দ করেন!
+                                </p>
+
+                            </div>
+
+                        </Col>
+                        {/* Col-- */}
+
+                        <Col sm={12} md={6}>
+
+                            <div className='Landing__18__Card'>
+
+                                <img className='Landing__18__CardAbs1' src="/images/landing-18/img11.png" alt="" />
+
+                                <h3>প্রিমিয়াম জেনুইন লেদার কাঁধ ব্যাগ</h3>
+
+                                  <img src="/images/landing-18/img34.png" alt="" />
+
+                                <p>
+                                আপনার বাজেটের মধ্যে দুর্দান্ত দামে আজকেরডিল ডটকম থেকে কাঁধের ব্যাগ কিনুন। আপনি ক্লাসিক
+                                 কাঁধের ব্যাগে আপনার প্রয়োজনীয় জিনিসগুলি সহজেই জিপার স্টাইলে রাখতে পারেন।
+                                </p>
+
+                            </div>
+
+                        </Col>
+                        {/* Col-- */}
+
+                        <Col sm={12} md={6}>
+
+                            <div className='Landing__18__Card'>
+
+                                <img className='Landing__18__CardAbs1' src="/images/landing-18/img11.png" alt="" />
+
+                                <h3>চকোলেট রঙের চামড়ার লেডিস সাইড ব্যাগ</h3>
+
+                                  <img src="/images/landing-18/img34.png" alt="" />
+
+                                <p>
+                                আমরা মেয়েদের জন্য চামড়ার সাইড ব্যাগ সরবরাহ করি, এটিতে একটি চামড়ার ব্যাগের আড়ম্বরপূর্ণ নকশা রয়েছে। 
+                                রপ্তানির গুণমান এবং রঙ চকোলেট রঙে উপলব্ধ, প্রস্থের আকার প্রায় ১২ "এবং দৈর্ঘ্য ৯.৫"।
+                                </p>
+
+                            </div>
+
+                        </Col>
+                        {/* Col-- */}
+
+                        
+
+                    </Row>
+
+            </Container>
+
+        </section>
+
+
+        <div className='Landing__18_section_gaps'></div>
+
+        {/* =======================================================================================
+                    Circle
+        ============================================================================================*/}
+
+        <section>
+
+            <Container>
+
+                <div className='Landing__18__CircleDiv'>
+
+                    <img className='Landing__18__CircleImg1' src="/images/landing-18/img12.png" alt="" />
+
+                    <img  className='Landing__18__CircleImg2' src="/images/landing-18/img16.png" alt="" />
+
+                    <h4 className='Landing__18__CircleTxt1'>কালার <br/>পাঁচটি</h4>
+
+                    <h4 className='Landing__18__CircleTxt2'>সাইজ 29/26 <br/>সেন্টিমিটার<br/>পণ্য উপকরণ<br/>চামড়া </h4>
+
+                    <h4 className='Landing__18__CircleTxt3'>ওজন -  <br/>১১০০ গ্রাম </h4>
+
+                    <h4 className='Landing__18__CircleTxt4'>বড় চেম্বার <br/>দুইটি </h4>
+
+                    <h4 className='Landing__18__CircleTxt5'>সর্বমোট চেইন <br/>চারটি </h4>
+
+                    <h4 className='Landing__18__CircleTxt6'>পকেট <br/>পাঁচটি  </h4>
+
+
+                </div>
+
+            </Container>
+
+        </section>
+
+
+        <div className='Landing__18_section_gaps'></div>
+
+        {/* =======================================================================================
+                    OrderTem-1
+        ============================================================================================*/}
+        
+        <section>
+
+            <Container>
+
+                <div className='Landing__18__Order2'>
+
+                    <img src="/images/landing-18/img15.png" alt="" />
+
+                    <div className='Landing__18__Order2Abs'>
+
+                        <h4>মুল্য-550.00 টাকা</h4>
+
+                        <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
+
+                        <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+        </section>
+
+        <div className='Landing__18_section_gaps'></div>
+
+        {/* =======================================================================================
+                    Slider
+        ============================================================================================*/}
+
+        <section className='Landing__18__SliderSec'>
+
+            <Container>
+                    
+                <Swiper
+                    slidesPerView={4}
+                    spaceBetween={30}
+                    navigation={true} 
+                    modules={[Navigation]}
+                    className="mySwiper"
+                    loop={true}
+
+                    breakpoints={{
+                            240: {
+                            slidesPerView: 2,
+                            slidesPerGroup: 2,
+                            spaceBetween: 10,
+                            },
+                            768: {
+                            slidesPerView: 3,
+                            slidesPerGroup: 3,
+                            spaceBetween: 20,
+                            },
+                            1024: {
+                            slidesPerView: 3,
+                            slidesPerGroup: 3,
+                            spaceBetween: 30,
+                            },
+                        }}
+                >
+
+                    <SwiperSlide className="Landing__18__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__18__Slider_CardDiv">
+
+                                <img className="Landing__18__Slider_CardDivImg" src="/images/landing-18/img17.png" alt="img"></img>
+
+                                <h4>চামড়ার লেডিস <br/> লেদার ব্যাগ</h4>
+
+                                <img className="Landing__18__SliderAbs1" src="/images/landing-18/img20.png" alt="" />
+
+                                <img className="Landing__18__SliderAbs2" src="/images/landing-18/img21.png" alt="" />
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    {/* Slider */}
+
+                    <SwiperSlide className="Landing__18__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__18__Slider_CardDiv">
+
+                                <img className="Landing__18__Slider_CardDivImg" src="/images/landing-18/img18.png" alt="img"></img>
+
+                                <h4>চামড়ার লেডিস <br/> লেদার ব্যাগ</h4>
+
+                                <img className="Landing__18__SliderAbs1" src="/images/landing-18/img20.png" alt="" />
+
+                                <img className="Landing__18__SliderAbs2" src="/images/landing-18/img21.png" alt="" />
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    {/* Slider */}
+
+                    <SwiperSlide className="Landing__18__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__18__Slider_CardDiv">
+
+                                <img className="Landing__18__Slider_CardDivImg" src="/images/landing-18/img19.png" alt="img"></img>
+
+                                <h4>চামড়ার লেডিস <br/> লেদার ব্যাগ</h4>
+
+                                <img className="Landing__18__SliderAbs1" src="/images/landing-18/img20.png" alt="" />
+
+                                <img className="Landing__18__SliderAbs2" src="/images/landing-18/img21.png" alt="" />
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    {/* Slider */}
+
+                    <SwiperSlide className="Landing__18__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__18__Slider_CardDiv">
+
+                                <img className="Landing__18__Slider_CardDivImg" src="/images/landing-18/img17.png" alt="img"></img>
+
+                                <h4>চামড়ার লেডিস <br/> লেদার ব্যাগ</h4>
+
+                                <img className="Landing__18__SliderAbs1" src="/images/landing-18/img20.png" alt="" />
+
+                                <img className="Landing__18__SliderAbs2" src="/images/landing-18/img21.png" alt="" />
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    {/* Slider */}
+
+                    <SwiperSlide className="Landing__18__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__18__Slider_CardDiv">
+
+                                <img className="Landing__18__Slider_CardDivImg" src="/images/landing-18/img18.png" alt="img"></img>
+
+                                <h4>চামড়ার লেডিস <br/> লেদার ব্যাগ</h4>
+
+                                <img className="Landing__18__SliderAbs1" src="/images/landing-18/img20.png" alt="" />
+
+                                <img className="Landing__18__SliderAbs2" src="/images/landing-18/img21.png" alt="" />
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    {/* Slider */}
+
+                    <SwiperSlide className="Landing__18__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__18__Slider_CardDiv">
+
+                                <img className="Landing__18__Slider_CardDivImg" src="/images/landing-18/img19.png" alt="img"></img>
+
+                                <h4>চামড়ার লেডিস <br/> লেদার ব্যাগ</h4>
+
+                                <img className="Landing__18__SliderAbs1" src="/images/landing-18/img20.png" alt="" />
+
+                                <img className="Landing__18__SliderAbs2" src="/images/landing-18/img21.png" alt="" />
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    {/* Slider */}
+
+                </Swiper>
+
+            </Container>
+
+        </section>
+
+        <div className='Landing__18_section_gaps'></div>
+
+        {/* =======================================================================================
+                    Customer Review
+        ============================================================================================*/}
+
+            <CustomerReview></CustomerReview>    
+
+         <div className='Landing__18_section_gaps'></div>
+
+        {/* =======================================================================================
+                    Plasce In Order
+        ============================================================================================*/}
+            <section>
+
+                <Container>
+
+                    <div className='Landing__18__PlaseInOdr'>
+
+                        <div id="placeAnOrder">
+                        
+                            <Order></Order>
+
+                        </div>
+
+                    </div>
+
+                </Container>
+
+            </section>
+
+        {/* =======================================================================================
+                    Order 3
+        ============================================================================================*/}
+      
+        <section>
+
+            <Container>
+
+                <div className='Landing__18__Order3'>
+
+                    <img src="/images/landing-18/img23.png" alt="" />
+
+                    <div className='Landing__18__Order3Abs'>
+
+                        <h4>মুল্য-550.00 টাকা</h4>
+
+                        <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
+
+                        <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+        </section>
+
+
+        {/* =======================================================================================
+                    Footer
+        ============================================================================================*/}
+
+        <section className='Landing__18__FooterDiv'>
+
+            <Container>
+
+                <div className='Landing__18__FooterBgRow_Div'>
+
+                        <div>
+
+                            <h4>Important Link</h4>
+
+                                <div className='Landing__18__FooterHr'></div>
+
+                            <ul>
+
+                                <li><Link href="#">Privacy Policy</Link></li>
+
+                                <li><Link href="#">Terms and Conditions</Link></li>
+
+                            </ul>
+
+                        </div>
+
+                    {/* ------Mid---- */}
+
+                        <div>
+
+                            <SocialMedia></SocialMedia>
+
+                        </div>
+
+                    {/* ---------- */}
+                    
+                        <div>
+
+                            <h4 className='Landing__18__FooterH3'>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
+
+                            <h3>+8801894844452</h3>
+
+                        </div>
+
+                    {/* ---------- */}
+
+
+                </div>
+
+                <div className="Landing__18_socialMidia">
+
+                   
+                <div className="Landing__18_socialPad" ></div>
+
+                    <TinyFooter></TinyFooter>
+
+                </div>
+
+            </Container>
+
+        </section>
 
 
         {/* =======================================================================================
                     Banner
         ============================================================================================*/}
-
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
-
 
     </div>
 
