@@ -77,13 +77,15 @@
   }
  
 
-    /* ================================================================================================
+  /* ================================================================================================
             Banner
   ===================================================================================================*/
-.Landing__18__bg_div{
+
+  .Landing__18__bg_div{
     background-image: url('../../public/images/landing-18/bg.png');
     padding: 50px 0px 250px 0px;
     background-size:cover;
+  
 }
 
 .Landing__18__BannerTxt h4{
@@ -229,6 +231,22 @@
   margin-bottom: 30px;
 }
 
+.Landing__18__Rel1{
+  position: relative;
+}
+
+.Landing__18__Abs1{
+  position: absolute;
+  left: 0;
+  bottom: -200px;
+}
+
+.Landing__18__Abs2{
+  position: absolute;
+  right: 100px;
+  bottom: -50px;
+}
+
     /* ================================================================================================
             Card
   ===================================================================================================*/
@@ -324,7 +342,6 @@
 .Landing__18__CircleTxt5{
     position: absolute;
     bottom:-422px;
-    
 }
 
 
@@ -380,7 +397,7 @@
 
 .Landing__18__SliderSec{
   background-image: url('../../public/images/landing-18/bg2.png');
-  padding: 72px 0px;
+  padding:  72px 0px 65px 0px;
 }
 
 .Landing__18__Slider_CardDiv{
@@ -412,6 +429,42 @@
   right: 0;
   bottom: 0;
   width: 28%;
+}
+
+.Landing__18__SliderImgL{
+    margin-top: 70px;
+}
+
+
+.Landing__18__SliderIconDiv{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.Landing__18__SliderIconDiv2{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 28px 20px ;
+  background-color: #fff;
+  margin-top: -50px;
+  border-radius: 100px;
+  margin-right: -50px;
+
+}
+
+.Landing__18__SliderIcon1{
+  background: none;
+  font-size: 28px;
+  color:#1D4696;
+  margin-right: 10px !important;
+}
+
+.Landing__18__SliderIcon2{
+  background: none;
+  font-size: 28px;
+  color:#1D4696;
 }
 
   /* ================================================================================================
@@ -550,20 +603,148 @@
     color: #ffffff;
     padding: 0 5px;
   }
+
+  .Landing__18__Abs3{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+  }
+
+  .Landing__18__Abs4{
+    position: absolute;
+   right: 100px;
+    bottom: 100px;
+  }
     /* ================================================================================================
-            Banner
+            Media Quary
   ===================================================================================================*/
 
+ 
+  @media (max-width: 1650px) {
 
+    .Landing__18 h1 {
+      font-size: 44px;
+      line-height: 52px;
+      color: #1D4696;
+      font-weight: 900;
+      padding-top: 40px;
+      padding-bottom: 22px;
+  }
 
-    /* ================================================================================================
-            Banner
-  ===================================================================================================*/
+  .Landing__18__BannerTxt h4 {
+    font-size: 20px;
+    color: #1D4696;
+}
 
+.Landing__18__BannerTxt h3 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #FA3B61;
+  font-weight: 900;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
 
+.Landing__18__bg_div {
+  padding: 50px 0px 211px 0px;
+  background-size: cover;
+}
 
-    /* ================================================================================================
-            Banner
-  ===================================================================================================*/
+.Landing__18__img2BagAbs {
+  position: absolute;
+  top: 97px;
+  left: 100px;
+  width: 97%;
+}
+
+.Landing__18__img1DisAbs {
+  position: absolute;
+  top: -148px;
+  left: 418px;
+  width: 33%;
+  z-index: 2;
+}
+
+.Landing__18__img1DisAbs {
+  position: absolute;
+  top: -148px;
+  left: 478px;
+  width: 30%;
+  z-index: 2;
+}
+
+  }
+  
+
+   @media (max-width: 1400px) {
+  
+    .Landing__18 h1 {
+      font-size: 44px;
+      line-height: 52px;
+      color: #1D4696;
+      font-weight: 900;
+      padding-top: 40px;
+      padding-bottom: 22px;
+  }
+
+  .Landing__18__BannerTxt h4 {
+    font-size: 20px;
+    color: #1D4696;
+}
+
+.Landing__18__BannerTxt h3 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #FA3B61;
+  font-weight: 900;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.Landing__18__bg_div {
+  padding: 50px 0px 142px 0px;
+  background-size: cover;
+}
+
+.Landing__18__img2BagAbs {
+  position: absolute;
+  top: 97px;
+  left: 100px;
+  width: 97%;
+}
+
+.Landing__18__img1DisAbs {
+  position: absolute;
+  top: -148px;
+  left: 418px;
+  width: 33%;
+  z-index: 2;
+}
+
+  }
+  
+  
+  @media (max-width: 1280px) {
+  
+  
+  }
+  
+  @media (max-width: 991px) {
+  
+  
+  }
+  
+  
+  @media (max-width: 767px) {
+  
+  
+  }
+  
+  
+  @media (max-width: 575px) {
+  
+     
+      }
+
 
 

@@ -8,6 +8,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 // icon
 
 import { AiOutlineShoppingCart} from 'react-icons/ai';
+import { SlArrowLeft,SlArrowRight } from "react-icons/sl";
 
 
 // Import Swiper 
@@ -40,6 +41,8 @@ import DelivaryImgUrl4 from '../../public/images/landing-18/img32.png'
 
 
 const index = () => {
+
+    const swiperRef = useRef();
 
   return (
 
@@ -217,6 +220,14 @@ const index = () => {
                 </Row>
 
             </Container>
+
+            <div className='Landing__18__Rel1'>
+
+                 <img className='Landing__18__Abs1' src="/images/landing-18/img6.png" alt="" />
+
+                 <img className='Landing__18__Abs2' src="/images/landing-18/img7.png" alt="" />
+
+            </div>
 
         </section>
 
@@ -455,10 +466,12 @@ const index = () => {
                 <Swiper
                     slidesPerView={4}
                     spaceBetween={30}
-                    navigation={true} 
                     modules={[Navigation]}
                     className="mySwiper"
                     loop={true}
+
+                    onBeforeInit={(swiper) => {
+                        swiperRef.current = swiper;}}
 
                     breakpoints={{
                             240: {
@@ -613,6 +626,20 @@ const index = () => {
 
                 </Swiper>
 
+                <img className="Landing__18__SliderImgL" src="/images/landing-18/img35.png" alt="" />
+
+                <div className="Landing__18__SliderIconDiv">
+
+                     <div className="Landing__18__SliderIconDiv2">    
+
+                            <button className="Landing__18__SliderIcon1" onClick={() => swiperRef.current?.slidePrev()}><SlArrowLeft></SlArrowLeft></button>
+
+                            <button className="Landing__18__SliderIcon2" onClick={() => swiperRef.current?.slideNext()}><SlArrowRight/></button>
+
+                    </div>  
+
+                </div>
+
             </Container>
 
         </section>
@@ -736,6 +763,16 @@ const index = () => {
                 </div>
 
             </Container>
+
+
+
+            <div className='Landing__18__Rel1'>
+
+                 <img className='Landing__18__Abs3' src="/images/landing-18/img26.png" alt="" />
+                 
+                 <img className='Landing__18__Abs4' src="/images/landing-18/img25.png" alt="" />
+
+            </div>
 
         </section>
 
