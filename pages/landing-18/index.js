@@ -60,7 +60,7 @@ const index = () => {
 
                     <MenubarLeft logoImageLeft={landingImageUrl}></MenubarLeft>
 
-                    <Row>
+                    <Row className='Landing__18__Reverce'>
 
                         <Col md={6}>
                         

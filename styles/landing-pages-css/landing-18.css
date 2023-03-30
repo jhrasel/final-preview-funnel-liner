@@ -152,6 +152,14 @@
     width: 105%;
 }
 
+.Landing__18__img1DisAbs{
+  animation: Ibrahim25bfd 1s infinite alternate ;
+}
+
+@keyframes Ibrahim25bfd {
+  0% {transform: rotate(0);}
+ 100%{transform: rotate(10deg);}
+} 
 
  /* ================================================================================================
           Shipping
@@ -197,6 +205,19 @@
   left:-200px;
   top:-100px;
 }
+
+
+.Landing__18__ImgAbsR2{
+  animation: Ibrahim25htf 2s linear infinite alternate  ;
+}
+
+@keyframes Ibrahim25htf {
+  0% {transform: rotate(0);}
+ 50%{transform: rotate(10deg);}
+ 100%{transform: rotate(-10deg);}
+} 
+
+
 
 .Landing__18__ImgAbsR2{
   position: absolute;
@@ -610,6 +631,26 @@
     bottom: 100px;
   }
 
+  .Landing__18__Abs3{
+    animation: Ibrahim54hgf 2s linear infinite alternate  ;
+  }
+  
+  @keyframes Ibrahim54hgf {
+    0% {transform: translateX(0px);}
+   100%{transform: translateX(30px);;}
+  } 
+
+  .Landing__18__Abs4{
+    animation: Ibrahimhtf6 2s linear infinite alternate  ;
+  }
+  
+  @keyframes Ibrahimhtf6 {
+    0% {transform: translateX(0px);}
+   100%{transform: translateX(-30px);;}
+  } 
+
+
+
   .Landing__18__Abs4{
     position: absolute;
    right: 100px;
@@ -686,6 +727,11 @@
       padding-top: 40px;
       padding-bottom: 22px;
   }
+  
+    .Landing__18 h2 {
+      font-size: 35px;
+      line-height: 42px;
+  }
 
   .Landing__18__BannerTxt h4 {
     font-size: 20px;
@@ -721,29 +767,703 @@
   z-index: 2;
 }
 
+.Landing__18__ImgAbsR1 {
+  position: absolute;
+  width: 128%;
+  left: -134px;
+  top: -100px;
+}
+
+.Landing__18__ImgAbsR2 {
+  position: absolute;
+  width: 65%;
+  left: -30px;
+  top: 98px;
+}
+
+/* Circle--- */
+.Landing__18__CircleImg1{
+  position: absolute;
+  width: 72%;
+}
+
+.Landing__18__CircleImg2{
+position: absolute;
+margin-top: -100px;
+width: 26%;
+}
+
+.Landing__18__CircleTxt1{
+  position: absolute;
+  top:-220px;
+  left:228px;
+}
+
+.Landing__18__CircleTxt2{
+  position: absolute;
+  top:-408px;
+  left:500px;
+}
+
+.Landing__18__CircleTxt3{
+  position: absolute;
+  top:-223px;
+  right:198px;
+}
+
+.Landing__18__CircleTxt4{
+  position: absolute;
+  bottom:-220px;
+  right:231px;
+}
+
+.Landing__18__CircleTxt5{
+  position: absolute;
+  bottom:-373px;
+}
+
+
+.Landing__18__CircleTxt6{
+  position: absolute;
+  bottom:-222px;
+  left:259px;
+}
+
+.Landing__18 .Landing__18__Order2 img {
+  height: 451px;
+}
+
+.Landing__18__Order2Abs h4 {
+  font-size: 44px;
+  line-height: 46px;
+
+}
+
+.Landing__18__Order3Abs h4 {
+  font-size: 44px;
+  line-height: 48px;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
   }
   
   
   @media (max-width: 1280px) {
+    .Landing__18 h1 {
+      font-size: 38px;
+      line-height: 45px;
+  }
+  .Landing__18__BannerTxt h3 {
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.Landing__18 a.bg {
+  padding: 16px 36px;
+  font-size: 20px;
+}
+
+.Landing__18__BannerTxt h5 {
+  font-size: 24px;
+  color: #1D4696;
+}
+
+.Landing__18__AbsB_Box img {
+  margin-right: 20px;
+  width: 31px;
+}
+
+.Landing__18__AbsB_Box {
+  top: -65px;
+  left: 259px;
+  padding: 16px 20px;
+  border-radius: 10px;
+}
+
+.Landing__18__img2BagAbs {
+  position: absolute;
+  top: 97px;
+  left: 39px;
+  width: 97%;
+}
+
+.Landing__18__img1DisAbs {
+  position: absolute;
+  top: -148px;
+  left: 324px;
+  width: 33%;
+  z-index: 2;
+}
+
+.Landing__18__ImgAbsR1 {
+  width: 128%;
+  left: -84px;
+  top: -100px;
+}
   
-  
+.Landing__18__ImgAbsR2 {
+  width: 65%;
+  left: 13px;
+  top: 59px;
+}
+
+.Landing__18__Abs2 {
+  right: 100px;
+  bottom: -50px;
+  width: 100px;
+}
+
+.Landing__18__Abs1 {
+  width: 100px;
+  bottom: -99px;
+}
+
+/* circle-- */
+
+.Landing__18__CircleDiv h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Landing__18__CircleImg1{
+  position: absolute;
+  width: 72%;
+}
+
+.Landing__18__CircleImg2{
+position: absolute;
+margin-top: -100px;
+width: 26%;
+}
+
+.Landing__18__CircleTxt1{
+  position: absolute;
+  top:-187px;
+  left:192px;
+}
+
+.Landing__18__CircleTxt2{
+  position: absolute;
+  top:-344px;
+  left:420px;
+}
+
+.Landing__18__CircleTxt3{
+  position: absolute;
+  top:-188px;
+  right:156px;
+}
+
+.Landing__18__CircleTxt4{
+  position: absolute;
+  bottom:-185px;
+  right:197px;
+}
+
+.Landing__18__CircleTxt5{
+  position: absolute;
+  bottom:-316px;
+}
+
+
+.Landing__18__CircleTxt6{
+  position: absolute;
+  bottom:-182px;
+  left:210px;
+}
+
+.Landing__18__CircleImg2 {
+  position: absolute;
+  margin-top: -100px;
+  width: 23%;
+}
+
+.Landing__18__Order2Abs h4 {
+  font-size: 40px;
+  line-height: 14px;
+}
+
+.Landing__18 .Landing__18__Order2 img {
+  height: 360px;
+}
+
+.Landing__18__Slider_CardDiv h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFF;
+  padding: 70px 0px 56px 0px;
+}
+
+.Landing__18__SliderIconDiv2 {
+  margin-right: -4px;
+  margin-top: -56px;
+}
+
+.Landing__18__Order3Abs h4 {
+  font-size: 40px;
+  line-height: 27px;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+.Landing__18 .Landing__18__Order3 img {
+  height: 449px;
+}
+
+.Landing__18__CircleDiv {
+  margin-top: 360px;
+  margin-bottom: 380px;
+}
+
+
   }
   
   @media (max-width: 991px) {
   
+    .Landing__18 h1 {
+      font-size: 30px;
+      line-height: 37px;
+  }
+
+  .Landing__18__img1DisAbs {
+    position: absolute;
+    top: -148px;
+    left: 237px;
+}
+
+.Landing__18__ImgAbsR2 {
+  width: 65%;
+  left: -3px;
+  top: 21px;
+}
+
+.Landing__18 h2 {
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.Landing__18__ReqTxt h4 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.Landing__18__CircleImg1 {
+  position: absolute;
+  width: 95%;
+}
+
+.Landing__18__CircleTxt1 {
+  top: -187px;
+  left: 75px;
+}
+
+.Landing__18__CircleTxt2 {
+  top: -344px;
+  left: 292px;
+}
+
+.Landing__18__CircleTxt3 {
+  top: -188px;
+  right: 53px;
+}
   
+.Landing__18__CircleTxt4 {
+  bottom: -185px;
+  right: 80px;
+}
+
+
+
+.Landing__18__CircleTxt6 {
+  bottom: -182px;
+  left: 89px;
+}
+
+.Landing__18__FooterBgRow_Div {
+  margin-top: 100px;
+  padding: 0px 0px;
+  display: block;
+  text-align: center;
+
+}
+
   }
   
   
   @media (max-width: 767px) {
   
+    .Landing__18__Reverce{
+      flex-direction: column-reverse;
+    }
+
+    .Landing__18__BannerTxt{
+      margin-top: 400px;
+    }
   
+    .Landing__18__ImgAbsR1 {
+      width: 108%;
+      left: -48px;
+      top: -112px;
+  }
+
+  .Landing__18__ImgAbsR2 {
+    width: 56%;
+    left: 58px;
+    top: 73px;
+}
+
+.Landing__18__ReqTxt{
+    margin-top: 450px;
+}
+
+.Landing__18__BannerTxt {
+  text-align: center;
+}
+
+.Landing__18__AbsB_Box {
+  top: 17px;
+  left: 141px;
+  padding: 16px 20px;
+  border-radius: 10px;
+}
+
+.Landing__18__bg_div {
+  padding: 50px 0px 230px 0px;
+  background-size: cover;
+}
+
+.Landing__18 h2 {
+  font-size: 27px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.Landing__18__Card h3 {
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.Landing__18__CircleDiv {
+  margin-top: 215px;
+  margin-bottom: 250px;
+}
+
+.Landing__18 .Landing__18__Order2 img {
+  height: 293px;
+}
+
+.Landing__18__CircleImg1 {
+  position: absolute;
+  width: 95%;
+  display: none;
+}
+
+.Landing__18__CircleDiv h4 {
+  font-size: 24px;
+  line-height: 30px;
+
+}
+
+.Landing__18__CircleTxt1 {
+  top: -287px;
+  left: 75px;
+  background: #1D4696;
+  padding: 50px !important;
+  border-radius: 100px;
+}
+
+.Landing__18__CircleTxt2 {
+  display: none;
+}
+
+.Landing__18__CircleTxt3 {
+  top: 46px;
+  right: 277px;
+  background: #1D4696;
+  padding: 50px !important;
+  border-radius: 100px;
+}
+  
+.Landing__18__CircleTxt4 {
+  bottom: -212px;
+  right: 29px;
+  background: #1D4696;
+  padding: 50px !important;
+  border-radius: 100px;
+}
+
+.Landing__18__CircleTxt5 {
+  display: none;
+}
+
+.Landing__18__CircleTxt6 {
+  bottom: 125px;
+  left: 303px;
+  background: #1D4696;
+  padding: 50px !important;
+  border-radius: 100px;
+}
+
+
   }
   
   
   @media (max-width: 575px) {
   
+    .Landing__18__BannerTxt {
+      margin-top: 390px;
+  }
      
+  .Landing__18 h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Landing__18__BannerTxt h4 {
+  font-size: 18px;
+  color: #1D4696;
+}
+
+.Landing__18__BannerTxt h3 {
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.Landing__18 a.bg {
+  padding: 12px 36px;
+  font-size: 18px;
+}
+
+.Landing__18 a.bg svg {
+  font-size: 24px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.Landing__18__BannerTxt h5 {
+  font-size: 20px;
+  color: #1D4696;
+}
+
+.Landing__18__AbsB_Box img {
+  margin-right: 20px;
+  width: 25px;
+}
+
+.Landing__18__AbsB_Box {
+  top: 17px;
+  left: 106px;
+}
+
+.Landing__18__ImgAbsR1 {
+  width: 108%;
+  left: -33px;
+  top: -112px;
+}
+
+.Landing__18__ImgAbsR2 {
+  width: 56%;
+  left: 58px;
+  top: 40px;
+}
+
+.Landing__18__ReqTxt {
+  margin-top: 400px;
+  text-align: center;
+}
+
+.Landing__18__Card h3 {
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.Landing__18 p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.Landing__18__Card {
+  text-align: center;
+}
+
+.Landing__18__CircleTxt1 {
+  top: -287px;
+  left: 34px;
+}
+
+.Landing__18__CircleTxt6 {
+  bottom: 125px;
+  left: 258px;
+}
+
+.Landing__18__CircleTxt3 {
+  top: 46px;
+  right: 225px;
+}
+
+.Landing__18 .Landing__18__Order2 img {
+  height: 245px;
+}
+
+.Landing__18__Order2Abs h4 {
+  font-size: 28px;
+  line-height: 0px;
+}
+
+.Landing__18__Order2Abs h5 {
+  font-size: 22px;
+  line-height: 19px;
+  color: #1D4696;
+  margin: 30px 0px;
+}
+
+.Landing__18__SliderIcon2 {
+  background: none;
+  font-size: 24px;
+  color: #1D4696;
+}
+
+.Landing__18__SliderIcon1 {
+  background: none;
+  font-size: 24px;
+  color: #1D4696;
+}
+.Landing__18__SliderIcon2 {
+  background: none;
+  font-size: 24px;
+  color: #1D4696;
+}
+
+.Landing__18__SliderIconDiv2 {
+  padding: 20px 11px;
+}
+
+.Landing__18 .Landing__18__Order3 img {
+  height: 312px;
+}
+
+.Landing__18__Order3Abs h4 {
+  font-size: 28px;
+  line-height: 27px;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+.Landing__18__Order3Abs h5 {
+  font-size: 22px;
+  line-height: 11px;
+  color: #FFFFFF;
+  margin: 30px 0px;
+}
+
+.Landing__18__FooterBgRow_Div h4 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 88px;
+}
+
+.Landing__18__img2BagAbs {
+  position: absolute;
+  top: 97px;
+  left: 20px;
+  width: 97%;
+}
+
+.Landing__18__Slider_CardDiv h4 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFF;
+  padding: 24px 0px 56px 0px;
+}
+
+  }
+
+
+@media (max-width: 450px) {
+
+    .Landing__18__BannerTxt {
+      margin-top: 309px;
+    }
+     
+    .Landing__18__AbsB_Box {
+      top: 17px;
+      left: 74px;
+  }
+
+  .Landing__18__ImgAbsR2 {
+    width: 56%;
+    left: 51px;
+    top: 18px;
+}
+
+.Landing__18__ReqTxt {
+  margin-top: 341px;
+  text-align: center;
+}
+
+.Landing__18__CircleDiv h4 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.Landing__18__CircleTxt1 {
+  background: #1D4696;
+  padding: 30px !important;
+  border-radius: 100px;
+}
+
+.Landing__18__CircleTxt6 {
+  bottom: 167px;
+  left: 219px;
+  padding: 30px !important;
+}
+
+.Landing__18__CircleTxt3 {
+  top: 46px;
+  right: 204px;
+  padding: 30px !important;
+}
+
+.Landing__18__CircleTxt4 {
+  bottom: -171px;
+  right: 29px;
+  background: #1D4696;
+  padding: 30px !important;
+  border-radius: 100px;
+}
+
+.Landing__18__CircleImg2 {
+  position: absolute;
+  margin-top: -137px;
+  width: 40%;
+}
+
+.Landing__18__CircleDiv {
+  margin-top: 215px;
+  margin-bottom: 153px;
+}
+
+.Landing__18 .Landing__18__Order2 img {
+  height: 217px;
+}
+
+.Landing__18__FooterBgRow_Div h4 {
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 88px;
+}
+
+.Landing__18__FooterBgRow_Div h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 22px;
+  padding-top: 10px;
+}
+
       }
 
 
