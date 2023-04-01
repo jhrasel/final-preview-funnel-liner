@@ -1,0 +1,497 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__20 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden;
+  }
+
+  .Landing__20 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__20 h1{
+      font-size: 52px;
+      line-height: 70px;
+      color:#FFFFFF;
+      font-weight: 900;
+      padding-top: 46px;
+      padding-bottom: 35px;
+  }
+
+  .Landing__20 h2{
+      font-size: 40px;
+      line-height: 52px;
+      font-weight: 900;     
+      text-align: center;
+      background:linear-gradient(to left, #5493FF,#F165AA);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  .Landing__20 p{
+      color:#666666;
+      font-size: 20px;
+      line-height: 26px;
+  }
+  
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__20 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+     
+  }
+  
+  .Landing__20 a.bg{
+    position: relative;
+      padding: 20px 51px;
+      color: #FFFFFF; 
+      background-image: linear-gradient(to right,#F165AA 0%,#5493FF 51%, #F165AA 100%);
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 10px;
+      font-size: 24px;
+      
+    }
+
+  
+  .Landing__20 a.bg svg{
+      font-size: 28px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #FFFFFF; 
+  }
+  
+  .Landing__20 a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+  }
+   
+  .Landing__20__section_gaps{
+      margin-top: 100px;
+  }
+ 
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+.Landing__20__bg_div{
+    background-image: url('../../public/images/landing-20/bg.png');
+    padding: 50px 0px 180px 0px;
+    background-size:cover;
+}
+
+.Landing__20__BannerTxt h4{
+    font-size: 32px;
+    line-height: 47px;
+    color:#5B4B53;
+    text-decoration: line-through;
+    
+}
+
+.Landing__20__BannerTxt h3{
+    font-size: 48px;
+    line-height: 74px;
+    color:#EA4CB9;
+    font-weight: 900;
+    padding-top: 35px;
+    padding-bottom: 56px;
+    
+}
+  
+.Landing__20__RelText{
+    position: relative;
+    
+}
+
+.Landing__20__BannerLinkimgBox{
+    position: relative;
+}
+
+.Landing__20__BannerTxtimg1{
+    position: absolute;
+    width: 270px;
+    margin-left: -10px;
+    margin-top:-5px;
+    z-index: 0;
+    height: 85px;
+}
+
+.Landing__20__AbsB_Box{
+    position: absolute;
+    top:-80px;
+    left: 340px;
+    display: flex;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+
+.Landing__20__BannerTxt h5{
+   font-size: 32px;
+   background:linear-gradient(to left, #5493FF,#F165AA);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   position: relative;
+   font-weight: 600;
+  }
+
+ .Landing__20__AbsB_Box img{
+    position: absolute;
+    left: -80px;
+    top:-45px;
+ 
+  }
+
+
+/* Col--2 */
+
+.Landing__20__Col_2Rel{
+    position: relative;
+}
+
+
+.Landing__20__img2BagAbs{
+    position: absolute;
+    top:-60px;
+    left:80px;
+    width: 115%;
+}
+ 
+/* ================================================================================================
+          Product details
+  ===================================================================================================*/
+
+  .ProductDetails{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+  }
+ 
+  .ProductDetails img{
+       margin: 12px;
+  }
+ 
+/* ================================================================================================
+           price Template 1
+  ===================================================================================================*/
+
+  .priceTemplate1{
+    background-image: url('../../public/images/landing-20/img3.png');
+    padding: 0px 0px 0px 0px;
+    background-size:cover;
+  }
+
+
+  .Landing__20 .Landing__20__Order {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__20__OrderImg img{
+    height: 434px;
+  }
+
+  .Landing__20__OrderAbs{
+      position: absolute;
+      text-align: center;
+  }
+
+  .Landing__20__OrderAbs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#EA4CB9;
+      font-weight: 900;
+  }
+
+  .Landing__20__OrderAbs h5{
+      font-size: 20px;
+      line-height: 26px;
+      color:#000000;
+      margin: 30px 0px;
+
+  }
+ 
+/* ================================================================================================
+           Watch Factors
+  ===================================================================================================*/
+.WatchFactors{
+    background-color:#FFF1FB;
+    padding-top: 68px;
+    padding-bottom: 94px;
+}
+
+.WatchFactorsTxt h2{
+    padding-top: 18px;
+    text-align: left;
+}
+.WatchFactorsTxt li{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.WatchFactorsTxt p{
+    font-size: 30px;
+    line-height: 39px;
+    color:#BB4F9A;
+    display: inline;
+}
+
+.Landing__20 .WatchFactorsTxt li img{
+    margin-right: 10px;
+    height: 30px;
+ 
+}
+ 
+/* Col--- */
+
+.WatchFactorsImgBox {
+   position: relative;
+}
+
+.WatchFactorsImgBox .WatchFactorsLinkDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background:linear-gradient(to left, #5493FF,#F165AA);
+    text-align: center;
+    margin-left: 10%;
+    height: 145px;
+}
+
+.WatchFactorsImgBox a{
+    font-size: 34px;
+    line-height: 41px;
+    color:#FFFFFF;
+    bottom:0;
+    right: 0;
+    display: block;
+    font-weight: 300;
+}
+
+.WatchFactorsImgBox img{
+ width: 120%;
+}
+
+
+/* ================================================================================================
+              Slider
+  ===================================================================================================*/
+
+  
+  .Landing__20__Slider_CardDiv{
+    position: relative;
+    text-align: center;
+  
+  }
+  
+  .Landing__20__Slider_CardDivImg{
+    width: 100%;
+  }
+
+ .Landing__20__Slider_CardDivImg:hover{
+    background:linear-gradient(to left, #5493FF,#F165AA);
+    color:#FFF;
+  }
+  
+  .Landing__20__Slider_CardDiv h4{
+    font-size: 30px;
+    line-height: 36px;
+    color:#221B1F;
+    padding: 17px 0px 15px 0px;
+    font-weight: 300 !important;
+    text-align: center;
+
+  }
+
+  .Landing__20__Slider_CardDiv h4:hover{
+
+    background:linear-gradient(to left, #5493FF,#F165AA);
+    color:#FFF;
+
+  }
+  
+  .Landing__20__SliderAbs1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 28%;
+  }
+  .Landing__20__SliderAbs2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 28%;
+  }
+  
+  .Landing__20__SliderImgL{
+      margin-top: 70px;
+  }
+  
+  
+  .Landing__20__SliderIconDiv2{
+    position: relative;
+  
+  }
+
+  
+  .Landing__20__SliderIcon1{
+    position: absolute;
+    top:-220px;
+    left: -25px;
+    background: none;
+    font-size: 28px;
+    color:#FFF;
+    width: 45px;
+    background:linear-gradient(to left, #5493FF,#F165AA);
+    z-index: 2;
+    border-radius: 100px;
+  }
+  
+  .Landing__20__SliderIcon2{
+    position: absolute;
+    top:-220px;
+    right: -25px;
+    background: none;
+    font-size: 28px;
+    color:#FFF;
+    width: 45px;
+    background:linear-gradient(to left, #5493FF,#F165AA);
+    z-index: 2;
+    border-radius: 100px;
+
+  }
+
+
+/* ================================================================================================
+            Shipping
+  ===================================================================================================*/
+.Landing__20__ShippingDiv{
+    background:linear-gradient(to left, #DE93B8,#9EB6DF);
+    padding: 56px 0px 148px 0px;
+    clip-path: polygon(0 0, 81% 0, 89% 100%, 0 100%);
+}
+
+.Landing__20__ShippingCon{
+    padding: 0;
+}
+ 
+/* ================================================================================================
+            Video
+  ===================================================================================================*/
+.Landing__20__Video{
+    position: relative;
+    margin-top: -80px;
+}
+
+ 
+/* ================================================================================================
+            OrderTemplate2
+  ===================================================================================================*/
+
+.OrderTemplate2{
+    background-image: url('../../public/images/landing-20/img15.png');
+    padding: 200px 0px 200px 0px;
+    background-size:cover;
+}
+ 
+
+.Landing__20 .Landing__20__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+ 
+
+  .Landing__20__Order2Abs{
+      position: absolute;
+      text-align: center;
+  }
+
+  .Landing__20__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#EA4CB9;
+      font-weight: 900;
+  }
+
+  .Landing__20__Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#000;
+      margin: 30px 0px;
+
+  }
+
+
+/* ================================================================================================
+           watch Type
+  ===================================================================================================*/
+.watchType{
+    background-image: url('../../public/images/landing-20/img25.png');
+    padding: 226px 0px 0px 0px;
+    background-size:cover;
+}
+
+.watchTypeTxtDiv {
+   text-align: center;
+
+}
+
+
+.watchTypeUlDiv  li{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.watchTypeUlDiv  p{
+    font-size: 30px;
+    line-height: 39px;
+    color:#BB4F9A;
+    display: inline;
+}
+
+.Landing__20 .watchTypeUlDiv li img{
+    margin-right: 10px;
+    height: 30px;
+}
+
+.watchTypeImgwatch {
+    margin-top: 40px;
+    text-align: center;
+       
+}
+.watchTypeImgwatch img{
+      width: 60%;
+}
+ 
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+ 
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
