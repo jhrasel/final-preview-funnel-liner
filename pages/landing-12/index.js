@@ -34,9 +34,9 @@ const index = () => {
 
     const swiperRef = useRef();
 
-  return (
+    return (
 
-    <section className="Landing__12">
+        <section className="Landing__12">
 
             {/* =========================================================================================================
                    Banner One 
@@ -46,71 +46,71 @@ const index = () => {
 
                 <div className="bgImgBox">
 
-                <div className="LogoBox">
+                    <div className="LogoBox">
 
-                    <Menubar logoImage={landingImageUrl}></Menubar>
+                        <Menubar logoImage={landingImageUrl}></Menubar>
 
-                </div>
+                    </div>
 
-                <Container>
+                    <Container>
 
-                    <Row className="BannerRow">
+                        <Row className="BannerRow">
 
-                        <Col xs={12} md={12} lg={6}>
+                            <Col xs={12} md={12} lg={6}>
 
-                            <div className="Bannertxtbox">
+                                <div className="Bannertxtbox">
 
-                                <h1>
-                                    {" "}
-                                    ড্রাই ফ্রুটের অনন্য স্বাদ আর ন্যাচারাল হানির পুষ্টিকর গুন
-                                    এখন এক জায়গায়{" "}
-                                </h1>
+                                    <h1>
+                                        {" "}
+                                        ড্রাই ফ্রুটের অনন্য স্বাদ আর ন্যাচারাল হানির পুষ্টিকর গুন
+                                        এখন এক জায়গায়{" "}
+                                    </h1>
 
-                                <h4>
-                                    হানি বি <span>এর সাথে !</span>
-                                </h4>
+                                    <h4>
+                                        হানি বি <span>এর সাথে !</span>
+                                    </h4>
 
-                                <Link className="Btnbg" href="#placeAnOrder">
-                                    অর্ডার করুন
-                                </Link>
+                                    <Link className="Btnbg" href="#placeAnOrder">
+                                        অর্ডার করুন
+                                    </Link>
 
-                                <h5>১২০০ টাকা</h5>
+                                    <h5>১২০০ টাকা</h5>
 
-                            </div>
+                                </div>
 
-                        </Col>
+                            </Col>
 
-                        {/* col---- */}
+                            {/* col---- */}
 
-                        <Col xs={12} md={12} lg={6} className="BannerImgDiv">
+                            <Col xs={12} md={12} lg={6} className="BannerImgDiv">
 
-                            <div className="Banner2Rel">
+                                <div className="Banner2Rel">
+
+                                    <img
+                                        className="BannerMAbsImg"
+                                        src="/images/landing-12/img20.svg"
+                                        alt="img"
+                                    />
+
+                                    <img
+                                        className="BannerMAbsImg2"
+                                        src="/images/landing-12/img21.svg"
+                                        alt="img"
+                                    />
+
+                                </div>
 
                                 <img
-                                    className="BannerMAbsImg"
-                                    src="/images/landing-12/img20.svg"
+                                    className="BannerImg"
+                                    src="/images/landing-12/img1.png"
                                     alt="img"
                                 />
 
-                                <img
-                                    className="BannerMAbsImg2"
-                                    src="/images/landing-12/img21.svg"
-                                    alt="img"
-                                />
+                            </Col>
 
-                            </div>
+                        </Row>
 
-                                <img
-                                className="BannerImg"
-                                src="/images/landing-12/img1.png"
-                                alt="img"
-                                />
-
-                        </Col>
-
-                    </Row>
-
-                </Container>
+                    </Container>
 
                 </div>
 
@@ -124,11 +124,11 @@ const index = () => {
 
                 <div className="Banner2Rel">
 
-                <img
-                    className="Banner2AbsImg"
-                    src="/images/landing-12/img2.png"
-                    alt="img"
-                />
+                    <img
+                        className="Banner2AbsImg"
+                        src="/images/landing-12/img2.png"
+                        alt="img"
+                    />
 
                 </div>
 
@@ -138,14 +138,14 @@ const index = () => {
 
                         <Col xs={12} md={12} lg={6}>
 
-                                <div className="section_gap"></div>
+                            <div className="section_gap"></div>
 
                             <div className="Banner2txtbox">
-                                    
-                                    <h2 className="Banner2txth2">
+
+                                <h2 className="Banner2txth2">
                                     কেনো হানি বি থেকে প্রাকৃতিক হানি নাট কম্বো নিবেন ?
-                                    </h2>
-                                    <ul>
+                                </h2>
+                                <ul>
                                     <li>
                                         <img src="/images/landing-12/img7.svg" alt="img" />
                                         <p> আমাদের এই মধু প্রাকৃতিক চাক থেকে সংগৃহীত। </p>
@@ -159,8 +159,8 @@ const index = () => {
                                     <li>
                                         <img src="/images/landing-12/img7.svg" alt="img" />
                                         <p>
-                                        মধু সংগ্রহ থেকে প্যাকেজিং পর্যন্ত কার্যাবলী নিজস্ব
-                                        তত্ত্বাবধানে সম্পন্ন করা হয়।
+                                            মধু সংগ্রহ থেকে প্যাকেজিং পর্যন্ত কার্যাবলী নিজস্ব
+                                            তত্ত্বাবধানে সম্পন্ন করা হয়।
                                         </p>
                                     </li>
 
@@ -168,7 +168,7 @@ const index = () => {
                                         <img src="/images/landing-12/img7.svg" alt="img" />
                                         <p> বেস্ট ড্রাই ফ্রুট এর কম্বিনেশন দিয়ে তৈরি করা। </p>
                                     </li>
-                                    </ul>
+                                </ul>
 
                             </div>
 
@@ -179,17 +179,17 @@ const index = () => {
                         <Col xs={12} md={12} lg={6}>
 
                             <div className="Banner2imgbox">
-                                
+
                                 <img
-                                className="Banner2imgRel"
-                                src="/images/landing-12/img3.png"
-                                alt="img"
+                                    className="Banner2imgRel"
+                                    src="/images/landing-12/img3.png"
+                                    alt="img"
                                 />
 
                                 <img
-                                className="Banner2imgAbs"
-                                src="/images/landing-12/img19.png"
-                                alt="img"
+                                    className="Banner2imgAbs"
+                                    src="/images/landing-12/img19.png"
+                                    alt="img"
                                 />
 
                                 <div className="Container_gap"></div>
@@ -223,29 +223,29 @@ const index = () => {
                             loop={true}
                             breakpoints={{
                                 240: {
-                                slidesPerView: 2,
-                                slidesPerGroup: 2,
-                                spaceBetween: 0,
+                                    slidesPerView: 2,
+                                    slidesPerGroup: 2,
+                                    spaceBetween: 0,
                                 },
                                 768: {
-                                slidesPerView: 3,
-                                slidesPerGroup: 3,
-                                spaceBetween: 20,
+                                    slidesPerView: 3,
+                                    slidesPerGroup: 3,
+                                    spaceBetween: 20,
                                 },
                                 1024: {
-                                slidesPerView: 3,
-                                slidesPerGroup: 3,
-                                spaceBetween: 30,
+                                    slidesPerView: 3,
+                                    slidesPerGroup: 3,
+                                    spaceBetween: 30,
                                 },
                             }}
-                            >
+                        >
 
                             {/* item */}
                             <SwiperSlide className="SliderImg">
 
                                 <Link href="#">
 
-                                <img src="/images/landing-12/img4.png" alt="img"></img>
+                                    <img src="/images/landing-12/img4.png" alt="img"></img>
 
                                 </Link>
 
@@ -256,7 +256,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                <img src="/images/landing-12/img5.png" alt="img"></img>
+                                    <img src="/images/landing-12/img5.png" alt="img"></img>
 
                                 </Link>
 
@@ -267,7 +267,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                <img src="/images/landing-12/img6.png" alt="img"></img>
+                                    <img src="/images/landing-12/img6.png" alt="img"></img>
 
                                 </Link>
 
@@ -278,7 +278,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                <img src="/images/landing-12/img4.png" alt="img"></img>
+                                    <img src="/images/landing-12/img4.png" alt="img"></img>
 
                                 </Link>
 
@@ -289,7 +289,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                <img src="/images/landing-12/img5.png" alt="img"></img>
+                                    <img src="/images/landing-12/img5.png" alt="img"></img>
 
                                 </Link>
 
@@ -300,7 +300,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                <img src="/images/landing-12/img6.png" alt="img"></img>
+                                    <img src="/images/landing-12/img6.png" alt="img"></img>
 
                                 </Link>
 
@@ -318,25 +318,25 @@ const index = () => {
 
             <div className="section_gap"></div>
 
-                <Container>
+            <Container>
 
-                    <Video></Video>
+                <Video></Video>
 
-                </Container>
+            </Container>
 
-            
+
             {/* section Gap */}
 
             <div className="section_gap"></div>
 
-         {/* =========================================================================================================
+            {/* =========================================================================================================
                    Banner Three 
             =============================================================================================================*/}
 
             <section>
 
                 <div className="Banner2Rel">
-                    
+
                     <img
                         className="Banner3AbsImg"
                         src="/images/landing-12/img8.png"
@@ -356,15 +356,15 @@ const index = () => {
                             <div className="Banner2imgbox">
 
                                 <img
-                                className="Banner2imgRel"
-                                src="/images/landing-12/img9.png"
-                                alt="img"
+                                    className="Banner2imgRel"
+                                    src="/images/landing-12/img9.png"
+                                    alt="img"
                                 />
 
                                 <img
-                                className="Banner2imgAbs Banner2imgAbs2"
-                                src="/images/landing-12/img10.png"
-                                alt="img"
+                                    className="Banner2imgAbs Banner2imgAbs2"
+                                    src="/images/landing-12/img10.png"
+                                    alt="img"
                                 />
 
                                 <div className="Container_gap"></div>
@@ -379,7 +379,7 @@ const index = () => {
 
                                 <h2 className="Banner2txth2">
 
-                                হানি নাট (মধু ও বাদাম) এর সব গুনাগুন ও কার্যকারিতা{" "}
+                                    হানি নাট (মধু ও বাদাম) এর সব গুনাগুন ও কার্যকারিতা{" "}
 
                                 </h2>
 
@@ -409,9 +409,9 @@ const index = () => {
                                         <img src="/images/landing-12/img7.svg" alt="img" />
 
                                         <p>
-                                        {" "}
-                                        র’ক্তে কো’লেস্টরেল কমানোর পাশাপাশি ক্যা’ন্সার সৃষ্টি হতে
-                                        বাধা দেয়।{" "}
+                                            {" "}
+                                            র’ক্তে কো’লেস্টরেল কমানোর পাশাপাশি ক্যা’ন্সার সৃষ্টি হতে
+                                            বাধা দেয়।{" "}
                                         </p>
                                     </li>
 
@@ -419,19 +419,9 @@ const index = () => {
                                         <img src="/images/landing-12/img7.svg" alt="img" />
 
                                         <p>
-                                        {" "}
-                                        কোলেস্টরেল, ব্লাড সুগার , মাইগ্রেন এবং উচ্চ রক্তচাপ
-                                        নিয়ন্ত্রণ করে।{" "}
-                                        </p>
-
-                                    </li>
-
-                                    <li>
-                                        <img src="/images/landing-12/img7.svg" alt="img" />
-
-                                        <p>
-                                        {" "}
-                                        শ’রীরের দু’র্বলতা দূর করে শা’রীরিক শক্তি বৃদ্ধি করে।{" "}
+                                            {" "}
+                                            কোলেস্টরেল, ব্লাড সুগার , মাইগ্রেন এবং উচ্চ রক্তচাপ
+                                            নিয়ন্ত্রণ করে।{" "}
                                         </p>
 
                                     </li>
@@ -440,9 +430,19 @@ const index = () => {
                                         <img src="/images/landing-12/img7.svg" alt="img" />
 
                                         <p>
-                                        {" "}
-                                        স্মৃতিশক্তি বৃদ্ধি করে, তীক্ষ্ণ মেধা সম্পন্ন হতে সাহায্য
-                                        করে।{" "}
+                                            {" "}
+                                            শ’রীরের দু’র্বলতা দূর করে শা’রীরিক শক্তি বৃদ্ধি করে।{" "}
+                                        </p>
+
+                                    </li>
+
+                                    <li>
+                                        <img src="/images/landing-12/img7.svg" alt="img" />
+
+                                        <p>
+                                            {" "}
+                                            স্মৃতিশক্তি বৃদ্ধি করে, তীক্ষ্ণ মেধা সম্পন্ন হতে সাহায্য
+                                            করে।{" "}
                                         </p>
 
                                     </li>
@@ -456,12 +456,12 @@ const index = () => {
 
                 <div className="Banner2Rel">
 
-                {/* <img className="Banner3AbsImg} src="/images/landing-12/img8.png" alt="img" /> */}
-                <img
-                    className="Banner3AbsImg2"
-                    src="/images/landing-12/img11.png"
-                    alt="img"
-                />
+                    {/* <img className="Banner3AbsImg} src="/images/landing-12/img8.png" alt="img" /> */}
+                    <img
+                        className="Banner3AbsImg2"
+                        src="/images/landing-12/img11.png"
+                        alt="img"
+                    />
                 </div>
 
             </section>
@@ -469,36 +469,36 @@ const index = () => {
             <div className="section_gap section_gapNone"></div>
 
 
-      {/* =========================================================================================================
+            {/* =========================================================================================================
                    Banner Four
             =============================================================================================================*/}
 
-        <Container fluid>
+            <Container fluid>
 
-            <div className="Banner4txth2">
+                <div className="Banner4txth2">
 
-                <img src="/images/landing-12/img12.png" alt="" />
+                    <img src="/images/landing-12/img12.png" alt="" />
 
-                <div className="Banner4txtbox Bannertxtbox">
+                    <div className="Banner4txtbox Bannertxtbox">
 
                         <h5>১২০০ টাকা</h5>
 
                         <p>সারা দেশে ফ্রি হোম ডেলিভারি</p>
 
                         <Link className="Btnbg" href="#placeAnOrder">
-                        অর্ডার করুন
+                            অর্ডার করুন
                         </Link>
+
+                    </div>
 
                 </div>
 
-            </div>
+            </Container>
 
-        </Container>
+            {/* section Gap */}
+            <div className="section_gap"></div>
 
-      {/* section Gap */}
-      <div className="section_gap"></div>
-
-      {/* =========================================================================================================
+            {/* =========================================================================================================
                             Slider-2   LandingSixteen1 Component 
         =============================================================================================================*/}
 
@@ -524,22 +524,22 @@ const index = () => {
                             loop={true}
                             breakpoints={{
                                 240: {
-                                slidesPerView: 2,
-                                slidesPerGroup: 2,
-                                spaceBetween: 0,
+                                    slidesPerView: 2,
+                                    slidesPerGroup: 2,
+                                    spaceBetween: 0,
                                 },
                                 768: {
-                                slidesPerView: 3,
-                                slidesPerGroup: 3,
-                                spaceBetween: 0,
+                                    slidesPerView: 3,
+                                    slidesPerGroup: 3,
+                                    spaceBetween: 0,
                                 },
                                 1024: {
-                                slidesPerView: 4,
-                                slidesPerGroup: 4,
-                                spaceBetween: 0,
+                                    slidesPerView: 4,
+                                    slidesPerGroup: 4,
+                                    spaceBetween: 0,
                                 },
                             }}
-                            >
+                        >
 
                             {/* item */}
                             <SwiperSlide className="SliderImg">
@@ -558,7 +558,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                     <img src="/images/landing-12/img14.png" alt="img"></img>
+                                    <img src="/images/landing-12/img14.png" alt="img"></img>
 
                                 </Link>
 
@@ -570,7 +570,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                     <img src="/images/landing-12/img15.png" alt="img"></img>
+                                    <img src="/images/landing-12/img15.png" alt="img"></img>
 
                                 </Link>
 
@@ -582,7 +582,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                     <img src="/images/landing-12/img16.png" alt="img"></img>
+                                    <img src="/images/landing-12/img16.png" alt="img"></img>
 
                                 </Link>
 
@@ -593,7 +593,7 @@ const index = () => {
 
                                 <Link href="#">
 
-                                  <img src="/images/landing-12/img13.png" alt="img"></img>
+                                    <img src="/images/landing-12/img13.png" alt="img"></img>
 
                                 </Link>
 
@@ -623,276 +623,276 @@ const index = () => {
 
             <div className="section_gap"></div>
 
-          {/* =========================================================================================================
-                            LandingSixteen2 Component
+            {/* =========================================================================================================
+                LandingSixteen2 Component
               =============================================================================================================*/}
 
-      <section>
+            <section>
 
-        <Container>
+                <Container>
 
-            <Row className="BannerRow">
+                    <Row className="BannerRow">
 
-                {/* col---- */}
+                        {/* col---- */}
 
-                <Col xs={12} md={12} lg={6}>
+                        <Col xs={12} md={12} lg={6}>
 
-                    <img
-                        className="LoveImg"
-                        src="/images/landing-12/img17.png"
-                        alt="img"
-                    />
+                            <img
+                                className="LoveImg"
+                                src="/images/landing-12/img17.png"
+                                alt="img"
+                            />
 
-                </Col>
+                        </Col>
 
-                <Col xs={12} md={12} lg={6}>
-                    
-                    <div className="LoveTextBox">
+                        <Col xs={12} md={12} lg={6}>
 
-                        <h2>
-                        {" "}
-                        সুস্থ সবল জীবনযাপন করতে আর শারীরিক শক্তি বৃদ্ধি করতে অর্ডার
-                        করুন আজই{" "}
-                        </h2>
+                            <div className="LoveTextBox">
 
-                        <h5>১২০০ টাকা</h5>
+                                <h2>
+                                    {" "}
+                                    সুস্থ সবল জীবনযাপন করতে আর শারীরিক শক্তি বৃদ্ধি করতে অর্ডার
+                                    করুন আজই{" "}
+                                </h2>
 
-                        <Link className="Btnbg" href="#placeAnOrder">
-                        অর্ডার করুন
-                        </Link>
+                                <h5>১২০০ টাকা</h5>
 
-                    </div>
+                                <Link className="Btnbg" href="#placeAnOrder">
+                                    অর্ডার করুন
+                                </Link>
 
-                </Col>
+                            </div>
 
-            </Row>
+                        </Col>
 
-        </Container>
+                    </Row>
 
-      </section>
+                </Container>
+
+            </section>
 
 
-      <section className="section_gap"></section>
+            <section className="section_gap"></section>
 
-         {/* -------------------------------------------------------------------------------------------
+            {/* -------------------------------------------------------------------------------------------
                             CustomerReview
         -----------------------------------------------------------------------------------------------*/}
 
 
-        <CustomerReview></CustomerReview>    
+            <CustomerReview></CustomerReview>
 
 
 
 
             {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                     OrderConfirmFrom
+                OrderConfirmFrom
               ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-        
-        
-        <section className="section_gap"></section>
 
 
-        <section id="placeAnOrder">
-
-            <Order></Order>
+            <section className="section_gap"></section>
 
 
-        </section>
+            <section id="placeAnOrder">
 
-        {/* section Gap */}
-
-        <div className="section_gap"></div>
+                <Order></Order>
 
 
-        {/* =========================================================================================================
+            </section>
+
+            {/* section Gap */}
+
+            <div className="section_gap"></div>
+
+
+            {/* =========================================================================================================
                    Footer
         =============================================================================================================*/}
-     
-      <section>
 
-        <Container fluid className="ContainerPad">
+            <section>
 
-          <div className="FooterBg">
+                <Container fluid className="ContainerPad">
 
-            <Container>
+                    <div className="FooterBg">
 
-              <Row>
+                        <Container>
 
-                <div className="LogoBox">
+                            <Row>
 
-                  <img src="/images/landing-12/logo.svg" alt="Img" />
+                                <div className="LogoBox">
 
-                </div>
+                                    <img src="/images/landing-12/logo.svg" alt="Img" />
 
-                <Col sm={12} md={6} lg={3}>
+                                </div>
 
-                    <div className="FooterBgTxtBox">
+                                <Col sm={12} md={6} lg={3}>
 
-                        <h4>Contact Us</h4>
+                                    <div className="FooterBgTxtBox">
 
-                        <ul>
+                                        <h4>Contact Us</h4>
 
-                        <li>
+                                        <ul>
 
-                            <Link href="#">
+                                            <li>
 
-                            <FiPhoneCall></FiPhoneCall>
-                            +8801894844452
+                                                <Link href="#">
 
-                            </Link>
+                                                    <FiPhoneCall></FiPhoneCall>
+                                                    +8801894844452
 
-                        </li>
+                                                </Link>
 
-                        <li>
+                                            </li>
 
-                            <Link href="#">
+                                            <li>
 
-                                <IoIosMail></IoIosMail>
+                                                <Link href="#">
 
-                                support@funnelliner.com
+                                                    <IoIosMail></IoIosMail>
 
-                            </Link>
+                                                    support@funnelliner.com
 
-                        </li>
+                                                </Link>
 
-                        </ul>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </Col>
+
+                                {/* Col----- */}
+
+                                <Col sm={12} md={6} lg={3}>
+
+                                    <div className="FooterBgTxtBox">
+
+                                        <h4>Important Link</h4>
+
+                                        <ul>
+
+                                            <li>
+
+                                                <Link href="#">
+
+                                                    <VscDebugBreakpointData></VscDebugBreakpointData>
+
+                                                    Refund Policy
+
+                                                </Link>
+
+                                            </li>
+
+                                            <li>
+
+                                                <Link href="#">
+
+                                                    <VscDebugBreakpointData></VscDebugBreakpointData>
+
+                                                    Privacy Policy
+
+                                                </Link>
+
+                                            </li>
+
+                                            <li>
+
+                                                <Link href="#">
+                                                    <VscDebugBreakpointData></VscDebugBreakpointData>
+                                                    Terms and Conditions
+                                                </Link>
+
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </Col>
+
+                                {/* Col----- */}
+
+                                <Col sm={12} md={6} lg={4}>
+
+                                    <div className="FooterBgTxtBox">
+
+                                        <h4>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
+
+                                        <h5>+8801894844452</h5>
+
+                                    </div>
+
+                                    <div className="SocialIconBox">
+
+                                        <Link href="#">
+                                            {" "}
+                                            <BsFacebook />{" "}
+                                        </Link>
+
+                                        <Link href="#">
+                                            {" "}
+                                            <BsInstagram />{" "}
+                                        </Link>
+
+                                        <Link href="#">
+                                            {" "}
+                                            <BsYoutube />{" "}
+                                        </Link>
+
+                                    </div>
+
+                                </Col>
+
+                                {/* Col----- */}
+
+                                <Col sm={12} md={6} lg={2}>
+
+                                    <div className="FooterBgTxtBox">
+
+                                        <img src="/images/landing-12/img19.png" alt="" />
+
+                                    </div>
+
+                                </Col>
+
+                                {/* Col----- */}
+
+                                <TinyFooter></TinyFooter>
+
+
+
+                                <div className="Banner2Rel">
+
+                                    <img
+                                        className="BannerMAbsImgAll"
+                                        src="/images/landing-12/img20.svg"
+                                        alt="img"
+                                    />
+
+                                    <img
+                                        className="BannerMAbsImgAll2"
+                                        src="/images/landing-12/img21.svg"
+                                        alt="img"
+                                    />
+                                </div>
+
+                            </Row>
+
+                        </Container>
 
                     </div>
 
-                </Col>
+                </Container>
 
-                {/* Col----- */}
+            </section>
 
-                <Col sm={12} md={6} lg={3}>
+            {/* =========================================================================================================
+            Banner One 
+        =============================================================================================================*/}
 
-                  <div className="FooterBgTxtBox">
+        </section>
 
-                    <h4>Important Link</h4>
-
-                    <ul>
-
-                      <li>
-
-                        <Link href="#">
-
-                          <VscDebugBreakpointData></VscDebugBreakpointData>
-
-                          Refund Policy
-
-                        </Link>
-
-                      </li>
-
-                      <li>
-
-                        <Link href="#">
-
-                          <VscDebugBreakpointData></VscDebugBreakpointData>
-
-                          Privacy Policy
-
-                        </Link>
-
-                      </li>
-
-                      <li>
-
-                        <Link href="#">
-                          <VscDebugBreakpointData></VscDebugBreakpointData>
-                          Terms and Conditions
-                        </Link>
-
-                      </li>
-                      
-                    </ul>
-
-                  </div>
-
-                </Col>
-
-                {/* Col----- */}
-
-                <Col sm={12} md={6} lg={4}>
-
-                  <div className="FooterBgTxtBox">
-
-                    <h4>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
-
-                    <h5>+8801894844452</h5>
-
-                  </div>
-
-                  <div className="SocialIconBox">
-
-                    <Link href="#">
-                      {" "}
-                      <BsFacebook />{" "}
-                    </Link>
-
-                    <Link href="#">
-                      {" "}
-                      <BsInstagram />{" "}
-                    </Link>
-
-                    <Link href="#">
-                      {" "}
-                      <BsYoutube />{" "}
-                    </Link>
-
-                  </div>
-
-                </Col>
-
-                {/* Col----- */}
-
-                <Col sm={12} md={6} lg={2}>
-
-                  <div className="FooterBgTxtBox">
-
-                    <img src="/images/landing-12/img19.png" alt="" />
-
-                  </div>
-
-                </Col>
-
-                {/* Col----- */}
-
-                <TinyFooter></TinyFooter>
-
-
-
-                <div className="Banner2Rel">
-
-                  <img
-                    className="BannerMAbsImgAll"
-                    src="/images/landing-12/img20.svg"
-                    alt="img"
-                  />
-
-                  <img
-                    className="BannerMAbsImgAll2"
-                    src="/images/landing-12/img21.svg"
-                    alt="img"
-                  />
-                </div>
-
-              </Row>
-
-            </Container>
-
-          </div>
-
-        </Container>
-
-      </section>
-
-      {/* =========================================================================================================
-                   Banner One 
-               =============================================================================================================*/}
-    
-    </section>
-
-  );
+    );
 };
 
- export default index ;
+export default index;

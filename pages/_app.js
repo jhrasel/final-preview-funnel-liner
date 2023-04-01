@@ -49,6 +49,12 @@ import '../styles/landing-pages-css/landing-16.css';
 
 import '../styles/landing-pages-css/landing-17.css';
 
+import '../styles/landing-pages-css/landing-18.css';
+
+import '../styles/landing-pages-css/landing-19.css';
+
+import '../styles/landing-pages-css/landing-20.css';
+
 
 
 

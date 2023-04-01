@@ -11,7 +11,7 @@ const ShippingAddress = (props) => {
 
     <>
 
-        <section className='ShippingAddress'>
+        <div className='ShippingAddress'>
 
             <Container>
 
@@ -89,7 +89,7 @@ const ShippingAddress = (props) => {
 
             </Container>
 
-        </section>
+        </div>
       
     </>
 
