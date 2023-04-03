@@ -7,8 +7,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 // icon
 
-import { AiOutlineShoppingCart} from 'react-icons/ai';
-import { SlArrowLeft,SlArrowRight } from "react-icons/sl";
+import { AiOutlineShoppingCart,AiOutlineMail} from 'react-icons/ai';
+import { BiPhoneCall } from "react-icons/bi";
 import { HiOutlineArrowSmallLeft,HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 
@@ -110,8 +110,6 @@ const index = () => {
 
                     </Row>
 
-
-                    
                 </Container>
 
             </div>
@@ -160,33 +158,32 @@ const index = () => {
         <section>
 
             <div className='priceTemplate1'>
-
                 
-            <Container>
+                <Container>
 
-                <div className='Landing__20__Order'>
+                    <div className='Landing__20__Order'>
 
-                    <img className='Landing__20__OrderImg' src="/images/landing-20/img4.png" alt="" />
+                        <img className='Landing__20__OrderImg' src="/images/landing-20/img4.png" alt="" />
 
-                    <div className='Landing__20__OrderAbs'>
+                        <div className='Landing__20__OrderAbs'>
 
-                        <h4>মুল্য-550.00 টাকা</h4>
+                            <h4>মুল্য-550.00 টাকা</h4>
 
-                        <h5>সরাসরি অর্ডার করতে পারেন আমাদের অনলাইন শপ থেকে।</h5>
+                            <h5>সরাসরি অর্ডার করতে পারেন আমাদের অনলাইন শপ থেকে।</h5>
 
-                            <div className='Landing__20__BannerLinkimgBox'>
+                                <div className='Landing__20__BannerLinkimgBox'>
 
-                                <img  className='Landing__20__BannerTxtimg1' src="/images/landing-20/img24.png" alt="" />
+                                    <img  className='Landing__20__BannerTxtimg1' src="/images/landing-20/img24.png" alt="" />
 
-                                <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+                                    <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
 
-                            </div>
+                                </div>
+
+                        </div>
 
                     </div>
 
-                </div>
-
-            </Container>
+                </Container>
 
             </div>
 
@@ -521,7 +518,6 @@ const index = () => {
         </section>
 
         
-
         {/* =======================================================================================
                     watch Type
         ============================================================================================*/}
@@ -540,7 +536,7 @@ const index = () => {
 
                 <Row>
                     
-                    <Col sm={12} md={4}>
+                    <Col sm={12} md={6} lg={4}>
                     
                         <div className='watchTypeUlDiv'>
 
@@ -566,7 +562,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col sm={12} md={4}>
+                    <Col sm={12}  md={6} lg={4}>
                     
                         <div className='watchTypeUlDiv'>
 
@@ -592,7 +588,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col sm={12} md={4}>
+                    <Col sm={12}  md={6} lg={4}>
                     
                         <div className='watchTypeUlDiv'>
 
@@ -639,6 +635,152 @@ const index = () => {
         <CustomerReview></CustomerReview>    
 
         <div className='Landing__20__section_gaps'></div> 
+
+        {/* =======================================================================================
+                    Order Template 3
+        ============================================================================================*/}
+
+        <section className='OrderTemplate3'>
+
+            <img  className='OrderTemplate3AbsImg1' src="/images/landing-20/img19.png" alt="" />
+
+            <img className='OrderTemplate3AbsImg2' src="/images/landing-20/img18.png" alt="" />
+
+            <Container>
+
+                
+                <div className='Landing__20__Order3'>
+
+                    <img className='Landing__20__Order3TemImg' src="/images/landing-20/img17.png" alt="" />
+
+                    <div className='Landing__20__Order3Abs'>
+
+                        <h4>মুল্য-550.00 টাকা</h4>
+
+                        <h3>
+                            50 
+                            <span className='Landing__20__spanOdr1' >%</span > 
+                            <span className='Landing__20__spanOdr2'>OFF</span>
+                        </h3>
+
+                        <h5>সরাসরি অর্ডার করতে পারেন আমাদের<br/> অনলাইন শপ থেকে।</h5>
+
+                        <div className='Landing__20__BannerLinkimgBox'>
+
+                            <img  className='Landing__20__BannerTxtimg1' src="/images/landing-20/img24.png" alt="" />
+
+                            <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+        </section>
+
+
+        <div className='Landing__20__section_gaps'></div> 
+
+        {/* =======================================================================================
+                    Place In Order
+        ============================================================================================*/}
+
+        <section className='Landing__20__PlaceInOrder'>
+
+             <Container>
+
+                <div className='Landing__20__PlaseInOdr'>
+
+                    <div id="placeAnOrder">
+                    
+                        <Order></Order>
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+
+        </section>
+
+
+        <div className='Landing__20__section_gaps'></div> 
+
+        {/* =======================================================================================
+                    Footer
+        ============================================================================================*/}
+
+        <section  className='.Landing__20__Footer'>
+
+            <Container>
+
+                <div className="Landing__20__FooterDiv">
+
+                    <div className="Landing__20__FooterCol">
+                        
+                        <h4>Important Link</h4>
+
+                        <h5><Link href="">Privacy Policy</Link></h5>
+
+                        <h5><Link href="">Terms and Conditions</Link></h5>
+
+                    </div>
+
+                    <div className="Landing__20__FooterCol">
+
+                        <h6>অর্ডার পেতে কল করুন এই নাম্বারে</h6>
+                        <h3>+8801799733234</h3>
+                        <SocialMedia></SocialMedia>
+
+                    </div>
+
+                    <div className="Landing__20__FooterCol">
+
+                        <h4>Contact Us</h4>
+
+                        <h5>
+                             <span>
+                                <BiPhoneCall></BiPhoneCall>
+                            </span>
+                            
+                            00 0392 96 32
+                        </h5>
+                        
+
+                        <h5>
+                            <span>
+                                 <AiOutlineMail></AiOutlineMail>
+                            </span>
+                           
+                            oder@freshen.com
+                        </h5>
+
+
+                     </div>
+
+
+                </div>
+
+
+                <div className="Landing__18_socialPad" >
+
+                        <TinyFooter></TinyFooter>
+
+                </div>
+
+            </Container>
+
+        </section>
+
+
+
+        <div className='Landing__20__section_gaps'></div> 
+
         {/* =======================================================================================
                     Banner
         ============================================================================================*/}
