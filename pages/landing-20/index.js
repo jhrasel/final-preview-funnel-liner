@@ -52,6 +52,7 @@ const index = () => {
         {/* =======================================================================================
                     Banner
         ============================================================================================*/}
+
         <section>
 
             <div className='Landing__20__bg_div'>
@@ -102,7 +103,7 @@ const index = () => {
                                 
                             <div className='Landing__20__Col_2Rel'>
 
-                                    <img  className='Landing__20__img2BagAbs' src="/images/landing-20/img.png" alt="" />
+                                <img  className='Landing__20__img2BagAbs' src="/images/landing-20/img.png" alt="" />
 
                             </div>
 
