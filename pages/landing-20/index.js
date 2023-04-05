@@ -768,7 +768,7 @@ const index = () => {
                 </div>
 
 
-                <div className="Landing__18_socialPad" >
+                <div className="Landing__20_socialPad" >
 
                         <TinyFooter></TinyFooter>
 

@@ -8,7 +8,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 // icon
 
 import { AiOutlineShoppingCart,AiOutlineMail} from 'react-icons/ai';
-import { BiPhoneCall } from "react-icons/bi";
+import { IoCallOutline} from "react-icons/io5";
+import {IoLocationSharp} from "react-icons/io5";
 import { HiOutlineArrowSmallLeft,HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 
@@ -33,10 +34,10 @@ import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
 
 // ShippingAddress Img
 
-import DelivaryImgUrl1 from '../../public/images/landing-20/img9.png'
-import DelivaryImgUrl2 from '../../public/images/landing-20/img10.png'
-import DelivaryImgUrl3 from '../../public/images/landing-20/img11.png'
-import DelivaryImgUrl4 from '../../public/images/landing-20/img12.png'
+import DelivaryImgUrl1 from '../../public/images/landing-21/img18.png'
+import DelivaryImgUrl2 from '../../public/images/landing-21/img19.png'
+import DelivaryImgUrl3 from '../../public/images/landing-21/img20.png'
+import DelivaryImgUrl4 from '../../public/images/landing-21/img21.png'
 
 
 const index = () => {
@@ -588,13 +589,13 @@ const index = () => {
             </section>
 
 
-            <div className='Landing__21__section_gaps'></div>  
+            {/* <div className='Landing__21__section_gaps'></div>   */}
 
         {/* =======================================================================================
                     Order Template 2
         ============================================================================================*/}
 
-        <section>
+        <section className='Landing__21__Order2Sec'>
 
             <Container>
 
@@ -612,9 +613,9 @@ const index = () => {
 
                         <div className='Landing__21__BannerLinkimgBox'>
 
-                            <img  className='Landing__21__BannerTxtimg1' src="/images/landing-21/img3.png" alt="" />
+                            <img  className='Landing__21__BannerTxtimg4' src="/images/landing-21/img3.png" alt="" />
 
-                            <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+                            <Link href='#placeAnOrder' className="bg bg4"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
 
                         </div>
 
@@ -627,25 +628,193 @@ const index = () => {
         </section>
 
 
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
-
-
+        <div className='Landing__21__section_gaps'></div>  
 
 
         {/* =======================================================================================
-                    Banner
+                   List Section
         ============================================================================================*/}
 
+        <section>
 
+            <Container>
+                    
+                <div className='Landing__21__CardUpTxt'>
+
+                    <h2>
+                        এছাড়াও কেন পরবেন আমাদের সোনার গয়না
+                    </h2>
+
+                    <img src="/images/landing-21/img4.png" alt="" />
+
+                </div>
+
+
+                <div className='Landing__21__Listdiv'>
+
+                    <ul>
+                        
+                        <li><img src="/images/landing-21/img17.png" alt="" /> 
+                            <h4>যদি আপনার রাশি হয় মেষ, কর্কট, সিংহ এবং ধনু, তাহলে আপনার জন্য সোনা পরা ভালো হবে।</h4>
+                        </li>
+
+                        <li><img src="/images/landing-21/img17.png" alt="" /> 
+                            <h4>সোনা পরলে রাজকীয় দিক থেকে সম্মান ও সহযোগিতা পাওয়া যায়।</h4>
+                        </li>
+
+                        <li><img src="/images/landing-21/img17.png" alt="" /> 
+                            <h4>আপনি যদি রোগা হন তবে আপনার সোনা পরা উচিত।</h4>
+                        </li>
+
+                        <li><img src="/images/landing-21/img17.png" alt="" /> 
+                            <h4>একাগ্রতা চাইলে তর্জনীতে সোনা পরুন।</h4>
+                        </li>
+
+                        <li><img src="/images/landing-21/img17.png" alt="" /> 
+                            <h4>বিবাহিত জীবনকে সুখী করতে চাইলে গলায় সোনার হার বা চেইন পরা উচিত।</h4>
+                        </li>
+
+                        <li><img src="/images/landing-21/img17.png" alt="" /> 
+                            <h4>সর্দি বা শ্বাসকষ্ট হলে কনিষ্ঠা আঙুলে সোনা পরুন।</h4>
+                        </li>
+
+                        <li><img src="/images/landing-21/img17.png" alt="" /> 
+                            <h4>সোনা পরলে গলা, কান, হাত, পা ও বুকের ব্যথা দূর হয়।</h4>
+                        </li>
+                        <li>
+                            <h4></h4>
+                        </li>
+
+                    </ul>
+                      
+                </div>
+                
+            </Container>
+
+        </section>
+
+
+        <div className='Landing__21__section_gaps'></div>  
+
+        {/* =======================================================================================
+                   Customer Review
+        ============================================================================================*/}
+
+                 <CustomerReview></CustomerReview>    
+
+
+        <div className='Landing__21__section_gaps'></div>  
+
+        {/* =======================================================================================
+                    Shipping Icon
+        ============================================================================================*/}
+
+        <section>
+
+        <Container fluid className='Landing__21__ShippingCon'>
+            
+                <div className='Landing__21__ShippingDiv'>
+
+                    <ShippingAddress
+                        DelivaryImage1={DelivaryImgUrl1}
+                        DelivaryImage2={DelivaryImgUrl2}
+                        DelivaryImage3={DelivaryImgUrl3}
+                        DelivaryImage4={DelivaryImgUrl4}
+                        DelivaryTitle1="বিশ্বব্যাপী ফ্রি শিপিং। " 
+                        DelivaryTitle2="100 ভাগ খাটিঁ " 
+                        DelivaryTitle3="শ্রেষ্ঠ মূল্য গ্যারান্টি।" 
+                        DelivaryTitle4="24/7 গ্রাহক সহায়তা" 
+                    />
+
+                </div>
+
+        </Container>
+
+        </section>
+
+        <div className='Landing__21__section_gaps'></div>  
+
+        {/* =======================================================================================
+                   Place in Order
+        ============================================================================================*/}
+
+        <section className='Landing__21__PlaceInOrder'>
+
+            <Container>
+
+                <div className='Landing__21__PlaseInOdr'>
+
+                    <div id="placeAnOrder">
+                    
+                        <Order></Order>
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+        </section>
 
 
         {/* =======================================================================================
-                    Banner
+                   Footer
         ============================================================================================*/}
 
+        <section className='Landing__21__Footersec'>
 
+                <Container>
+
+                    <div className='Landing__21__FooterMainDiv'>
+
+                        <div className='Landing__21__FooterCol'>
+
+                            <img className='Landing__21__FooterColImg' src="/images/landing-21/logo2.png" alt="" />
+                            <p>কানে সোনার দুল পরলে স্ত্রীরোগ, কানের রোগ, <br/> বিষণ্নতা ইত্যাদি থেকে অনেকাংশে মুক্তি পাওয়া যায়।</p>
+                           
+                        </div>
+
+                        <div className='Landing__21__FooterCol'>
+
+                            <h4>Important Link</h4>
+
+                            <ul>
+                                <li><Link href="">Privacy Policy</Link> </li>
+                                <li><Link href="">Terms and Conditions</Link></li>
+                            </ul>
+                        
+                            <SocialMedia></SocialMedia>
+
+                        </div>
+
+                        <div className='Landing__21__FooterCol Landing__21__FooterCol2 '>
+
+                            <h4>Contact </h4>
+
+                                <ul>
+                                    <li><span><IoCallOutline/></span> <Link href="">+8801894844452</Link> </li>
+                                    <li><span><AiOutlineMail/></span> <Link href="">support@helperbd.com</Link></li>
+                                    <li><span><IoLocationSharp/></span> <Link href="">SAR Bhaban, Level-5 , Ka-78, Progoti Sarani,<br/> Kuril, Vatara, Dhaka-1229, Bangladesh</Link></li>
+                                </ul>
+                        
+                        </div>
+
+                    </div>
+
+                </Container>
+
+                <div className="Landing__21__socialPad" >
+
+                        <TinyFooter></TinyFooter>
+
+                    </div>
+
+        </section>
+
+
+        {/* =======================================================================================
+                    Shipping Icon
+        ============================================================================================*/}
 
 
 
