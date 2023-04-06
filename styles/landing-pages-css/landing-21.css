@@ -29,11 +29,12 @@
       color:#C69F45;
   }
   
-  .Landing__21 p{
-      color:#745D28;
-      font-size: 20px;
-      line-height: 26px;
-  }
+
+  .Landing__21 p {
+    color: #745D28;
+    font-size: 24px;
+    line-height: 40px;
+}
   
   /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
            
@@ -281,13 +282,13 @@
       font-weight: 900;
   }
 
-  .Landing__21__Order1Abs h5{
-      font-size: 18px;
-      line-height: 23px;
-      color:#745D28;
-      margin: 20px 0px;
-  }
 
+  .Landing__21__Order1Abs h5 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #745D28;
+    margin: 20px 0px;
+}
 
   .Landing__21 .Landing__21__Order1 .bg1{
     color:#443513;
@@ -395,14 +396,14 @@
     padding-bottom: 5px;
 }
 
- .Landing__21__Card p{
-    font-size: 18px;
-    line-height: 23px;
-    color:#443513;
+
+.Landing__21__Card p {
+    font-size: 24px;
+    line-height: 36px;
+    color: #443513;
     font-weight: 600;
     padding-top: 10px;
 }
-
 
 .Landing__21__CardAbs1{
     position: absolute;
@@ -548,13 +549,15 @@
       margin-bottom: 40px;
   }
 
-  .Landing__21__Order2Abs h5{
-      font-size: 20px;
-      line-height: 26px;
-      color:#745D28;
-      margin-top: 20px;
-      margin-bottom: 30px;
-  }
+
+
+  .Landing__21__Order2Abs h5 {
+    font-size: 24px;
+    line-height: 26px;
+    color: #745D28;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
   .Landing__21 .Landing__21__Order2 .bg4{
     color:#443513;
@@ -643,13 +646,19 @@
 /* ================================================================================================
            place in Order
   ===================================================================================================*/
+  .Landing__21 .order_OrderConfirmFrom__ThtXd {
+    padding: 100px 15px !important;
+    border-radius: 10px;
+}
+
+
 
   .Landing__21__PlaseInOdr{
     background:linear-gradient(to bottom, #E0AA55,#FFF6A1);
     position: relative;
     border-radius: 10px;
   }
-  
+
   .Landing__21 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
     background:#E9C16C;
   }
@@ -693,10 +702,10 @@
     height: 68px;
 }
 
-.Landing__21__FooterCol p{
+.Landing__21 .Landing__21__FooterCol p{
     font-size: 24px;
     line-height: 31px;
-    color:#FFF;
+    color:#FFF ;
     padding-top: 30px;
 }
 
@@ -769,6 +778,33 @@
   }
   
    @media (max-width: 1400px) {
+
+    .Landing__21__Order2Abs h5{
+        font-size: 20px;
+        line-height: 26px;
+        color:#745D28;
+       
+    }
+
+    .Landing__21__Order1Abs h5{
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .Landing__21__Card p{
+        font-size: 20px;
+        line-height: 26px;
+        color:#443513;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+    
+
+    .Landing__21 p{
+        color:#745D28;
+        font-size: 20px;
+        line-height: 26px;
+    }
   
     .Landing__21__BannerTxt p {
         font-size: 20px;
@@ -1384,16 +1420,9 @@
         left: 41px;
         height: 93px;
     }
-
-
-
-
      
       }
 
-/* ================================================================================================
-            Banner
-  ===================================================================================================*/
 
 
 
