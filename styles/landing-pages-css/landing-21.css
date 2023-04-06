@@ -20,6 +20,7 @@
       padding-top: 46px;
   }
 
+
   .Landing__21 h2{
       font-size: 48px;
       line-height: 72px;
@@ -110,6 +111,35 @@
     padding-bottom: 55px;
 }
 
+
+.Landing__21__BannerTxt h1, .Landing__21__Order1Abs h4 , .Landing__21__Order2Abs h4 {
+   
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #E0AA55 29%,
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip645 3s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip645 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
 .Landing__21__BannerTxt h3{
     font-size: 48px;
     line-height: 74px;
@@ -184,6 +214,7 @@
     top:30px;
     left:80px;
     width: 100%;
+    transition: 1s;
 }
 .Landing__21__img2BagAbs2{
     position: absolute;
@@ -191,6 +222,17 @@
     left:100px;
     height: 219px;
 }
+
+.Landing__21__img2BagAbs {
+ 
+    animation: gfd6i35468 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes gfd6i35468 {
+    from {top:0}
+    to {top:70px;}
+  }
+
 
 
 /* ================================================================================================
@@ -1096,19 +1138,256 @@
     font-size: 24px;
 }
 
+.Landing__21__Order2Abs h6 {
+    line-height: 67px;
+    color: #997624;
+    font-weight: 900;
+    padding-top: 123px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.Landing__21 .Landing__21__Order2 .bg4 {
+    color: #443513;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 18px 39px;
+}
+
+.Landing__21 .Landing__21__Order2 .bg4 svg{
+    font-size: 24px;
+  
+}
 
 
+.Landing__21__BannerTxtimg4 {
+    height: 106px;
+}
+
+
+.Landing__21__BannerLinkimgBox:hover .Landing__21__BannerTxtimg4 {
+    height: 92px;
+}
 
   }
   
   
   @media (max-width: 575px) {
   
-     
+    .Landing__21__BannerTxt p {
+        font-size: 16px;
+        padding: 1px 25px;
+        margin-top: 27px;
+    }
+
+    .Landing__21 h1 {
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 20px;
+    }
+
+    .Landing__21__BannerTxt h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .Landing__21__BannerTxt h4 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 4px;
+        padding-bottom: 38px;
+    }
+
+
+    .Landing__21__AbsB_Box {
+        position: absolute;
+        top: 33px;
+        left: 119px;
+       
+    }
+
+    .Landing__21__bg_div {
+        padding: 50px 0px 145px 0px;
+        background-size: cover;
+    }
+    .Landing__21__ProductDetails h2 {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .Landing__21 h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .Landing__21 p {
+        color: #745D28;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Landing__21__Order1Img {
+        height: 240px;
+    }
+
+
+    .Landing__21__section_gaps{
+        margin-top: 50px;
+    }
+   
+    .Landing__21__Order1Abs h4 {
+        font-size: 28px;
+        line-height: 44px;
+        color: #997624;
+        font-weight: 900;
+    }
+
+    .Landing__21__Order1Abs h5 {
+        font-size: 14px;
+        line-height: 18px;
+        color: #745D28;
+    }
+
+    .Landing__21 .Landing__21__Order1 .bg1 {
+        color: #443513;
+        padding: 18px 47px;
+        font-size: 20px;
+        line-height: 0px;
+    }
+
+    .Landing__21__BannerTxtimg2 {
+        position: absolute;
+        width: 130px;
+        margin-left: -10px;
+        margin-top: -6px;
+        z-index: 0;
+        height: 67px;
+        transition: 0.2s;
+    }
+
+
+    .Landing__21__BannerLinkimgBox:hover .Landing__21__BannerTxtimg2{
+        position: absolute;
+        width: 130px;
+        margin-left: -4px;
+        margin-top:-1px;
+        z-index: 0;
+        height: 57px;
       }
+
+      .Landing__21 .Landing__21__Order1 .bg1:hover {
+        line-height: 0px;
+        padding: 9px 47px;
+        font-size: 20px;
+    }
+
+    .Landing__21 p {
+        color: #745D28;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .Landing__21__CardSec {
+        background: linear-gradient(to bottom, rgb(255, 248, 237, .5),#FFF8ED);
+        padding: 0% 0% 65px 0%;
+        position: relative;
+    }
+
+
+    .Landing__21__Order2Img {
+        height: 227px;
+    }
+
+
+    .Landing__21__Order2Abs h6 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+
+    .Landing__21__Order2Abs h4 {
+        font-size: 28px;
+        line-height: 30px;
+        color: #997624;
+        font-weight: 900;
+    }
+
+    .Landing__21__Order2Abs h5 {
+        font-size: 16px;
+        line-height: 24px;
+        color: #745D28;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .Landing__21 .Landing__21__Order2 .bg4 {
+        color: #443513;
+        font-size: 20px;
+        line-height: 50px;
+        font-weight: 600;
+        padding: 8px 39px;
+    }
+
+    .Landing__21__BannerTxtimg4 {
+        position: absolute;
+        width: 140px;
+        margin-left: -10px;
+        margin-top: -7px;
+        z-index: 0;
+        height: 81px;
+        transition: 0.2s;
+    }
+
+    .Landing__21__BannerLinkimgBox:hover .Landing__21__BannerTxtimg4 {
+        height: 70px;
+    }
+
+
+    .Landing__21__Listdiv h4 {
+        display: inline;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .Landing__21__FooterColImg {
+        height: 44px;
+    }
+
+    .Landing__21__FooterCol p {
+        color: #FFF !important;
+    
+    }
+
+    .Landing__21__FooterCol span {
+        padding: 3px 8px;
+        background: linear-gradient(to bottom, #E0AA55,#FFF6A1);
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+     
+
+      }
+
+
   
   @media (max-width: 450px) {
-  
+
+    .Landing__21__BannerTxt {
+        margin-top: 472px;
+        text-align: center;
+    }
+
+    .Landing__21__img2BagAbs2 {
+        position: absolute;
+        top: 174px;
+        left: 41px;
+        height: 93px;
+    }
+
+
+
+
      
       }
 
