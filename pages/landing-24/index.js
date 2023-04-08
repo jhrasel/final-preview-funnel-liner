@@ -50,7 +50,7 @@ const index = () => {
 
                     <MenubarLeft logoImageLeft={landingImageUrl}></MenubarLeft>
 
-                    <Row>
+                    <Row className='Landing__24__Reverce'>
 
                         <Col sm={12} md={6}>
 
@@ -104,7 +104,7 @@ const index = () => {
 
                 <Row>
 
-                    <Col md={3}>
+                    <Col lg={3}>
 
                             <div className='Landing__24__SizeImgdiv'>
 
@@ -113,7 +113,7 @@ const index = () => {
                             </div>
                     </Col>
 
-                    <Col md={9}>
+                    <Col lg={9}>
 
                         <div className='Landing__24__sizeTxtBox'>
 
@@ -339,13 +339,13 @@ const index = () => {
 
                     <Row>
 
-                        <Col md={6}>
+                        <Col lg={6}>
                             
                             <img className='Landing__24__Order3Img' src="/images/landing-24/img15.png" alt="" />
 
                         </Col>
 
-                        <Col md={6}>
+                        <Col lg={6}>
 
                             <div className='Landing__24__Order3Col2'>
 
