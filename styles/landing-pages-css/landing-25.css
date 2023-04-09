@@ -1,0 +1,472 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__25 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden;
+  }
+
+  .Landing__25 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__25 h1{
+      font-size: 56px;
+      line-height: 74px;
+      color:#FFF;
+      font-weight: 900;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+  }
+
+
+  .Landing__25 h2{
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__25 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+
+  .Landing__25 a.bg{
+      position: relative;
+      padding: 24px 70px;
+      color:#ffffff; 
+      background-image: linear-gradient(to right,#FE8D0E 0%,#C53407 51%, #FE8D0E 100%);
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 100px;
+      font-size: 32px;
+      line-height: 42px;
+      border-bottom: 10px solid #FE8D0E;
+    }
+
+
+  .Landing__25 a.bg svg{
+      font-size: 40px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #ffffff; 
+  }
+  
+
+  .Landing__25 a.bg:hover {
+      background-position: right center;
+      color: #000000;
+      text-decoration: none;
+  }
+   
+  .Landing__25 a.bg:hover svg {
+      color: #020000;      
+  }
+   
+
+  .Landing__25__section_gaps{
+      margin-top: 100px;
+  }
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+  .Landing__25__bg_div{
+    background-image: url('../../public/images/landing-25/bg.png');
+    padding: 50px 0px 121px 0px;
+    background-size:cover;
+    position: relative;
+}
+  
+.Landing__25__Bannerimg1{
+    width: 110%;
+    margin-left: -5%;
+    position: relative;
+}
+ 
+.Landing__25 .BannertxtAbs1 h4{
+  font-size: 24px;
+  line-height: 31px;
+  color:#C53407;
+}
+
+.Landing__25 .BannertxtAbs1 span{
+  font-size: 46px;
+  line-height: 65px;
+  color:#FDFDFD;
+  font-weight: 700;
+}
+
+.Landing__25 .BannertxtAbs1D-f img{
+  height: 60px;
+  margin-right: 15px;
+}
+
+.Landing__25 .BannertxtAbs1D-f{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Landing__25 .BannertxtRelDiv{
+  position: relative;
+}
+
+.Landing__25 .BannertxtAbs1{
+  position: absolute;
+}
+
+.Landing__25 .BannertxtAbs2{
+  position:absolute ;
+  top:-50px;
+  right: 100px;
+  height:319px ;
+}
+
+.Landing__25 .BannertxtRelDiv, .BannertxtAbs1{
+  width: 100%;
+}
+
+.Landing__25 .BannertxtAbs3{
+    position: absolute;
+    top:0;
+    left:36px;
+    height: 582px;
+}
+
+.Landing__25 .BannertxtAbs4{
+    position: absolute;
+    top:0;
+    right: 36px;
+    height: 582px;
+}
+
+/* ================================================================================================
+            Gift Box
+  ===================================================================================================*/
+  .Landing__25 .GiftBoxDiv{
+      position: relative;
+      background-image: url('../../public/images/landing-25/bg3.png');
+      padding: 250px 0px 121px 0px;
+      background-size:cover;
+  }
+
+  .Landing__25 .GiftBoxDivAbs1Img{
+      position: absolute;
+      top:0;
+      width: 100%;
+  }
+
+  .Landing__25 .GiftBoxDivTxt h2{
+    padding: 0 20%;
+    color:#391612;
+    margin-bottom: 50px;
+  }
+
+  .Landing__25 .GiftBoxDivTxt h4{
+    font-size: 32px;
+    line-height: 42px;
+    color:#391612;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
+
+  .Landing__25 .GiftImgBox{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Landing__25 .GiftImgItems{
+    text-align: center;
+  }
+
+  .Landing__25 .GiftImgItems img{
+    width: 100%;
+    transform: scale(.9);
+    transition: all linear .3s;
+  }
+
+  .Landing__25 .GiftImgItems:hover img{
+    transform: scale(1.1);
+  }
+
+  .Landing__25 .GiftImgItems:hover h4{
+    color: red;
+  }
+
+
+/* ================================================================================================
+            Order1
+  ===================================================================================================*/
+
+  .Landing__25 .Landing__25__Order1 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__25 .Landing__25__Order1 img{
+    height: 696px;
+
+  }
+
+  .Landing__25__Order1Abs{
+    text-align: center;
+  }
+
+  .Landing__25__Order1Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#391612;
+      font-weight: 900;
+  }
+
+  .Landing__25__Order1Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#C53407;
+      margin: 30px 0px;
+
+  }
+
+  .Landing__25__Order1Abs h6{
+      font-size: 32px;
+      line-height: 40px;
+      color:#391612;
+      margin-top: 50px;
+
+  }
+
+
+/* ================================================================================================
+            CardH2
+  ===================================================================================================*/
+
+.Landing__25__CardH2{
+  padding: 0 10% !important;
+  color:#C53407;
+}
+
+.Landing__25__Card{
+  background-image: linear-gradient(to top,#FDFDFD,#FFA78C);
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 50px;
+  text-align: center;
+  padding: 0px 20px 40px 20px;
+}
+
+.Landing__25__CardImgDiv{
+  padding: 20px;
+  background-color: #FFF;
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: -50px;
+}
+ 
+.Landing__25__Card h4{
+   font-size: 32px;
+   line-height: 42px;
+   color:#C53407;
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+
+.Landing__25__Card p{
+   font-size: 24px;
+   line-height: 32px;
+   color:#391612;
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+
+/* ================================================================================================
+            Slider 
+  ===================================================================================================*/
+
+.Landing__25__SliderDivSec{
+    position: relative;
+    background-image: url('../../public/images/landing-25/bg4.png');
+    padding: 250px 95px 121px 95px;
+    background-size:cover;
+}
+
+.Landing__25__Sliderh2{
+    color:#C53407;
+    margin-left: 25%;
+}
+
+ .Landing__25__SliderDiv{
+    margin-top: 133px;
+
+ }
+
+ 
+ .Landing__25__Slider_CardDivImg{
+  width: 100%;
+}
+
+
+.Landing__25__SliderIconDiv2{
+  position: relative;
+
+}
+
+.Landing__25__SliderIcon1{
+  position: absolute;
+  bottom:150px;
+  left: -30px;
+  background: none;
+  font-size: 40px;
+  color:#E95F65;
+  width: 62px;
+  background:#FFF;
+  z-index: 2;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+}
+
+.Landing__25__SliderIcon2{
+  position: absolute;
+  bottom:150px;
+  right:-30px;
+  background: none;
+  font-size: 40px;
+  color:#E95F65;
+  width: 62px;
+  background:#FFF;
+  z-index: 2;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+}
+
+
+/* ================================================================================================
+          Order2
+  ===================================================================================================*/
+
+  .Landing__25 .Landing__25__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .Landing__25__Order2Img{
+    height: 812px;
+
+  }
+
+  .Landing__25__Order2Abs{
+      position: absolute;
+      text-align: center ;
+  }
+
+  .Landing__25__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#391612;
+      font-weight: 900;
+      margin: 20px 0px 30px 0px;
+  }
+
+  .Landing__25__Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#C53407;
+  }
+
+  .Landing__25__Order2Abs h6{
+      font-size: 24px;
+      line-height: 31px;
+      color:#C53407;
+      margin-bottom: 10px;
+      margin-top: 70px;
+  }
+
+  .Landing__25__Order2Abs span{
+      font-size: 40px;
+      line-height: 56px;
+      color:#391612;
+      margin-left: 20px;
+  }
+
+  .Landing__25 .Landing__25__Hr{
+    border-bottom: 1px dashed #C53407;
+    margin: 15px 0px;
+    width: 70%;
+    margin-left: 15%;
+    
+  }
+
+  .BannertxtAbs1D-f2{
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+
+/* ================================================================================================
+           Place In Order
+  ===================================================================================================*/
+
+.Landing__25__PlaceIn__OrderBg{
+  position: relative;
+  background-image: url('../../public/images/landing-25/img27.png');
+  padding: 250px 95px 121px 95px;
+  background-size:cover;
+
+}
+
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+
