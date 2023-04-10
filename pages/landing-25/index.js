@@ -170,7 +170,12 @@ const index = () => {
                     Order1
         ============================================================================================*/}
 
-        <scetion>
+        <scetion className="Landing__25__Order1Sec">
+
+
+        <img className='Landing__25__FooterAbs7' src="images/landing-25/img6.png" alt="" />
+
+        <img className='Landing__25__FooterAbs8' src="images/landing-25/img7.png" alt="" />
 
             <Container>
 
@@ -216,7 +221,12 @@ const index = () => {
         {/* =======================================================================================
                     Card
         ============================================================================================*/}
-        <section>
+
+        <section className='Landing__25__CardSec'>
+
+            <img className='Landing__25__FooterAbs5' src="images/landing-25/img8.png" alt="" />
+
+            <img className='Landing__25__FooterAbs6' src="images/landing-25/img9.png" alt="" />
 
             <Container>
 
@@ -253,8 +263,8 @@ const index = () => {
 
                             <h4>উপহার</h4>
                             
-                            <p>আমাদের দেশে এখন আরবের বিভিন্ন নামি দামি খেজুর পাওয়া যায়। আগে আমরা ছোটবেলায় 
-                                শুধু এক ধরনের খেজুর ই দেখতাম তাও রমজান মাস ছাড়া অন্য মাসে দেখাও যেত না তেমন।
+                            <p>বাংলাদেশ একটি সুন্দর দেশ, যেখানে প্রকৃতি অত্যন্ত সমৃদ্ধ এবং সেখানে বাসবাস করা 
+                                মানুষগুলি অত্যন্ত সহজে প্রাকৃতিক উৎসগুলি উপভোগ করতে পারে। এই দেশের একটি বিশেষ
                             </p>
 
                         </div>
@@ -272,8 +282,8 @@ const index = () => {
                             <h4>রমজানের উপহার  </h4>
                             
                             <p>
-                                আমাদের দেশে এখন আরবের বিভিন্ন নামি দামি খেজুর পাওয়া যায়। আগে আমরা ছোটবেলায় 
-                                শুধু এক ধরনের খেজুর ই দেখতাম তাও রমজান মাস ছাড়া অন্য মাসে দেখাও যেত না তেমন।
+                            যেগুলি স্থানীয় জনগণ একদম পরিচিত এবং প্রিয়। খেজুর একটি এমন প্রাকৃতিক উৎস যা বাংলাদেশের
+                            বিভিন্ন অংশে রয়েছে। এটি একটি খাবার উৎস হিসাবে সম্পূর্ণ সুস্থ 
                             </p>
 
                         </div>
@@ -291,8 +301,8 @@ const index = () => {
                             <h4>পারস্পরিক উপহার  </h4>
                             
                             <p>
-                                আমাদের দেশে এখন আরবের বিভিন্ন নামি দামি খেজুর পাওয়া যায়। আগে আমরা ছোটবেলায় শুধু এক 
-                                ধরনের খেজুর ই দেখতাম তাও রমজান মাস ছাড়া অন্য মাসে দেখাও যেত না তেমন।
+                            আরবের নামি খেজুর হলো একটি প্রসিদ্ধ ধরনের খেজুর, যা এখন বাংলাদেশেও পাওয়া যায়। বাংলাদেশে
+                             খেজুরের বিভিন্ন প্রকার রয়েছে যেমন মুখী, খাসি, লতা ইত্যাদি। 
                             </p>
 
                         </div>
@@ -329,8 +339,8 @@ const index = () => {
                             <h4>সাস্থসমত্ত খেজুর </h4>
                             
                             <p>
-                                আমাদের দেশে এখন আরবের বিভিন্ন নামি দামি খেজুর পাওয়া যায়। আগে আমরা ছোটবেলায় শুধু এক
-                                ধরনের খেজুর ই দেখতাম তাও রমজান মাস ছাড়া অন্য মাসে দেখাও যেত না তেমন।
+                            জানুয়ারি মাসে রমজানের সময় বাংলাদেশে খেজুর খাওয়ার প্রথম জনপ্রিয়তা দেখা যায়। রমজান মাসে
+                            মুসলিম সমাজ দিনের সময় খেজুর খেতে পারে না, তাই সাধারণত প্রথম রোজা
                             </p>
 
                         </div>
@@ -560,7 +570,10 @@ const index = () => {
                     Order2
         ============================================================================================*/}
 
-        <section>
+        <section className='Landing__25__Order2sec'>
+
+            <img className='Landing__25__FooterAbs3' src="images/landing-25/img26.png" alt="" />
+            <img className='Landing__25__FooterAbs4' src="images/landing-25/img25.png" alt="" />
 
             <Container>
                 
@@ -621,12 +634,71 @@ const index = () => {
 
             </section>
 
+            <div className="Landing__25__section_gaps"></div>
+
 
         {/* =======================================================================================
-                    Banner
+                    Footer
         ============================================================================================*/}
 
+        <section className='FooterSec'>
 
+            <img className='Landing__25__FooterAbs1' src="images/landing-25/img29.png" alt="" />
+            <img className='Landing__25__FooterAbs2' src="images/landing-25/img28.png" alt="" />
+
+            <Container>
+
+                <div className='Landing__25__FooterDiv'>
+
+                        <div className='Landing__25__FooterItem'>
+
+                            <h4>Contact Us</h4>
+
+                            <ul>
+                                <li> <img src="images/landing-25/img34.png"/> <Link href="">00 0392 96 32</Link></li>
+                                <li>  <img src="images/landing-25/img35.png"/> <Link href="">oder@freshen.com</Link></li>
+                            </ul>
+                        
+                        </div>
+
+                        <div className='Landing__25__FooterItem'>
+
+                            <img className='Landing__25__FooterItemImg' src="/images/landing-25/logo2.png" alt="" />
+
+                            <ul>
+                                <li> <h4>Contact Number</h4></li>
+                                <li> <h3>01810045255</h3></li>
+                            </ul>
+                        
+                        </div>
+
+                        <div className='Landing__25__FooterItem'>
+
+                            <h4>Important Link</h4>
+
+                            
+                            <ul>
+                                <li> <img src="images/landing-25/img33.png" alt="" />  <Link href=""> Refund Policy </Link></li>
+                                <li> <img src="images/landing-25/img33.png" alt="" /> <Link href="">Privacy Policy</Link></li>
+                                <li> <img src="images/landing-25/img33.png" alt="" /> <Link href="">Terms and Conditions</Link></li>
+                            
+                            </ul>
+
+                        </div>
+
+                </div>
+
+                    <div className='Landing__25__Hr'></div>
+
+                    <div className='Landing__25__HrTxt'> <span>KEEP IN TOUCH </span></div>
+
+                    <TinyFooter></TinyFooter>
+                    
+                    <SocialMedia></SocialMedia>
+
+            </Container>
+
+        </section>
 
         {/* =======================================================================================
                     Banner
