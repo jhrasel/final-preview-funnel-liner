@@ -1,0 +1,369 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__23 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden ;
+  }
+
+  .Landing__23 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__23 h1{
+      font-size: 48px;
+      line-height: 64px;
+      color:#FFF;
+      font-weight: 900;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+
+  .Landing__23 h2{
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__23 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+
+  .Landing__23 a.bg{
+      position: relative;
+      padding: 24px 70px;
+      color:#BB3D3E; 
+      background:#FFF;
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 10px;
+      font-size: 32px;
+      line-height: 42px;
+     transition: all .2s;
+     transform: scale(.9);
+    }
+
+
+  .Landing__23 a.bg svg{
+      font-size: 40px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #BB3D3E; 
+  }
+  
+
+  .Landing__23 a.bg:hover {
+      background-position: right center;
+      color: #000000;
+      text-decoration: none;
+      transform: scale(1.1);
+  }
+   
+  .Landing__23 a.bg:hover svg {
+      color: #020000;      
+  }
+   
+
+  .Landing__23__section_gaps{
+      margin-top: 100px;
+  }
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+  .Landing__23__bg_div{
+    background-image: url('../../public/images/landing-23/bg.png');
+    background-size: cover;
+    padding: 40px 0px 60px 0px;
+  }
+  
+.Landing__23__HrBanner{
+    width: 70%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+.Landing__23__BannerTxt h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    line-height: 95px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.Landing__23__BannerTxt h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110px;
+    line-height: 100px;
+    color: #FFF;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+/* ================================================================================================
+            Shipping Icon
+  ===================================================================================================*/
+
+  .Landing__23__ShippingIcon{
+    padding:40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .2s;
+    border-radius: 10px;
+  }
+
+  .Landing__23__ShippingIcon{
+    outline: 1px dashed #BB3D3E;
+    outline-offset: -10px;
+  }
+
+
+
+  .Landing__23__ShipImg1{
+    display: none;
+    transition: all .2s;
+  }
+
+  .Landing__23__ShippingIcon:hover .Landing__23__ShipImg1{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .Landing__23__ShippingIcon:hover .Landing__23__ShipImg2{
+    display: none;
+  }
+
+  .Landing__23__ShippingIcon:hover {
+    background-color:#BB3D3E;
+    outline: 1px dashed #ffffff;
+  }
+
+  .Landing__23__ShippingIcon:hover h4 {
+    color:#ffffff;
+  }
+
+
+
+
+  .Landing__23__ShippingIcon h4{
+    font-size: 32px;
+    line-height: 38px;
+    color:#BB3D3E;
+    font-weight: 600;
+    margin-top: 31px;
+  }
+
+
+/* ================================================================================================
+            Special Features
+  ===================================================================================================*/
+
+.Landing__23__Features h4{
+    font-size: 36px;
+    line-height:61px;
+    color:#BB3D3E;
+    font-weight: 700;
+}
+
+.Landing__23__Hr2{
+    border-bottom: 3px solid #BB3D3E;
+    width: 30%;
+}
+
+.Landing__23__Features h5{
+    font-size: 24px;
+    line-height: 41px;
+    color:#4C4C4C;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.Landing__23__Features li{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Landing__23__FeaturesImgDiv img{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.Landing__23__VideoTxtDiv p{
+    font-size: 24px;
+    padding: 40px 0px;
+
+}
+.Landing__23__VideoTxtDiv {
+    padding-top: 40px;
+}
+
+/* btn */
+
+.Landing__23 .bg2 {
+    transition: 0.5s;
+    display: block;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.Landing__23 a.bg2{
+    position: relative;
+    padding: 24px 50px;
+    color:#FFF; 
+    background:#BB3D3E;
+    background-size: 180% auto;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 32px;
+    line-height: 42px;
+   transition: all .2s;
+   transform: scale(.9);
+  }
+
+
+.Landing__23 a.bg2 svg{
+    font-size: 40px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #FFF; 
+}
+
+
+.Landing__23 a.bg2:hover {
+    background-position: right center;
+    color: #000000;
+    text-decoration: none;
+    transform: scale(1);
+}
+ 
+.Landing__23 a.bg2:hover svg {
+    color: #020000;      
+}
+ 
+
+/* btn 3 */
+
+.Landing__23 .bg3 {
+    transition: 0.5s;
+    display: block;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.Landing__23 a.bg3{
+    position: relative;
+    padding: 24px 50px;
+    color:#BB3D3E; 
+    background-size: 180% auto;
+    display: inline-block;
+    outline: 4px solid #BB3D3E;
+    transition: .2s;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 32px;
+    line-height: 42px;
+   transition: all .2s;
+   transform: scale(.9);
+  }
+
+
+.Landing__23 a.bg3 svg{
+    font-size: 40px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #FFF; 
+}
+
+
+.Landing__23 a.bg3:hover {
+    background-position: right center;
+    color: #000000;
+    background:#BB3D3E;
+    text-decoration: none;
+    transform: scale(1);
+}
+ 
+.Landing__23 a.bg3:hover svg {
+    color: #020000;      
+}
+ 
+
+
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+

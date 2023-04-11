@@ -32,13 +32,6 @@ import "swiper/css/navigation";
 import {Navigation} from "swiper";
 import { useRef } from 'react';
 
-// ShippingAddress Img
-
-import DelivaryImgUrl1 from '../../public/images/landing-24/img16.png'
-import DelivaryImgUrl2 from '../../public/images/landing-24/img17.png'
-import DelivaryImgUrl3 from '../../public/images/landing-24/img18.png'
-import DelivaryImgUrl4 from '../../public/images/landing-24/img19.png'
-
 
 
 
