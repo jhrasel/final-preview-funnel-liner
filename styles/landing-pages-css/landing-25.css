@@ -97,7 +97,83 @@
     margin-left: -5%;
     position: relative;
 }
+
+
+/* All Animation */
  
+.Landing__25__Bannerimg1{
+  animation: gdyngf354A 1s ease-in-out alternate infinite;
+  position: absolute;
+}
+
+@keyframes gdyngf354A {
+  from {top:0}
+  to {top:-20px}
+}
+
+.BannertxtAbs3 , .BannertxtAbs4{
+  animation: htfhtyf32659 1s ease-in-out alternate infinite;
+}
+
+@keyframes htfhtyf32659 {
+  from {top:0}
+  to {top:-20px}
+}
+
+.Landing__25__FooterAbs7, .Landing__25__FooterAbs8{
+  animation: hjtf5461A 7s linear infinite;
+}
+
+@keyframes hjtf5461A {
+  from {transform: rotate(0);}
+  to {transform: rotate(360deg);}
+}
+
+.Landing__25__FooterAbs6, .Landing__25__FooterAbs5{
+  animation: bgfhyfu654599 2s linear alternate infinite;
+}
+
+@keyframes bgfhyfu654599 {
+  from {transform: scale(.9);}
+  to {transform: scale(1.1);}
+}
+
+.Landing__25__FooterAbs3, .Landing__25__FooterAbs4{
+  animation: grdtrd35498 2s linear alternate infinite;
+}
+
+@keyframes grdtrd35498  {
+  from {transform: rotate(0);}
+  to {transform: rotate(5deg);}
+}
+
+.Landing__25__Sliderh2{
+
+  background-image: linear-gradient(
+    -225deg,
+    #C53407 0%,
+    #C53407 29%,  
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: tytftf54984 2s linear infinite;
+  display: inline-block;
+}
+
+  @keyframes tytftf54984 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
 .Landing__25 .BannertxtAbs1 h4{
   font-size: 24px;
   line-height: 31px;
@@ -287,7 +363,13 @@
   border-radius: 50px;
   text-align: center;
   padding: 0px 20px 40px 20px;
+  transition: all 0.3s;
 }
+
+.Landing__25__Card:hover{
+  background-image: linear-gradient(to top,#ffffff,#f55828);
+}
+
 
 .Landing__25__CardImgDiv{
   padding: 20px;
@@ -841,6 +923,9 @@ border-bottom:15px solid  #C53407;
   font-size: 28px
 }
 
+.Landing__25__FooterAbs6, .Landing__25__FooterAbs5 {
+  height: 191px;
+}
 
   }
 
