@@ -29,7 +29,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import {Navigation} from "swiper";
+import {Navigation, Pagination} from "swiper";
 import { useRef } from 'react';
 
 // ShippingAddress Img
@@ -44,6 +44,8 @@ import DelivaryImgUrl4 from '../../public/images/landing-24/img19.png'
 
 
 const index = () => {
+
+    const swiperRef = useRef();
 
   return (
 
@@ -291,39 +293,362 @@ const index = () => {
        <div className="Landing__23__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    slider
         ============================================================================================*/}
 
+        <section>
+
+            <Container>
+
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={30}
+                    modules={[Navigation,Pagination]}
+                    className="mySwiper"
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    onBeforeInit={(swiper) => {
+                        swiperRef.current = swiper;}}
+
+                    breakpoints={{
+                            240: {
+                            slidesPerView: 2,
+                            slidesPerGroup: 2,
+                            spaceBetween: 10,
+                            },
+                            768: {
+                            slidesPerView: 3,
+                            slidesPerGroup: 3,
+                            spaceBetween: 20,
+                            },
+                            1024: {
+                            slidesPerView: 3,
+                            slidesPerGroup: 3,
+                            spaceBetween: 30,
+                            },
+                        }}
+                >
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img5.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img6.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img7.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img5.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img6.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img7.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+
+
+                 </Swiper>  
+
+
+              
+
+            </Container>
+
+        </section>
 
     
+        <div className="Landing__23__section_gaps"></div>
+
 
         {/* =======================================================================================
-                    Banner
+                   Customer Review
         ============================================================================================*/}
 
+        <CustomerReview></CustomerReview>   
 
+
+        <div className="Landing__23__section_gaps"></div>
+
+        {/* =======================================================================================
+                  slider2
+        ============================================================================================*/}
+
+        <section>
+
+            <Container>
+
+                <Row>
+
+                    <Col lg={6}>
+
+                    <Swiper
+                    slidesPerView={3}
+                    spaceBetween={30}
+                    modules={[Navigation]}
+                    className="mySwiper"
+                    loop={true}
+                    onBeforeInit={(swiper) => {
+                        swiperRef.current = swiper;}}
+
+                    breakpoints={{
+                            240: {
+                            slidesPerView: 1,
+                            slidesPerGroup: 1,
+                            spaceBetween: 0,
+                            }
+                           
+                        }}
+                >
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img8.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                    <SwiperSlide className="Landing__23__SliderImg">
+
+                        <Link href="#">
+
+                            <div className="Landing__23__Slider_CardDiv">
+
+                                <img className="Landing__23__Slider_CardDivImg" src="/images/landing-23/img8.png" alt="img"></img>
+
+                            </div>
+
+                        </Link>
+
+                    </SwiperSlide>
+
+                </Swiper>
+
+                <div className="Landing__23__SliderIconDiv">
+
+                    <div className="Landing__23__SliderIconDiv2">    
+
+                        <button className="Landing__23__SliderIcon1 Landing__23__SliderIcon5 " onClick={() => swiperRef.current?.slidePrev()}></button>
+
+                        <button className="Landing__23__SliderIcon2 Landing__23__SliderIcon5 " onClick={() => swiperRef.current?.slideNext()}></button>
+
+                        <button className="Landing__23__SliderIcon3 Landing__23__SliderIcon5 " onClick={() => swiperRef.current?.slidePrev()}></button>
+
+                        <button className="Landing__23__SliderIcon4 Landing__23__SliderIcon5 " onClick={() => swiperRef.current?.slideNext()}></button>
+
+                    </div>  
+
+                </div>
+
+                    </Col>
+
+                    <Col lg={6}>
+
+                        <div className="Landing__23__VideoTxtDiv Landing__23__Features">
+
+                            <h4>স্পেশাল ফিচারঃ ওয়াচ ফেস</h4>
+
+                            <div className="Landing__23__Hr2"></div>
+
+                            <p>
+                               স্মার্ট ওয়াচ মডেলগুলি এখানে বৈশিষ্ট্য, সর্বশেষ ডিজাইন, বাজারের খ্যাতি, জনপ্রিয়তা, নির্ভরযোগ্যতা, কর্মক্ষমতা, ব্র্যান্ড ইমেজ,
+                               বিক্রয়োত্তর পরিষেবা ইত্যাদি বিবেচনা করে কালানুক্রমিকভাবে সাজানো হয়েছে৷ বাংলাদেশের এই সেরা স্মার্ট ওয়াচ পৃষ্ঠায়,
+                               আমরা বিভিন্ন দামের রেঞ্জের গাড়িগুলিকে রেখেছি৷
+                            </p>
+
+                            <Link href='#placeAnOrder' className="bg2"> <AiOutlineShoppingCart/>অর্ডার করুন</Link>
+                            <Link href='#placeAnOrder' className="bg3"> যোগাযোগ করুন </Link>
+
+                        </div>
+
+                    </Col>
+
+                </Row>
+
+            </Container>
+
+            </section>
 
     
+        <div className="Landing__23__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    Order Confarm
         ============================================================================================*/}
 
+        <section>
 
-    
+            <div className='Landing__23__PlaceIn__OrderBg'>
+
+            <Container>
+
+                <div className='Landing__23__PlaseInOdr'>
+
+                    <div id="placeAnOrder">
+                    
+                        <Order></Order>
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+            </div>
+
+        </section>
+
+        <div className="Landing__23__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    Footer
         ============================================================================================*/}
 
+        <section>
 
+            <Container>
 
-    
+                <div className="Landing__23__FooterDiv">
 
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
+                    <div>
 
+                        <img src="/images/landing-23/logo2.png" alt="" />
+
+                        <p>A smart watch is a wearable technology device that offers
+                            a wide range of features and functionalities, including fitness tracking
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h4>Social Media</h4>
+                        <SocialMedia></SocialMedia>
+
+                    </div>
+
+                    <div>
+                        <h4>Contact Us</h4>
+
+                        <ul>
+                            <li>
+                                <Link href="">00 0392 96 32</Link>
+                            </li>
+
+                            <li>
+                                <Link href="">oder@smartshop.com</Link>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div>
+
+                        <h4>Important Link</h4>
+
+                        <ul>
+
+                            <li>
+                                <Link href="">Refund Policy </Link>
+                            </li>
+
+                            <li>
+                                <Link href="">Privacy Policy </Link>
+                            </li>
+
+                            <li>
+                                <Link href="">Terms and Conditions </Link>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+        </section>    
 
 
 

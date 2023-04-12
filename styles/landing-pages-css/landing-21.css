@@ -457,6 +457,8 @@
 
 .Landing__21__Slider_CardDivImg{
     width: 100%;
+    transform: scale(1);
+    transition: all .2s;
   }
 
   

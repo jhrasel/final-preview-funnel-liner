@@ -310,32 +310,194 @@
 }
  
 
+/* ================================================================================================
+            Slider
+  ===================================================================================================*/
+
+  .Landing__23__CardUpTxt2{
+    padding-bottom: 150px;
+}
+
+.Landing__23__Slider_CardDivImg{
+    width: 100%;
+    transform: scale(.9);
+    transition: all .2s;
+  }
+
+  
+  .Landing__23__SliderIconDiv2{
+    position: relative;
+  }
+
+  .Landing__23__SliderIcon1{
+    position: absolute;
+    bottom:-30px;
+    left: 44%;
+    background: none;
+    font-size: 28px;
+    color:#ffffff;
+    width: 11px;
+    height: 11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
+  
+  .Landing__23__SliderIcon2{
+    position: absolute;
+    bottom:-30px;
+    left: 47%;
+    background: none;
+    font-size: 28px;
+    color:#fffcfc;
+    width: 11px;
+    height:11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
+
+  .Landing__23__SliderIcon3{
+    position: absolute;
+    bottom:-30px;
+    left: 50%;
+    background: none;
+    font-size: 28px;
+    color:#ffffff;
+    width: 11px;
+    height: 11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
+  
+  .Landing__23__SliderIcon4{
+    position: absolute;
+    bottom:-30px;
+    left: 53%;
+    background: none;
+    font-size: 28px;
+    color:#fff0f0;
+    width: 11px;
+    height: 11px;
+    background:#D9D9D9;
+    z-index: 2;
+    border-radius: 100px;
+  }
 
 
+  .Landing__23__SliderIcon4:hover, .Landing__23__SliderIcon3:hover, .Landing__23__SliderIcon2:hover, .Landing__23__SliderIcon1:hover{
+    width: 55px;
+  }
+
+  .Landing__23__SliderImg:hover img{
+    transform: scale(1.1);
+    border-radius: 5px;
+  }
 
 
 /* ================================================================================================
-            Banner
+            Slider2
   ===================================================================================================*/
 
+  .Landing__23__SliderIcon5{
+    bottom:30px;
+
+  }
 
 
 /* ================================================================================================
-            Banner
+           Place In Order
   ===================================================================================================*/
 
+  
+.Landing__23__PlaseInOdr{
+  position: relative;
+  background-color:#BB3D3E;
+  padding: 0px 20px 0px 20px;
+  background-size:cover;
+  border-radius: 20px;
+}
 
+.Landing__23 .order_OrderConfirmFrom__ThtXd {
+  padding: 100px 0px !important;
+  border-radius: 10px;
+  color: #FFF;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_CustomeInput__NQVsd label {
+  font-size: 17px;
+  line-height: 30px;
+  color: #000;
+}
+
+.Landing__23 .order_OrderConfirmRight__DSDPT ul h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_CustomeInput__NQVsd input {
+  border: 1px solid #d1d5db;
+  padding: 12px 20px;
+  background: none;
+  border-radius: 10px;
+  color:#FFF;
+}
+
+
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
+  background:#fff;
+}
+
+.Landing__23 .order_OrderConfirmRight__DSDPT button {
+  background:#fff;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
+  color: #ffffff;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0::after {
+border-bottom:15px solid  #fff;
+} 
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_CustomeInput__NQVsd input:checked+label:before {
+  background:#fff;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N h3 {
+  padding: 20px;
+  padding-bottom: 0;
+  color: #000;
+}
+
+.Landing__23 .order_OrderConfirmRight__DSDPT button {
+  color: #c91717;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N {
+  background: #BB3D3E;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_CustomeInput__NQVsd input:checked+label:before {
+  background: #BB3D3E;
+}
+
+.Landing__23 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
+  color: #BB3D3E;
+}
 
 /* ================================================================================================
-            Banner
+            Footer
   ===================================================================================================*/
 
-
-
-/* ================================================================================================
-            Banner
-  ===================================================================================================*/
-
+  .Landing__23__FooterDiv{
+    display:flex;
+    justify-content: space-between;
+  }
 
 
 /* ================================================================================================

@@ -103,7 +103,6 @@
  
 .Landing__25__Bannerimg1{
   animation: gdyngf354A 1s ease-in-out alternate infinite;
-  position: absolute;
 }
 
 @keyframes gdyngf354A {
@@ -234,6 +233,7 @@
 /* ================================================================================================
             Gift Box
   ===================================================================================================*/
+
   .Landing__25 .GiftBoxDiv{
       position: relative;
       background-image: url('../../public/images/landing-25/bg3.png');
@@ -386,6 +386,7 @@
    margin-top: 25px;
    margin-bottom: 10px;
 }
+
 
 .Landing__25__Card p{
    font-size: 24px;
