@@ -98,6 +98,34 @@
     margin-bottom: 15px;
 }
 
+
+
+.Landing__23__BannerTxt h1, .order_OrderConfirmFrom__ThtXd h2 {
+
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: ngvhvyvu12 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes ngvhvyvu12 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
 .Landing__23__BannerTxt h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 55px;
@@ -497,12 +525,286 @@ border-bottom:15px solid  #fff;
   .Landing__23__FooterDiv{
     display:flex;
     justify-content: space-between;
+    padding-bottom: 100px;
+  }
+
+  .Landing__23__FooterDiv h4{
+    font-size: 31px;
+    line-height: 31px;
+    color:#BB3D3E;
+    font-weight: 500;
+  }
+
+  .Landing__23__FooterDiv a{
+    font-size: 18px;
+    line-height: 30px;
+    color:#AAAAAA;
+    font-weight: 500;
+  }
+
+  .Landing__23__FooterDiv a svg{
+   margin-right: 10px;
+  }
+
+  .Landing__23__FooterDiv p{
+    font-size: 20px;
+    line-height: 28px;
+    color:#4C4C4C;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  .Landing__23__FooterDiv li{
+   margin-top: 10px;
   }
 
 
 /* ================================================================================================
-            Banner
+           Midea Quary
   ===================================================================================================*/
+
+ 
+  @media (max-width: 1641px) {
+
+
+
+
+  }
+  
+   @media (max-width: 1400px) {
+  
+    .Landing__23 h1 {
+      font-size: 40px;
+      line-height: 52px;
+      padding-bottom: 15px;
+  }
+
+  .Landing__23__BannerTxt h4 {
+    font-size: 44px;
+    line-height: 45px;
+  }
+
+  .Landing__23__BannerTxt h3 {
+    font-size: 75px;
+    line-height: 78px;
+    margin-bottom: 20px;
+}
+
+.Landing__23 a.bg {
+  padding: 18px 54px;
+  font-size: 24px;
+}
+
+.Landing__23 a.bg svg {
+  font-size: 28px;
+}
+
+.Landing__23__ShippingIcon h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Landing__23 a.bg2, .Landing__23 a.bg3 {
+  padding: 18px 50px;
+  font-size: 24px;
+}
+
+.Landing__23 h2 {
+  font-size: 40px;
+  line-height: 60px;
+
+}
+
+
+  }
+  
+  
+  @media (max-width: 1280px) {
+  
+    .Landing__23 h1 {
+      font-size: 28px;
+      line-height: 38px;
+      padding-bottom: 15px;
+  }
+
+  .Landing__23__BannerTxt h4 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .Landing__23__BannerTxt h3 {
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.Landing__23 a.bg {
+  padding: 10px 38px;
+  font-size: 20px;
+}
+
+.Landing__23 a.bg svg {
+  font-size: 25px;
+}
+
+.Landing__23__ShippingIcon h4 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.Landing__23__ShippingIcon{
+  margin-bottom: 20px;
+}
+
+.Landing__23__Features h4 {
+  font-size: 30px;
+  line-height: 51px;
+}
+
+.Landing__23__Hr2 {
+  border-bottom: 3px solid #BB3D3E;
+  width: 18%;
+} 
+
+.Landing__23__Features h5 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #4C4C4C;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.Landing__23 h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.Landing__23 a.bg2, .Landing__23 a.bg3 {
+  padding: 12px 40px;
+  font-size: 20px;
+}
+
+.Landing__23 a.bg2 svg {
+  font-size: 25px;
+  margin-top: -5px;
+  margin-right: 10px;
+  color: #FFF;
+}
+
+
+
+
+  }
+  
+  @media (max-width: 991px) {
+
+    .Landing__23__FooterDiv {
+      display: block;
+      text-align: center;
+      padding-bottom: 0px;
+    }
+  
+    .Landing__23__FooterDiv > div{
+    margin-bottom: 25px;
+    }
+  
+
+  }
+  
+  
+  @media (max-width: 767px) {
+  
+    .Landing__23__VideoTxtDiv p {
+      font-size: 18px;
+      padding: 24px 0px;
+    }
+
+    .Landing__23 h1 {
+      font-size: 24px;
+      line-height: 34px;
+      padding-bottom: 15px;
+  }
+
+  .Landing__23__BannerTxt{
+    text-align: center;
+  }
+
+  .Landing__23__HrBanner {
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+.Landing__23__bg_div {
+  background-size: cover;
+  padding: 40px 0px 60px 0px;
+  background-position: -90%;
+}
+
+.Landing__23__Features h4 {
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.Landing__23__Features h5 {
+  font-size: 16px;
+  line-height: 17px;
+  color: #4C4C4C;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.Landing__23 a.bg2, .Landing__23 a.bg3 {
+  padding: 9px 23px;
+  font-size: 20px;
+}
+
+.Landing__23  .mySwiper span{
+  display: none;
+}
+
+.Landing__23__SliderIconDiv2 button{
+  display: none;
+}
+  
+.Landing__23__VideoTxtDiv {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.Landing__23__Hr2 {
+  margin: 0 auto;
+  border-bottom: 3px solid #BB3D3E;
+  width: 18%;
+}
+
+
+.Landing__23 h2 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.Landing__23__FooterDiv h4 {
+  font-size: 22px;
+  line-height: 31px;
+  color: #BB3D3E;
+  font-weight: 500;
+}
+
+.Landing__23__ShippingIcon {
+  margin: 0 10%;
+  margin-bottom: 20px;
+}
+
+.Landing__23__section_gaps{
+  margin-top: 50px;
+}
+
+
+  }
+  
+  
 
 
 

@@ -8,8 +8,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 // icon
 
 import { AiOutlineShoppingCart, AiOutlineMail} from 'react-icons/ai';
-import { IoCallOutline} from "react-icons/io5";
-import {IoLocationSharp} from "react-icons/io5";
+import {IoCallOutline} from "react-icons/io5";
 import { IoIosArrowBack,IoIosArrowForward } from "react-icons/io";
 
 
@@ -21,7 +20,6 @@ import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 import Video from '@/components/LandingPage/Common/Video/Video';
 import landingImageUrl from "../../public/images/landing-23/logo.png";
 import SocialMedia from "../../components/LandingPage/Common/SocialMedia/SocialMedia"
-import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
 import Menubar from '@/components/LandingPage/Common/Menubar/Menubar';
 
 // Import Swiper 
@@ -31,14 +29,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import {Navigation, Pagination} from "swiper";
 import { useRef } from 'react';
-
-// ShippingAddress Img
-
-import DelivaryImgUrl1 from '../../public/images/landing-24/img16.png'
-import DelivaryImgUrl2 from '../../public/images/landing-24/img17.png'
-import DelivaryImgUrl3 from '../../public/images/landing-24/img18.png'
-import DelivaryImgUrl4 from '../../public/images/landing-24/img19.png'
-
 
 
 
@@ -65,7 +55,7 @@ const index = () => {
 
                     <Row className='Landing__23__Reverce'>
 
-                        <Col lg={6} >
+                        <Col md={6} >
 
                             <div className='Landing__23__BannerTxt'>
 
@@ -103,7 +93,7 @@ const index = () => {
 
                 <Row>
 
-                    <Col>
+                    <Col md={6} lg={3}>
 
                          <div className='Landing__23__ShippingIcon'>
 
@@ -117,7 +107,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col>
+                    <Col md={6} lg={3}>
 
                          <div className='Landing__23__ShippingIcon'>
 
@@ -131,7 +121,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col>
+                    <Col md={6} lg={3}>
 
                          <div className='Landing__23__ShippingIcon'>
 
@@ -145,7 +135,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col>
+                    <Col md={6} lg={3}>
 
                          <div className='Landing__23__ShippingIcon'>
 
@@ -593,8 +583,10 @@ const index = () => {
 
                         <img src="/images/landing-23/logo2.png" alt="" />
 
-                        <p>A smart watch is a wearable technology device that offers
-                            a wide range of features and functionalities, including fitness tracking
+                        <p>
+                            A smart watch is a wearable technology<br/> device 
+                            that offers a wide<br/> range of features and 
+                            functionalities,<br/> including fitness tracking
                         </p>
 
                     </div>
@@ -602,6 +594,7 @@ const index = () => {
                     <div>
 
                         <h4>Social Media</h4>
+
                         <SocialMedia></SocialMedia>
 
                     </div>
@@ -611,11 +604,11 @@ const index = () => {
 
                         <ul>
                             <li>
-                                <Link href="">00 0392 96 32</Link>
+                                <Link href=""><IoCallOutline/> 00 0392 96 32</Link>
                             </li>
 
                             <li>
-                                <Link href="">oder@smartshop.com</Link>
+                                <Link href=""><AiOutlineMail/>oder@smartshop.com</Link>
                             </li>
 
                         </ul>
@@ -645,6 +638,8 @@ const index = () => {
                     </div>
 
                 </div>
+
+                <TinyFooter></TinyFooter>
 
             </Container>
 
