@@ -1,0 +1,267 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__22 {
+    font-family: 'Noto Serif Bengali', serif;
+    list-style-type: none;
+    overflow-x: hidden ;
+  }
+
+  .Landing__22 ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Landing__22 h1{
+      font-size: 54px;
+      line-height: 74px;
+      color:#813C13;
+      font-weight: 900;
+      padding-top: 100px;
+      padding-bottom: 30px;
+  }
+
+
+  .Landing__22 h2{
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+           
+  .Landing__22 .bg {
+      transition: 0.5s;
+      display: block;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+
+  .Landing__22 a.bg{
+      position: relative;
+      padding: 24px 70px;
+      color:#FFF; 
+      background:#7E4A13;
+      background-size: 180% auto;
+      display: inline-block;
+      transition: .2s;
+      font-weight: 600;
+      border-radius: 100px;
+      font-size: 32px;
+      line-height: 42px;
+     transition: all .2s;
+     transform: scale(.9);
+    }
+
+
+  .Landing__22 a.bg svg{
+      font-size: 40px;
+      margin-top: -5px;
+      margin-right: 10px;
+      color: #FFF; 
+  }
+  
+
+  .Landing__22 a.bg:hover {
+      background-position: right center;
+      color: #000000;
+      text-decoration: none;
+      transform: scale(1.1);
+  }
+   
+  .Landing__22 a.bg:hover svg {
+      color: #020000;      
+  }
+   
+
+  .Landing__22__section_gaps{
+      margin-top: 100px;
+  }
+ 
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+
+  .Landing__22__bg_div{
+    background-image: url('../../public/images/landing-22/bg.png');
+    background-size: cover;
+    padding: 40px 0px 230px 0px;
+  }
+
+  .Landing__22__BannerTxt{
+    position: relative;
+    margin-top: 50px;
+  }
+
+.Landing__22__BannerTxt p{
+    position: absolute;
+    top: 15px;
+    left:20px;
+    font-size: 27px;
+    line-height: 35px;
+    color:#7E4A13;
+    display: inline-block;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.Landing__22__BannerTxtimg1{
+    position: absolute;
+    margin-left: 0px;
+    height: 70px;
+    margin-top:0px;
+    z-index: 0;
+    transition: 0.2s;
+}
+
+
+.Landing__22__BannerTxt h3{
+    font-size: 53px;
+    line-height: 70px;
+    color:#FFFCF4;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    
+}
+  
+.Landing__22__RelText{
+    position: relative;
+    
+}
+
+.Landing__22__BannerLinkimgBox{
+    position: relative;
+}
+
+.Landing__22__LinkAbs{
+    position: absolute;
+    top:-5px;
+    width: 320px;
+    height: 100px;
+    left:10px;
+    transition: all .2s;
+}
+
+
+.Landing__22__BannerLinkimgBox:hover .Landing__22__BannerTxtimg1{
+  position: absolute;
+  width: 130px;
+  margin-left: -0px;
+  margin-top:-3px;
+  z-index: 0;
+  height: 80px;
+}
+
+.Landing__22__AbsB_Box{
+    position: absolute;
+    top:-70px;
+    left: 420px;
+    display: flex;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+
+.Landing__22__BannerTxt .Landing__22__RelText h5{
+   font-size: 34px;
+   color:#443513;
+   position: relative;
+   font-weight: 600;
+   margin-left: 30px;
+  }
+
+ .Landing__22__AbsB_Box img{
+    position: absolute;
+    left: -57px;
+    top:-23px;
+    height: 103px;
+  }
+
+/* Col---2 */
+.Landing__22__DisImgDiv{
+    text-align: right;
+}
+
+
+.Landing__22__DisImg{
+    height: 251px;
+    margin-top: 200px;
+    margin-right: -150px;
+}
+
+   
+
+/* ================================================================================================
+           Oil Details
+  ===================================================================================================*/
+
+  .Landing__22__Oilh2{
+    font-size: 50px;
+    line-height: 60px;
+    color:#002223;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+.Landing__22__Oildetails{
+    background-image: url('../../public/images/landing-22/bg2.png');
+    background-size: cover;
+    padding: 114px 0px 0px 78px;
+}
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
+   
+
+
+/* ================================================================================================
+            Banner
+  ===================================================================================================*/
