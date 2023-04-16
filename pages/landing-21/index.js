@@ -711,24 +711,24 @@ const index = () => {
 
         <section>
 
-        <Container fluid className='Landing__21__ShippingCon'>
-            
-                <div className='Landing__21__ShippingDiv'>
+            <Container fluid className='Landing__21__ShippingCon'>
+                
+                    <div className='Landing__21__ShippingDiv'>
 
-                    <ShippingAddress
-                        DelivaryImage1={DelivaryImgUrl1}
-                        DelivaryImage2={DelivaryImgUrl2}
-                        DelivaryImage3={DelivaryImgUrl3}
-                        DelivaryImage4={DelivaryImgUrl4}
-                        DelivaryTitle1="বিশ্বব্যাপী ফ্রি শিপিং। " 
-                        DelivaryTitle2="100 ভাগ খাটিঁ " 
-                        DelivaryTitle3="শ্রেষ্ঠ মূল্য গ্যারান্টি।" 
-                        DelivaryTitle4="24/7 গ্রাহক সহায়তা" 
-                    />
+                        <ShippingAddress
+                            DelivaryImage1={DelivaryImgUrl1}
+                            DelivaryImage2={DelivaryImgUrl2}
+                            DelivaryImage3={DelivaryImgUrl3}
+                            DelivaryImage4={DelivaryImgUrl4}
+                            DelivaryTitle1="বিশ্বব্যাপী ফ্রি শিপিং। " 
+                            DelivaryTitle2="100 ভাগ খাটিঁ " 
+                            DelivaryTitle3="শ্রেষ্ঠ মূল্য গ্যারান্টি।" 
+                            DelivaryTitle4="24/7 গ্রাহক সহায়তা" 
+                        />
 
-                </div>
+                    </div>
 
-        </Container>
+            </Container>
 
         </section>
 
