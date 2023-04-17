@@ -85,13 +85,36 @@
     background-image: url('../../public/images/landing-18/bg.png');
     padding: 50px 0px 250px 0px;
     background-size:cover;
-  
 }
+
+.Landing__18__BannerTxt h1{
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #1D4696 29%,
+    #ff1361 67%,
+    #FFBF0B 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: htf76uy2185 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes htf76uy2185 {
+  to {
+    background-position: 200% center;
+  }
+}
+
 
 .Landing__18__BannerTxt h4{
     font-size: 24px;
     color:#1D4696;
-    
 }
 
 .Landing__18__BannerTxt h3{
@@ -153,11 +176,11 @@
 }
 
 .Landing__18__img1DisAbs{
-  animation: Ibrahim25bfd 1s infinite alternate ;
+  animation: Ibrahim25bfd 3s infinite linear alternate ;
 }
 
 @keyframes Ibrahim25bfd {
-  0% {transform: rotate(0);}
+  0% {transform: rotate(-10deg);}
  100%{transform: rotate(10deg);}
 } 
 
@@ -280,7 +303,12 @@
    position: relative;
    margin-bottom: 30px;
    margin-right: 5px; 
-}
+  }
+
+  .Landing__18__Card:hover {
+   background-color: #FA3B61;
+  }
+
 
 .Landing__18__Card h3{
     font-size: 32px;
@@ -414,7 +442,7 @@
 
     /* ================================================================================================
             Slider
-  ===================================================================================================*/
+    ===================================================================================================*/
 
 .Landing__18__SliderSec{
   background-image: url('../../public/images/landing-18/bg2.png');
@@ -586,7 +614,7 @@
   }
   
   .Landing__18__FooterBgRow_Div a{
-      color:#FA3B61;;
+      color:#FA3B61;
       font-size: 18px;
       line-height: 32px;
   }

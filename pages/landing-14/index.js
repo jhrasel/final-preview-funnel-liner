@@ -77,7 +77,6 @@ const index = () => {
 
                                         <Link href='#placeAnOrder' className='bg'>অর্ডার করুন</Link>
 
-
                                     </div>
 
 

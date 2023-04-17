@@ -227,15 +227,7 @@
     margin-right: -150px;
 }
 
-/* .Landing__22__DisImg{
-  animation: jyguiy35468 1s infinite linear alternate;
-}
 
-@keyframes jyguiy35468 {
-  from {top: 0px;}
-  to {top: 200px;}
-}
-    */
 
 /* ================================================================================================
            Oil Details
@@ -288,6 +280,16 @@
   height: 608px;
   margin-top: 300px;
 }
+
+.Landing__22__OilAbs1{
+  animation: jyguiy35468 7s infinite linear;
+}
+
+@keyframes jyguiy35468 {
+  from {transform:rotate(0) ;}
+  to {transform:rotate(360deg);}
+}
+   
 
 .Landing__22__OilAbs2{
   position: absolute;
