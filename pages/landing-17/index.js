@@ -2,11 +2,9 @@ import React from 'react'
 import Link from 'next/link';
 
 // Bootstrap
-
 import { Col, Container, Row } from 'react-bootstrap';
 
 // icon
-
 import { AiOutlineShoppingCart} from 'react-icons/ai';
 
 
@@ -15,8 +13,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { FreeMode, Autoplay, Pagination, Navigation} from "swiper";
-import { useRef } from 'react';
+import {Navigation} from "swiper";
 
 // Common 
 
@@ -62,7 +59,6 @@ const index = () => {
                         </div>
 
                     </div>
-
 
                     <Row className='Landing__17__RowPad'>
 
@@ -134,7 +130,7 @@ const index = () => {
 
                     <Row>
                         
-                        <Col lg={3}>
+                        <Col  xs={12} sm ={6} md={4} lg={3}>
 
                             <div className='Landing__17__Card'>
 
@@ -151,7 +147,7 @@ const index = () => {
                         </Col>
 
 
-                        <Col lg={3}>
+                        <Col xs={12} sm ={6} md={4} lg={3}>
 
                             <div className='Landing__17__Card'>
 
@@ -168,7 +164,7 @@ const index = () => {
                         </Col>
 
 
-                        <Col lg={3}>
+                        <Col xs={12} sm ={6} md={4} lg={3}>
 
                             <div className='Landing__17__Card'>
 
@@ -185,7 +181,7 @@ const index = () => {
                         </Col>
 
 
-                        <Col lg={3}>
+                        <Col xs={12} sm ={6} md={4} lg={3}>
 
                             <div className='Landing__17__Card'>
 
@@ -286,7 +282,6 @@ const index = () => {
 
                 </div>
 
-
                 <div className='Landing__17__Video_div'>
 
                     <Container>
@@ -307,11 +302,9 @@ const index = () => {
 
                     </div>
 
-
                     </Container>
 
                 </div>
-
 
         </section>
 
@@ -332,7 +325,7 @@ const index = () => {
 
                     <Row>
 
-                        <Col xs={12} sm={6}>
+                        <Col xs={12} sm={12} md={6}>
 
                             <div className='Landing__17__Ul_div'>
 
@@ -365,7 +358,7 @@ const index = () => {
                       
                         </Col>
 
-                      <Col xs={12} sm={6}>
+                      <Col xs={12} sm={12} md={6}>
 
                         <div className='Landing__17__Ul_div'>
 
@@ -632,13 +625,11 @@ const index = () => {
 
                 </div>
 
-         
-
             <Container>
   
                 <Row>
 
-                    <Col xs={12} sm={7}>
+                    <Col xs={12} sm={12} md={7}>
 
                         <h2 className='Landing__17__FashionH2'> ফ্যাশনেবল এবং আরামদায়ক <br/> রাবার সোল  জুতা </h2>
 
@@ -694,7 +685,7 @@ const index = () => {
 
                     </Col>
 
-                    <Col xs={12} sm={5} className='Landing__17__FashionSec'>
+                    <Col xs={12} sm={12} md={5} className='Landing__17__FashionSec'>
 
                        
 

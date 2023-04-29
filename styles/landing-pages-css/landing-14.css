@@ -2,17 +2,13 @@
 Common
 ===================================================================================*/
 
-
-
 .Landing__14{
 
     --header : #FDDE9C;
     --bg1 : #ED1C22;
     --bg2 : #541401;
     --white : #FFF;
-
-    font-family: 'Manrope', sans-serif ;
-
+    font-family: 'Manrope', sans-serif;
 }
 
 .Landing__14 .container{
@@ -172,6 +168,7 @@ Common
 /* ===========================================================================================================
    Landing__18__Welcome 
 ===============================================================================================================*/
+
 .Landing__14__Welcome {
     background: var(--bg2);
     padding-top: 100px;
@@ -757,9 +754,9 @@ Common
 
     .Landing__14__Order {
         position: relative;
-        padding: 60px;
+        padding: 0px 60px 0px 60px;
         background: var(--bg2);
-        height: 600px;
+      
     }
 
 
@@ -860,7 +857,6 @@ Common
 
     .Landing__14__Order {
         padding: 50px 0;
-        height: 1100px;
     }
 
 }
@@ -874,6 +870,10 @@ Common
     .Landing__14__Banner__Img img {
         height: 60px;
         width: auto;
+    }
+
+    .Landing__14__Delivay{
+        margin-top:195px;
     }
 
     .Landing__14 h1 {
@@ -961,7 +961,6 @@ Common
 
     .Landing__14__Order {
         padding: 30px 0;
-        height: 1260px;
     }
 
     .Landing__14__Footer__Content li a {
@@ -976,6 +975,15 @@ Common
 
     .Landing__14__Footer__Content img {
         height: 100px;
+    }
+
+
+    .Landing__14 .swiper-button-next {
+        display: none;
+    }
+
+    .Landing__14 .swiper-button-prev {
+        display: none;
     }
 
 }

@@ -1,8 +1,7 @@
 import React from 'react';
-
+import dynamic from 'next/dynamic'
 // Youtube Player
-import ReactPlayer from 'react-player';
-
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 // Css
 import style from './video.module.css';
 

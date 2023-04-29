@@ -472,43 +472,43 @@ const index = () => {
 
              <div className='Landing__16__FooterBgRow_Div'>
 
-                <div>
+                  <div>
 
-                   <h4>Important Link</h4>
+                    <h4>Important Link</h4>
 
-                    <div className='Landing__16__FooterHr'></div>
+                      <div className='Landing__16__FooterHr'></div>
 
-                   <ul>
+                    <ul>
 
-                      <li><Link href="#">Privacy Policy</Link></li>
+                        <li><Link href="#">Privacy Policy</Link></li>
 
-                      <li><Link href="#">Terms and Conditions</Link></li>
+                        <li><Link href="#">Terms and Conditions</Link></li>
 
-                   </ul>
+                    </ul>
 
-                </div>
+                  </div>
 
-              {/ ---------- /}
+                {/* ---------- */}
 
-                <div>
+                  <div>
 
-                    <img src="/images/landing-16/logo2.png" alt="" />
+                      <img src="/images/landing-16/logo2.png" alt="" />
 
-                </div>
+                  </div>
 
-              {/ ---------- /}
-                <div>
+                {/* ---------- */}
+                  <div>
 
-                    <h4 className='Landing__16__FooterH3'>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
+                      <h4 className='Landing__16__FooterH3'>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
 
-                    <h3>+8801894844452</h3>
+                      <h3>+8801894844452</h3>
 
-                </div>
+                  </div>
 
-              {/ ---------- /}
+                {/* ---------- */}
 
 
-             </div>
+              </div>
 
               <div className="Landing__16_socialMidia">
 

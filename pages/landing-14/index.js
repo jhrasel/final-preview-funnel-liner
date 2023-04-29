@@ -77,7 +77,6 @@ const index = () => {
 
                                         <Link href='#placeAnOrder' className='bg'>অর্ডার করুন</Link>
 
-
                                     </div>
 
 
@@ -125,6 +124,7 @@ const index = () => {
             </section>
 
             {/* Section_gaps */}
+            
             <div className="Section_gaps"></div>
 
 
