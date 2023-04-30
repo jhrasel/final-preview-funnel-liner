@@ -158,10 +158,10 @@ START Banner PART -----2
 } */
 .Landing__6 .bgImgIcon2 img {
     position: relative;
-    animation: mymove 7s linear infinite;
+    animation: mymove25gfy2 7s linear infinite;
 }
 
-@keyframes mymove {
+@keyframes mymove25gfy2 {
     0% {
         rotate: 0;
     }
