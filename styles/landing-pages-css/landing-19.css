@@ -715,6 +715,7 @@ Landing__19__Footer
 
 }
 
+
 @media (max-width: 991px) {
    .collumnRev{
     display: flex;
@@ -724,8 +725,6 @@ Landing__19__Footer
    .Landing__19__Banner__Img img {
     width: 100%;
 }
-
-
 
 
 }

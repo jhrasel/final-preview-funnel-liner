@@ -92,10 +92,10 @@ START Banner PART 1
 
 .Landing__7 .topImg1 {
   position: relative;
-  animation: mymove 12s linear infinite;
+  animation: mymove25hjk 12s linear infinite;
 }
 
-@keyframes mymove {
+@keyframes mymove25hjk {
   0% {
     top: 0px;
     transform: rotate(0);
@@ -114,10 +114,10 @@ START Banner PART 1
 
 .Landing__7 .topImg4 {
   position: relative;
-  animation: mymove 20s linear infinite;
+  animation: mymove498gs4t 20s linear infinite;
 }
 
-@keyframes mymove4 {
+@keyframes mymove498gs4t {
   0% {
     top: 0px;
     transform: rotate(0);

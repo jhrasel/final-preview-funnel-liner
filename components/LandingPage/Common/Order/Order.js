@@ -92,7 +92,7 @@ const Order = () => {
 
                       <input type="number" />
 
-                      <h5>BDT 1,690.00</h5>
+                      <h5> ৳  1,690</h5>
 
                     </div>
 

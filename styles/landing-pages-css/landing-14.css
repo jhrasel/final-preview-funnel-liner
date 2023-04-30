@@ -546,6 +546,18 @@ Common
 }
 
 
+/* Other */
+
+.Landing__14 .swiper-button-next:after {
+    font-size: 24px !important;
+    color: #42210B;
+}
+
+.Landing__14 .swiper-button-prev:after {
+    font-size: 24px !important;
+    color: #42210B;
+}
+
 
 
 /* ===========================================================================================================

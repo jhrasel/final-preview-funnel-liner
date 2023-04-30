@@ -650,10 +650,10 @@
   /* ================================================================================================
             Footer
   ===================================================================================================*/
+
   .Landing__17__FooterBgRow_DivMain{
     background-image: linear-gradient(to top, #ecfbff, #ecfbff, #ecfbff, #ecfbff, #ecfbff);
     padding-bottom: 50px;
-
   }
   
 .Landing__17__FooterBgRow_Div{
@@ -697,7 +697,6 @@ color:#012A4A;
 }
 
 
-
 /* Tiney Footer */
 
 .Landing__17 .tiny-footer_tinyFooter__Tr3b1 p {
@@ -717,6 +716,7 @@ padding: 0 5px;
 
 .Landing__17__FooterMidDiv{
   padding-top: 21px;
+  margin: 0px 15px;
   background-color: #36C3ED;
   width:332px;
   height: 310px;

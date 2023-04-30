@@ -62,7 +62,7 @@ const index = () => {
 
                             <h3 className='Landing__15_Bannar_txth3'>৳৮00 টাকা 
 
-                                <span> ৳ 1,100 </span>
+                                <span> ৳ ১,১০০ </span>
 
                             </h3>
 
@@ -278,7 +278,7 @@ const index = () => {
                         <div className="Landing__15_OrderT1_divAbs">
 
                             <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
-                            <h4>প্যাকেজ মূল্যঃ  800 টাকা</h4>
+                            <h4>প্যাকেজ মূল্যঃ  ৮০০ টাকা</h4>
 
                             <Link href='#placeAnOrder' className="bg bg2"> <AiOutlineShoppingCart/>অর্ডার করতে এখানে ক্লিক করুন</Link>
 
@@ -413,9 +413,9 @@ const index = () => {
 
                     <div className='Landing__15_Order2Abs'>
 
-                        <h5>1999 টাকার অর্ডার করতে সাথে পাচ্ছেন হোম ডেলিভারি </h5>
+                        <h5>১৯৯৯ টাকার অর্ডার করতে সাথে পাচ্ছেন হোম ডেলিভারি </h5>
 
-                        <h4>প্যাকেজ মূল্যঃ  800 টাকা</h4>
+                        <h4>প্যাকেজ মূল্যঃ  ৮০০ টাকা</h4>
 
                         <Link href='#placeAnOrder' className="bg bg2"> <AiOutlineShoppingCart/>অর্ডার করতে এখানে ক্লিক করুন</Link>
 
@@ -523,7 +523,7 @@ const index = () => {
                             <ul>
 
                                 <li>                          
-                                    <h2>প্যাকেজ মূল্যঃ  719 টাকা</h2>
+                                    <h2>প্যাকেজ মূল্যঃ ৭১৯ টাকা</h2>
                                 </li>
 
                                 <li>

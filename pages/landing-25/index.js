@@ -123,7 +123,13 @@ const index = () => {
                                 <div className='GiftImgItems'>
 
                                     <div className="img">
-                                        <img className='GiftBoxImg1' src="images/landing-25/img3.png" alt="" />
+
+                                        <Link href="">
+
+                                           <img className='GiftBoxImg1' src="images/landing-25/img3.png" alt="" />
+
+                                       </Link>  
+
                                     </div>
 
                                     <h4>মরিয়ম খেজুর</h4>
@@ -132,7 +138,11 @@ const index = () => {
 
                                 <div className='GiftImgItems'>
 
-                                    <img className='GiftBoxImg2' src="images/landing-25/img4.png" alt="" />
+                                    <Link href="">
+
+                                        <img className='GiftBoxImg1' src="images/landing-25/img4.png" alt="" />
+
+                                    </Link>  
 
                                     <h4>মাবরুম খেজুর</h4>
 
@@ -140,7 +150,11 @@ const index = () => {
 
                                 <div className='GiftImgItems'>
 
-                                    <img className='GiftBoxImg3' src="images/landing-25/img5.png" alt="" />
+                                    <Link href="">
+
+                                        <img className='GiftBoxImg1' src="images/landing-25/img4.png" alt="" />
+
+                                    </Link> 
 
                                     <h4>আজওয়া খেজুর</h4>
 
@@ -586,7 +600,7 @@ const index = () => {
 
                         <div className='Landing__25__Hr'></div>
 
-                        <h5>বক্সটির ওজন ১ কেজি </h5>
+                        <h5> খেজুরের ওজন ১ কেজি </h5>
 
                          <h4>মুল্য-৬০০ টাকা </h4>
 

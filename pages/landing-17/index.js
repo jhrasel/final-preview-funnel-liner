@@ -247,7 +247,7 @@ const index = () => {
 
                     <div className='Landing__17__Order2Abs'>
 
-                        <h4>মুল্য-550.00 টাকা</h4>
+                        <h4>মুল্য-৩৭৯.00 টাকা</h4>
 
                         <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
 
@@ -432,7 +432,7 @@ const index = () => {
 
                         <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
 
-                        <h4>মুল্য-550.00 টাকা</h4>
+                        <h4>মুল্য-৩৭৯.00 টাকা</h4>
 
                         <h6>5G Casual Classic সুজ ফর মেন</h6>
 
@@ -732,13 +732,14 @@ const index = () => {
         {/* =======================================================================================
                    Footer
         ============================================================================================*/}
+
         <section className='Landing__17__FooterBgRow_DivMain'>
 
             <Container>
 
                 <div className='Landing__17__FooterBgRow_Div'>
 
-                    <div>
+                    <div >
 
                         <h4>Important Link</h4>
 
@@ -754,7 +755,7 @@ const index = () => {
 
                     </div>
 
-                    {/* ---------- */}
+                      {/* ---------- */}
 
                     <div className='Landing__17__FooterMidDiv'>
 
@@ -764,8 +765,9 @@ const index = () => {
 
                     </div>
 
-                    {/* ---------- */}
-                    <div>
+                        {/* ---------- */}
+
+                    <div >
 
                         <h4 className='Landing__17__FooterH3'>অর্ডার পেতে কল করুন এই নাম্বারে</h4>
 
