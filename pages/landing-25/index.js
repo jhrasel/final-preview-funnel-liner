@@ -8,20 +8,16 @@ import { Col, Container, Row } from 'react-bootstrap';
 // icon
 
 import { AiOutlineShoppingCart, AiOutlineMail} from 'react-icons/ai';
-import { IoCallOutline} from "react-icons/io5";
-import {IoLocationSharp} from "react-icons/io5";
 import { IoIosArrowBack,IoIosArrowForward } from "react-icons/io";
 
 
 // Common 
 
 import Order from '@/components/LandingPage/Common/Order/Order';
-import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
 import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 import Video from '@/components/LandingPage/Common/Video/Video';
 import landingImageUrl from "../../public/images/landing-25/logo.png";
 import SocialMedia from "../../components/LandingPage/Common/SocialMedia/SocialMedia"
-import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
 import Menubar from '@/components/LandingPage/Common/Menubar/Menubar';
 
 // Import Swiper 
@@ -31,7 +27,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import {Navigation} from "swiper";
 import { useRef } from 'react';
-
 
 
 

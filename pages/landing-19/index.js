@@ -4,7 +4,6 @@ import Link from 'next/link';
 // Bootstrap
 import { Col, Container, Row } from 'react-bootstrap';
 
-
 // Common 
 
 import Order from '@/components/LandingPage/Common/Order/Order';
@@ -43,6 +42,7 @@ const index = () => {
             {/* =======================================================================================
             Banner
             ============================================================================================*/}
+            
             <section className='Landing__19__Banner'>
 
                 <img className='Landing__19__Banner__bg' src="/images/landing-19/banner-bg.png" alt="" />
@@ -59,6 +59,7 @@ const index = () => {
                                 <div className="Landing__19__Banner__TextContent">
 
                                     <h5>১০% ক্যাশব্যাক পয়েন্ট = ১২০ পয়েন্ট</h5>
+
                                     <h1>ত্বকের জন্য সেরা ক্রিম যা ১ সপ্তাহের মধ্যে ত্বককে উষ্ণ, সুগন্ধযুক্ত এবং মসৃণ রাখার জন্য সাহায্য করে।</h1>
 
                                     <h2>মুল্য  ৳২৪০০ টাকা </h2>
@@ -92,7 +93,6 @@ const index = () => {
                 </div>
 
             </section>
-
 
 
             {/* =======================================================================================
@@ -194,13 +194,14 @@ const index = () => {
                                         <img src="/images/landing-19/benefits.png" alt="" />
                                     </div>
 
-                                    <p>খুব ভালো করে  শুষ্ক ত্বক নিভিয়ে দেয় এবং এটিকে মসৃণ দেখায়</p>
+                                    <p> খুব ভালো করে শুষ্ক ত্বক নিভিয়ে দেয় এবং এটিকে মসৃণ দেখায় </p>
 
                                 </div>
 
                             </Col>
 
                             {/* item */}
+                            
                             <Col lg={3}>
 
                                 <div className="Landing__19__Benefits__Item">
