@@ -111,7 +111,6 @@ Navbar
 .Landing__26__Banner__bg {
     width: 100%;
     height: 100%;
-    position: absolute;
 }
 
 .Landing__26__Banner__Content {
@@ -124,6 +123,7 @@ Navbar
     align-items: center;
     justify-content: center;
     padding-top: 30px;
+    z-index: 5;
 }
 
 .Landing__26__Banner__Content h5 {
@@ -268,8 +268,16 @@ Navbar
     background-color:#13131B;
   }
 
+  .Landing__26__DetailsImgRelDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
 .Landing__26__DetailsImg{
-    text-align: center;
+    position: absolute;
+    width: 50%;
+    z-index: 3;
 }
 
 
@@ -279,6 +287,7 @@ Navbar
 
   .Landing__26__ListDetails{
     position: relative;
+    margin-top: 450px;
 }
 
 .Landing__26__ListDetails__bg{
@@ -308,24 +317,181 @@ Navbar
     border-radius: 50px;
 }
 
-/* ================================================================================================
-            Banner
+.Landing__26__Contant__Ul2{
+    margin-top: 30px;
+}
+
+ /* ================================================================================================
+            Contant2
   ===================================================================================================*/
 
+.Landing__26__Contant2ColDiv{
+    margin-top: 190px;
+}
+
+.Landing__26__Contant2ColDiv h2{
+    text-align: left;
+    color:#FDFDFD;
+}
+
+.Landing__26__DetailsDiv2{
+    justify-content: left;
+  }
+
+.Landing__26__DetailsDiv .Landing__26__DetailsDiv3{
+    background:#FFF ;
+  }
+
+.Landing__26__Contant2ColDiv ul li{
+    display: flex;
+    color:#FDFDFD;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.Landing__26__Contant2ColDiv ul li img{
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.Landing__26__DetailsImgDiv{
+    position: relative;
+}
+
+.Landing__26__DetailsImg1{
+    position: absolute;
+    margin-top: 300px;
+}
+.Landing__26__DetailsImg2{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 450px;
+}
 
 /* ================================================================================================
-            Banner
+            Order 2
   ===================================================================================================*/
+
+  .Landing__26 .Landing__26__Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+ .Landing__26 .Landing__26__Order2Img{
+    height: 660px;
+  }
+
+  .Landing__26__Order2Abs{
+      position: absolute;
+      text-align: center;
+  }
+
+  .Landing__26__Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#E41320;
+      font-weight: 900;
+  }
+
+  .Landing__26__Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#E41320;
+      margin: 30px 0px;
+  }
 
 
 /* ================================================================================================
-            Banner
+            Video
   ===================================================================================================*/
+
+  .Landing__26__videoTxtDiv{
+    text-align: center;
+    margin-top: 94px;
+  }
+
+  .Landing__26__videoTxtDiv p{
+        color:#1F1214;
+        margin-bottom: 10px;
+  }
+
+  .Landing__26__videoTxtDiv h3{
+    font-size: 60px;
+    color:#E41320;
+    font-weight: 900;
+  }
+
 
 
 /* ================================================================================================
-            Banner
+            All Details
   ===================================================================================================*/
+
+.Landing__26__AllDSec{
+    position: relative;
+    
+}
+
+.Landing__26__AllD__ImgBG{
+    width: 100%;
+}
+
+.Landing__26__AllDSecRel{
+    position: relative;
+}
+
+.Landing__26__AllContantDiv{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    z-index: 5;
+
+}
+
+.Landing__26__AllContantDiv h2{
+    color: #E41320;
+}
+
+.Landing__26__AllContantDiv2 {
+    margin-bottom: 50px;
+}
+
+.Landing__26__AllContantImgDiv{
+    position: relative;
+    width: 100%;
+}
+
+.Landing__26__AllContantImg{
+    width: 100%;
+    position: absolute;
+}
+
+.Landing__26__AllContantImgDiv .Landing__26__AllContantAbs2{
+    position: absolute;
+    padding: 50px 0px;
+}
+
+.Landing__26__Contant2ColDiv2 ul li{
+    display: flex;
+    color:#FDFDFD;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.Landing__26__Contant2ColDiv2 ul li img{
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+
 
 
 /* ================================================================================================

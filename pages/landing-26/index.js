@@ -162,7 +162,9 @@ const index = () => {
                 </p>
 
 
-                <img className="Landing__26__DetailsImg" src="/images/landing-26/img7.png" alt="" />
+                <div className="Landing__26__DetailsImgRelDiv">
+                     <img className="Landing__26__DetailsImg" src="/images/landing-26/img7.png" alt="" />
+                </div>
 
               </div>
 
@@ -192,6 +194,103 @@ const index = () => {
                                 <div>ভিটামিন</div>
                     </div>
 
+                    <div className="Landing__26__Contant__Ul  Landing__26__Contant__Ul2">
+
+                                <div>প্রোটিন পাউডার</div>
+                                <div>প্রোটিন হাইড্রোলাইজড</div>
+                                <div>ওজন বৃদ্ধিকারী</div>
+                                
+                    </div>
+
+                    <div className="Landing__26__Contant2Div">
+
+                        <Container>
+
+                           <Row>
+
+                                <Col lg={6}>
+
+                                    <div className="Landing__26__Contant2ColDiv">
+
+                                        <h2>যাদের অপুষ্টি রয়েছে তাদের অভাবজনিত সাপ্লিমেন্ট নেওয়া প্রয়োজন</h2>
+
+                                        <div className="Landing__26__DetailsDiv Landing__26__DetailsDiv2">
+
+                                            <div></div>
+
+                                            <div className="Landing__26__DetailsDiv3"></div>
+
+                                            <div className="Landing__26__DetailsDiv3"></div>
+
+                                            <div></div>
+
+                                        </div>
+
+                                        <ul>
+
+                                            <li>
+                                                <img src="/images/landing-26/img12.png" alt="" />
+                                                এসব সাপ্লিমেন্ট সঠিক নিয়ম অনুসরন করে এবং পরিমাণ <br/> ঠিক রেখে ঠিকঠাক খাবেন।
+                                            </li>
+
+                                            <li>
+                                                <img src="/images/landing-26/img12.png" alt="" />
+                                                যারা নিজেদের স্বাস্থ্য রক্ষায় সচেতন।
+                                            </li>
+
+                                            <li>
+                                                <img src="/images/landing-26/img12.png" alt="" />
+                                                যাদের চেষ্টা থাকে খাদ্যাভ্যাস ও লাইফস্টাইল সংক্রান্ত অন্যান্য ইতিবাচক
+                                                অভ্যাসগুলো আয়ত্ব করে সুস্থ্য জীবন চর্চা করার, তাদের জন্য ফুড সাপ্লিমেন্ট ব্যাপক সহায়ক
+                                                ভূমিকা পালন করতে পারে কারন ভালো মানের ফুড সাপ্লিমেন্টগুলো কাজ করে ধীর গতিতে।
+                                            </li>
+
+                                            <li>
+                                                <img src="/images/landing-26/img12.png" alt="" />
+                                                যাদের মানসিক এবং শারীরিক চাপ সম্পূর্ণ নিয়ন্ত্রণে থাকে।
+                                            </li>
+
+                                            <li>
+                                                <img src="/images/landing-26/img12.png" alt="" />
+                                                পাশাপাশি যারা শরীরের ইমিউন সিস্টেম রক্ষায় কিছুটা হলেও সচেতন।
+                                            </li>
+
+                                            <li>
+                                                <img src="/images/landing-26/img12.png" alt="" />
+                                                ব্যয়ামের অভিজ্ঞতা জরুরি কারণ এর ওপর নির্ভর করে মাসল কোয়ালিটি এবং মাসল মেমোরি।
+                                            </li>
+
+                                            <li>
+                                                <img src="/images/landing-26/img12.png" alt="" />
+                                                উচ্চ ক্যালোরি সম্পূরক সূত্র আপনাকে বাল্ক পেশী আকার লাভ করার প্রস্তাব দেয়
+                                            </li>
+
+                                        </ul>    
+
+
+                                    </div>
+
+
+                                </Col>
+
+                                <Col lg={6}>
+
+                                    <div className="Landing__26__DetailsImgDiv">
+
+                                        <img className="Landing__26__DetailsImg1" src="/images/landing-26/img9.png" alt="" />
+
+                                        <img className="Landing__26__DetailsImg2" src="/images/landing-26/img10.png" alt="" />
+
+                                    </div>
+
+                                </Col>
+
+                           </Row>
+
+                        </Container>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -201,18 +300,150 @@ const index = () => {
         <div className="Landing__26__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    Order 2
         ============================================================================================*/}
 
+        <section>
+
+            <Container>
+                
+                <div className='Landing__26__Order2'>
+
+                    <img className='Landing__26__Order2Img' src="/images/landing-26/img11.png" alt="" />
+
+                    <div className='Landing__26__Order2Abs'>
+
+                        <h4>মুল্য-1,500.00 টাকা</h4>
+
+                        <h5>সারা দেশে ফ্রি হোম ডেলিভারি </h5>
+
+                        <Link href='#placeAnOrder' className="bg"> <AiOutlineShoppingCart/>অর্ডার করতে এখানে ক্লিক করুন</Link>
+
+                    </div>
+
+                </div>
+
+            </Container>
+
+        </section>
+
+
+        <div className="Landing__26__section_gaps"></div>
 
         {/* =======================================================================================
                     Banner
         ============================================================================================*/}
 
+        <Container>
+
+            <Video></Video>  
+
+            <div className="Landing__26__videoTxtDiv">
+
+                <p>গোল্ড স্ট্যান্ডার্ড হুই প্রোটিনের যে কোন তথ্যের জন্য যোগাযোগ করুন</p>
+
+                <h3>মোবাইলঃ +8801894844452</h3>
+
+            </div>
+
+        </Container>
+
+        <div className="Landing__26__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    All Details
         ============================================================================================*/}
+
+        <section className="Landing__26__AllDSec">
+
+            <img className="Landing__26__AllD__ImgBG" src="/images/landing-26/img20.png" alt="" />
+
+            <div className="Landing__26__AllContantDiv">
+
+                <Container>
+
+                        <div className="Landing__26__AllContantDiv2">
+
+                            <h2>100% গোল্ড স্ট্যান্ডার্ড হুই প্রোটিন পাউডার (5 পাউন্ড) পাউন্ড</h2>
+
+                        </div>
+
+                      <div className="Landing__26__AllContantImgDiv">
+
+                        <img className="Landing__26__AllContantImg" src="/images/landing-26/img22.png" alt="" />
+
+                        <div className="Landing__26__AllContantAbs2">
+
+                                <Row >
+
+                                    <Col lg={6}>
+
+                                        <img className="Landing__26__AllContantImg2" src="/images/landing-26/img21.png" alt="" />
+
+                                    </Col>
+
+                                    <Col lg={6}>
+                                            
+                                        <div className="Landing__26__Contant2ColDiv2">
+
+                                            <ul>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img12.png" alt="" />
+                                                    এসব সাপ্লিমেন্ট সঠিক নিয়ম অনুসরন করে এবং পরিমাণ <br/> ঠিক রেখে ঠিকঠাক খাবেন।
+                                                </li>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img12.png" alt="" />
+                                                    যারা নিজেদের স্বাস্থ্য রক্ষায় সচেতন।
+                                                </li>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img12.png" alt="" />
+                                                    যাদের চেষ্টা থাকে খাদ্যাভ্যাস ও লাইফস্টাইল সংক্রান্ত অন্যান্য ইতিবাচক
+                                                    অভ্যাসগুলো আয়ত্ব করে সুস্থ্য জীবন চর্চা করার, তাদের জন্য ফুড সাপ্লিমেন্ট ব্যাপক সহায়ক
+                                                    ভূমিকা পালন করতে পারে কারন ভালো মানের ফুড সাপ্লিমেন্টগুলো কাজ করে ধীর গতিতে।
+                                                </li>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img12.png" alt="" />
+                                                    যাদের মানসিক এবং শারীরিক চাপ সম্পূর্ণ নিয়ন্ত্রণে থাকে।
+                                                </li>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img12.png" alt="" />
+                                                    পাশাপাশি যারা শরীরের ইমিউন সিস্টেম রক্ষায় কিছুটা হলেও সচেতন।
+                                                </li>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img12.png" alt="" />
+                                                    ব্যয়ামের অভিজ্ঞতা জরুরি কারণ এর ওপর নির্ভর করে মাসল কোয়ালিটি এবং মাসল মেমোরি।
+                                                </li>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img12.png" alt="" />
+                                                    উচ্চ ক্যালোরি সম্পূরক সূত্র আপনাকে বাল্ক পেশী আকার লাভ করার প্রস্তাব দেয়
+                                                </li>
+
+                                            </ul>    
+
+
+                                        </div>    
+
+                                    </Col>
+
+                                </Row>
+
+                        </div>
+
+                    </div>
+
+                </Container>
+
+            </div>
+           
+
+        </section>
 
 
         {/* =======================================================================================
