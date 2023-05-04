@@ -77,7 +77,7 @@ const index = () => {
 
                             <div className="Landing__26__Banner__TextContent">
 
-                                <img src="images/landing-26/img2.png" alt="" />
+                                <img className="Landing__26__Banner__TextImg" src="images/landing-26/img2.png" alt="" />
 
                                 <h5>100% Natural Ingredients</h5>
 
@@ -125,7 +125,6 @@ const index = () => {
 
                 </Container>
 
-                
 
             </div>
 
@@ -370,7 +369,7 @@ const index = () => {
 
                       <div className="Landing__26__AllContantImgDiv">
 
-                        <img className="Landing__26__AllContantImg" src="/images/landing-26/img22.png" alt="" />
+                        <img className="Landing__26__AllContantImg" src="/images/landing-26/img26.png" alt="" />
 
                         <div className="Landing__26__AllContantAbs2">
 
@@ -378,7 +377,12 @@ const index = () => {
 
                                     <Col lg={6}>
 
-                                        <img className="Landing__26__AllContantImg2" src="/images/landing-26/img21.png" alt="" />
+                                    <div className="Landing__26__AllContantImg2Div">
+
+                                          <img className="Landing__26__AllContantImg2" src="/images/landing-26/img21.png" alt="" />
+
+                                    </div>
+                                       
 
                                     </Col>
 
@@ -389,40 +393,43 @@ const index = () => {
                                             <ul>
 
                                                 <li>
-                                                    <img src="/images/landing-26/img12.png" alt="" />
-                                                    এসব সাপ্লিমেন্ট সঠিক নিয়ম অনুসরন করে এবং পরিমাণ <br/> ঠিক রেখে ঠিকঠাক খাবেন।
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    বিশ্বের সবচেয়ে বেশি বিক্রি হওয়া হুই প্রোটিন পাউডার
                                                 </li>
 
                                                 <li>
-                                                    <img src="/images/landing-26/img12.png" alt="" />
-                                                    যারা নিজেদের স্বাস্থ্য রক্ষায় সচেতন।
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    5.5 গ্রাম BCAAs
                                                 </li>
 
                                                 <li>
-                                                    <img src="/images/landing-26/img12.png" alt="" />
-                                                    যাদের চেষ্টা থাকে খাদ্যাভ্যাস ও লাইফস্টাইল সংক্রান্ত অন্যান্য ইতিবাচক
-                                                    অভ্যাসগুলো আয়ত্ব করে সুস্থ্য জীবন চর্চা করার, তাদের জন্য ফুড সাপ্লিমেন্ট ব্যাপক সহায়ক
-                                                    ভূমিকা পালন করতে পারে কারন ভালো মানের ফুড সাপ্লিমেন্টগুলো কাজ করে ধীর গতিতে।
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    24 গ্রাম প্রোটিন
                                                 </li>
 
                                                 <li>
-                                                    <img src="/images/landing-26/img12.png" alt="" />
-                                                    যাদের মানসিক এবং শারীরিক চাপ সম্পূর্ণ নিয়ন্ত্রণে থাকে।
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    4 গ্রাম গ্লুটামিন এবং গ্লুটামিক অ্যাসিড
                                                 </li>
 
                                                 <li>
-                                                    <img src="/images/landing-26/img12.png" alt="" />
-                                                    পাশাপাশি যারা শরীরের ইমিউন সিস্টেম রক্ষায় কিছুটা হলেও সচেতন।
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    হুই প্রোটিন আইসোলেট প্রাথমিক উৎস
                                                 </li>
 
                                                 <li>
-                                                    <img src="/images/landing-26/img12.png" alt="" />
-                                                    ব্যয়ামের অভিজ্ঞতা জরুরি কারণ এর ওপর নির্ভর করে মাসল কোয়ালিটি এবং মাসল মেমোরি।
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    পেশী তৈরি এবং বজায় রাখতে সাহায্য করে
                                                 </li>
 
                                                 <li>
-                                                    <img src="/images/landing-26/img12.png" alt="" />
-                                                    উচ্চ ক্যালোরি সম্পূরক সূত্র আপনাকে বাল্ক পেশী আকার লাভ করার প্রস্তাব দেয়
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    নিষিদ্ধ পদার্থ পরীক্ষা করা হয়েছে
+                                                </li>
+
+                                                <li>
+                                                    <img src="/images/landing-26/img25.png" alt="" />
+                                                    মার্কিন যুক্তরাষ্ট্রে তৈরি
                                                 </li>
 
                                             </ul>    
@@ -445,33 +452,282 @@ const index = () => {
 
         </section>
 
+        <div className="Landing__26__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    Img Group
         ============================================================================================*/}
+       
+        <section>
 
+            <Container>
+
+                <div className='Landing__26__ImgGroup1'>
+
+                    <img src="/images/landing-26/img13.png" alt="" />
+                    <img src="/images/landing-26/img14.png" alt="" />
+                    <img src="/images/landing-26/img15.png" alt="" />
+
+                </div>
+
+                <div className='Landing__26__ImgGroup2'>
+
+                <img src="/images/landing-26/img16.png" alt="" />
+                <img src="/images/landing-26/img17.png" alt="" />
+                <img src="/images/landing-26/img18.png" alt="" />
+                <img src="/images/landing-26/img19.png" alt="" />
+
+
+                </div>
+
+            </Container>
+
+        </section>
+
+
+        <div className="Landing__26__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    Card
+        ============================================================================================*/}
+        <section className="Landing__26__CardSec">
+            
+            <img className="Landing__26__CardSecImg" src="/images/landing-26/img32.png" alt="" />
+
+            <div className="Landing__26__CardContantDiv">
+
+                <Container>
+
+                        <h2>ফুড সাপ্লিমেন্ট এর সুবিধাসমূহ</h2>
+
+                       <div className="Landing__26__DetailsDiv Landing__26__DetailsDiv2 Landing__26__DetailsDiv3">
+
+                            <div></div>
+
+                            <div className="Landing__26__DetailsDiv3"></div>
+
+                            <div className="Landing__26__DetailsDiv3"></div>
+
+                            <div></div>
+
+                        </div>
+
+
+                        <div className="Landing__26__CardDiv">
+
+                            <div className="Landing__26__Card">
+
+                                <img src="/images/landing-26/img27.png" alt="" />
+
+                                <div className="Landing__26__CardTxt">
+
+                                    <h4>গর্ভবতী নারীদের ক্ষেত্রে</h4>
+
+                                    <p>যারা গর্ভবতী নারী অথবা শীগগিরই কনসিভ করবেন বলে ভাবছেন, 
+                                        তাদের জন্য ফুড সাপ্লিমেন্ট অত্যাবশ্যকীয়। গর্ভাবস্থায় একজন নারীর 
+                                        শরীরে বিভিন্ন ভিটামিন, নিউট্রিয়েন্টস এবং অন্য আরো কিছু উপাদানের 
+                                        প্রয়োজনীয়তা বেড়ে যায়।
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <div className="Landing__26__Card">
+
+                                <img src="/images/landing-26/img28.png" alt="" />
+
+                                <div className="Landing__26__CardTxt">
+
+                                    <h4>বয়স্ক লোকদের জন্য</h4>
+
+                                    <p>যারা গর্ভবতী নারী অথবা শীগগিরই কনসিভ করবেন বলে ভাবছেন, 
+                                        তাদের জন্য ফুড সাপ্লিমেন্ট অত্যাবশ্যকীয়। গর্ভাবস্থায় একজন নারীর 
+                                        শরীরে বিভিন্ন ভিটামিন, নিউট্রিয়েন্টস এবং অন্য আরো কিছু উপাদানের 
+                                        প্রয়োজনীয়তা বেড়ে যায়।
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <div className="Landing__26__Card">
+
+                                <img src="/images/landing-26/img29.png" alt="" />
+
+                                <div className="Landing__26__CardTxt">
+
+                                    <h4>গযাদের খাবারে এলার্জি আছে</h4>
+
+                                    <p>যারা গর্ভবতী নারী অথবা শীগগিরই কনসিভ করবেন বলে ভাবছেন, 
+                                        তাদের জন্য ফুড সাপ্লিমেন্ট অত্যাবশ্যকীয়। গর্ভাবস্থায় একজন নারীর 
+                                        শরীরে বিভিন্ন ভিটামিন, নিউট্রিয়েন্টস এবং অন্য আরো কিছু উপাদানের 
+                                        প্রয়োজনীয়তা বেড়ে যায়।
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        {/* Card-2Sec -------*/}
+
+                        <div className="Landing__26__CardDiv Landing__26__CardDiv2">
+
+                            <div className="Landing__26__Card">
+
+                                <img src="/images/landing-26/img30.png" alt="" />
+
+                                <div className="Landing__26__CardTxt">
+
+                                    <h4>গর্ভবতী নারীদের ক্ষেত্রে</h4>
+
+                                    <p>যারা গর্ভবতী নারী অথবা শীগগিরই কনসিভ করবেন বলে ভাবছেন, 
+                                        তাদের জন্য ফুড সাপ্লিমেন্ট অত্যাবশ্যকীয়। গর্ভাবস্থায় একজন নারীর 
+                                        শরীরে বিভিন্ন ভিটামিন, নিউট্রিয়েন্টস এবং অন্য আরো কিছু উপাদানের 
+                                        প্রয়োজনীয়তা বেড়ে যায়।
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <div className="Landing__26__Card">
+
+                                <img src="/images/landing-26/img31.png" alt="" />
+
+                                <div className="Landing__26__CardTxt">
+
+                                    <h4>গর্ভবতী নারীদের ক্ষেত্রে</h4>
+
+                                    <p>যারা গর্ভবতী নারী অথবা শীগগিরই কনসিভ করবেন বলে ভাবছেন, 
+                                        তাদের জন্য ফুড সাপ্লিমেন্ট অত্যাবশ্যকীয়। গর্ভাবস্থায় একজন নারীর 
+                                        শরীরে বিভিন্ন ভিটামিন, নিউট্রিয়েন্টস এবং অন্য আরো কিছু উপাদানের 
+                                        প্রয়োজনীয়তা বেড়ে যায়।
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                </Container>
+
+            </div>
+
+        </section>
+
+
+        <div className="Landing__26__section_gaps"></div>
+        {/* =======================================================================================
+                   Order3
         ============================================================================================*/}
 
+        <section>
+
+            <Container>
+
+                
+                <div className='Landing__26__Order3'>
+
+                <img className='Landing__26__Order3Img' src="/images/landing-26/img23.png" alt="" />
+
+                <div className='Landing__26__Order3Abs'>
+
+                <h4>মুল্য-1,500.00 টাকা</h4>
+
+                <h5>সারা দেশে ফ্রি হোম ডেলিভারি</h5>
+
+                <Link href='#placeAnOrder' className="bg bg2"> <AiOutlineShoppingCart/>অর্ডার করতে এখানে ক্লিক করুন</Link>
+
+                </div>
+
+                </div>
+
+            </Container>
+
+        </section>
+
+        <div className="Landing__26__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                    CustomerReview
         ============================================================================================*/}
 
+        <CustomerReview></CustomerReview>   
+
+        <div className="Landing__26__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                Order3
         ============================================================================================*/}
 
+        <section className="Landing__26__FooterSec">
 
-        {/* =======================================================================================
-                    Banner
-        ============================================================================================*/}
+            <img className="Landing__26__FooterImg" src="/images/landing-26/bg3.png" alt="" />
+
+            <div className="Landing__26__FooterContentDiv">
+
+                <Container>
+
+                <div id="placeAnOrder">
+                
+                    <Order></Order>
+
+                </div>
+
+                <div className="Landing__26__FooterDiv">
+
+                    <div>
+                        <h4>Important Link</h4>
+
+                        <div className="Landing__26__Hr"></div>
+
+                        <h5><Link href="">Privacy Policy</Link></h5>
+
+                        <h5><Link href="">Terms and Conditions</Link></h5>
+
+                    </div>
+
+                    <div>
+
+                        <img src="/images/landing-26/logo2.png" alt="" />
+
+                    </div>
+
+                    <div>
+
+                        <h4>Contact Us</h4>
+
+                        <h3>+8801799733234</h3>
+
+                        <SocialMedia></SocialMedia>
+
+                    </div>
+
+
+                </div>
+
+                <div className="Landing__26__Hr2"></div>
+
+                <TinyFooter></TinyFooter>
+
+                </Container>
 
 
 
+            </div>
+
+        </section>
+        
+
+
+        <div className="Landing__26__section_gaps"></div>
 
     </div>
 
