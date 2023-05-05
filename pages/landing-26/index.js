@@ -25,7 +25,6 @@ import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/Shi
 import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
 
 
-
 const index = () => {
 
   return (
@@ -724,10 +723,7 @@ const index = () => {
             </div>
 
         </section>
-        
 
-
-        <div className="Landing__26__section_gaps"></div>
 
     </div>
 
