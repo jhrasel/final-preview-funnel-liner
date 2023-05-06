@@ -226,6 +226,7 @@ Navbar
     margin-top: -50px;
     justify-content: center;
 }
+
 .Landing__26__Banner__bg__bottom ul li{
     font-size: 24px;
     color:#FDFDFD;
@@ -234,7 +235,7 @@ Navbar
 }
 
 
-  
+
 /* ================================================================================================
              Details
   ===================================================================================================*/
@@ -1424,6 +1425,26 @@ Navbar
     
     .Landing__26__Banner__bg {
         height: 1021px;
+    }
+
+    /* New */
+    .Landing__26__Banner__bg__bottom {
+        position: absolute;
+        z-index: 3;
+        bottom: -21px;
+        width: 100%;
+    }
+
+    .Landing__26__Banner__bg__bottom1 {
+        width: 100%;
+        height: 305px;
+    }
+
+    .Landing__26__Banner__bg__bottom ul {
+        display: flex;
+        align-items: center;
+        margin-top: -69px;
+        justify-content: center;
     }
     
      }
