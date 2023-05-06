@@ -67,6 +67,8 @@ import '../styles/landing-pages-css/landing-25.css';
 
 import '../styles/landing-pages-css/landing-26.css';
 
+import '../styles/landing-pages-css/landing-27.css';
+
 
 
 

@@ -8,10 +8,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 // icon
 
 import { AiOutlineShoppingCart, AiOutlineMail} from 'react-icons/ai';
-import { IoCallOutline} from "react-icons/io5";
-import {IoLocationSharp} from "react-icons/io5";
-import { IoIosArrowBack,IoIosArrowForward } from "react-icons/io";
-
 
 // Common 
 
@@ -21,7 +17,6 @@ import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 import Video from '@/components/LandingPage/Common/Video/Video';
 import landingImageUrl from "../../public/images/landing-26/logo.png";
 import SocialMedia from "../../components/LandingPage/Common/SocialMedia/SocialMedia"
-import ShippingAddress from '@/components/LandingPage/Common/ShippingAddress/ShippingAddress';
 import MenubarLeft from '@/components/LandingPage/Common/Menubar/MenubarLeft';
 
 
