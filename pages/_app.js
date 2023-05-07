@@ -35,6 +35,8 @@ import '../styles/landing-pages-css/landing-8.css';
 
 import '../styles/landing-pages-css/landing-9.css';
 
+import '../styles/landing-pages-css/landing-10.css';
+
 import '../styles/landing-pages-css/landing-12.css';
 
 import '../styles/landing-pages-css/landing-11.css';
