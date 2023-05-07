@@ -717,6 +717,13 @@ Navbar
     color: #E41320;
 }
 
+.Landing__26 .order_OrderConfirmRight__DSDPT ul {
+    border: 1px solid #E41320;
+  }
+  
+  .Landing__26  .order_OrderConfirmRight__DSDPT ul li {
+    border-bottom: 1px solid #E41320;
+  }
 
 /* ================================================================================================
             Footer

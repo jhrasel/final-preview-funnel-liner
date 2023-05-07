@@ -254,7 +254,27 @@ Banner
 }
 
 /* ================================================================================================
-Banner
+    Video
+===================================================================================================*/
+.Landing__27__CustomerReview{
+  position: relative;
+}
+
+.Landing__27__VideoImg1{
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 401px;
+}
+.Landing__27__VideoImg2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 401px;
+}
+
+/* ================================================================================================
+LungiDetails2
 ===================================================================================================*/
 
 .Landing__27__LungiDetails2{
@@ -332,6 +352,32 @@ padding: 0 5%;
   padding-top: 46px ;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 44px;
+  padding-bottom: 120px;
+  
+}
+.grid-item {
+  border: 1px solid #FC9EA7;
+  padding: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.grid-item:nth-child(odd){
+  border-left: none;
+  color:#2C2C2C;
+  font-weight: 600;
+}
+
+.grid-item:nth-child(even){
+  border-left: none;
+  border-right: none;
+  color:#E42930;
+}
+
 /* ================================================================================================
 Details-3
 ===================================================================================================*/
@@ -343,26 +389,253 @@ Details-3
 }
 
 /* ================================================================================================
-Banner
+    Order Sec
 ===================================================================================================*/
 
+.Landing__27__OrderSec{
+  position: relative;
+}
+
+.Landing__27__OrderSecImg{
+    width: 100%;
+}
+
+.Landing__27__OrderSecAbs{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Landing__27 .order_OrderConfirmFrom__ThtXd {
+  background-image: url('../../public/images/landing-27/img20.png');
+  background-size: cover;
+  padding: 100px 30px !important;
+  color:#E41320;
+}
+
+.Landing__27 .order_OrderConfirmFrom__ThtXd h2{
+  color:#1F1214;
+}
+
+
+.Landing__27 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
+  background:#E41320;
+}
+
+.Landing__27 .order_OrderConfirmRight__DSDPT button {
+  background:#E41320;
+}
+
+.Landing__27 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
+  color: #ffffff;
+}
+.Landing__27 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0::after {
+  border-bottom:15px solid  #E41320;
+  } 
+  
+.Landing__27 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_CustomeInput__NQVsd input:checked+label:before {
+  background:#E41320;
+}
+
+.Landing__27 .order_OrderConfirmLeft__uVx3z .order_CustomeInput__NQVsd input {
+  border: 1px solid #E41320;
+}
+
+.Landing__27 .order_OrderConfirmRight__DSDPT ul h5 {
+  color: #E41320;
+}
+
+.Landing__27 .order_OrderConfirmRight__DSDPT ul .order_left__tYuKG p {
+  color: #E41320;
+}
+
+.Landing__27 .order_OrderConfirmRight__DSDPT ul {
+  border: 1px solid #E41320;
+}
+
+.Landing__27  .order_OrderConfirmRight__DSDPT ul li {
+  border-bottom: 1px solid #E41320;
+}
+
+/* ================================================================================================
+Shipping Address
+===================================================================================================*/
+
+.Landing__27__ShippingDetails{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.Landing__27__ShippingDetails div{
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.Landing__27__ShippingDetails div h4{
+  text-align: center;
+  font-size: 30px;
+}
+
+.Landing__27__ShippingDetails div img{
+  position: absolute;
+  z-index: -1;
+  margin-top: -50px;
+ 
+}
 
 
 /* ================================================================================================
-Banner
+    Footer
 ===================================================================================================*/
 
+.Landing__27__FooterSec{
+    background-image: url(../../public/images/landing-27/bg4.png);
+    width: 100%;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.Landing__27__FooterContant{
+  text-align: center;
+}
+
+.Landing__27__FooterContant h5{
+  font-size: 16px ;
+  color:#FDFDFD;
+  margin-top: 72px;
+}
+
+.Landing__27__FooterContant h3{
+  font-size: 30px ;
+  color:#FDFDFD;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.Landing__27__Hr{
+  width: 150px;
+  height: 1px;
+  background-color: #787272;
+  margin: 0 auto;
+  margin-bottom: 10px;
+ }
+
+.Landing__27__FooterContant ul{
+display: flex;
+justify-content: center;
+margin-bottom: 44px;
+
+}
+
+.Landing__27__FooterContant ul li a{
+  color: #E42930;
+  margin-left: 15px;
+}
+
+.Landing__27 .tiny-footer_tinyFooter__Tr3b1 p {
+  color: #FDFDFD ;
+}
+.Landing__27 .tiny-footer_tinyFooter__Tr3b1 p a{
+  color: #E41320 ;
+}
 
 
 /* ================================================================================================
-Banner
+      Media Quari
 ===================================================================================================*/
 
+ 
+@media (max-width: 1741px) {
 
 
-/* ================================================================================================
-Banner
-===================================================================================================*/
+}
+
+ @media (max-width: 1400px) {
+
+  .Landing__27__Banner__Img1 {
+    margin-top: 150px;
+    width: 120%;
+    margin-left: -65px;
+}
+
+.Landing__27__Banner__H4__Div h4 {
+  left: 80px;
+  font-size: 24px;
+  color: #FDFDFD;
+  margin-top: 16px;
+}
+
+.Landing__27 h1 {
+  font-size: 44px;
+  line-height: 55px;
+  color: #2C2C2C;
+  font-weight: 900;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.Landing__27__Banner__TextContent {
+  margin-top: 143px;
+}
+
+.Landing__27 a.bg {
+  position: relative;
+  padding: 14px 56px;
+  color: #FFF;
+  background-image: linear-gradient(to right,#E41320 0%,#E41320 51%, #E41320 100%);
+  background-size: 180% auto;
+  display: inline-block;
+  transition: .2s;
+  font-weight: 600;
+  border-radius: 20px;
+  font-size: 24px;
+  line-height: 55px;
+}
+
+
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+
+}
+
+@media (max-width: 991px) {
+
+
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+
+@media (max-width: 575px) {
+
+   
+    }
+
+@media (max-width: 450px) {
+
+   
+    }
+
+
+
+
+
 
 
 

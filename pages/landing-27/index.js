@@ -314,37 +314,55 @@ const index = () => {
         {/* =======================================================================================
                    Details Table
         ============================================================================================*/}
+
         <section className="Landing__27__DetailsTable">
 
-        <Container>
+            <Container>
 
-            <h2>আরো কিছু তথ্য আমাদের এই ব্র্যান্ড লুঙ্গির </h2>
+                <h2>আরো কিছু তথ্য আমাদের এই ব্র্যান্ড লুঙ্গির </h2>
 
-            <div>
-                
+                <div class="grid-container">
+                    <div class="grid-item">WEIGHT</div>
+                    <div class="grid-item">0.22 kg</div>
+                    <div class="grid-item">DIMENSIONS</div>  
+                    <div class="grid-item">28 × 12 × 2 cm</div>
+                    <div class="grid-item">BRAND</div>
+                    <div class="grid-item">Lungi</div>  
+                    <div class="grid-item">TYPE</div>
+                    <div class="grid-item">Non-Stitched</div>
+                    <div class="grid-item">SIZE</div>  
+                    <div class="grid-item">2.10m</div>
+                    <div class="grid-item">COLOR</div>
+                    <div class="grid-item">Blue Lungis, Red</div>  
+                </div>
 
-            </div>
-
-
-        </Container>
+            </Container>
 
         </section>
 
-        <div className="Landing__27__section_gaps"></div>
+
 
         {/* =======================================================================================
                   CustomerReview
         ============================================================================================*/}
-        <Container>
 
-            <Video></Video>
+        <section className="Landing__27__CustomerReview">
 
-            <div className="Landing__27__section_gaps"></div>
+            <img className="Landing__27__VideoImg1" src="/images/landing-27/img17.png" alt="" />
 
-            <CustomerReview></CustomerReview>
+            <img className="Landing__27__VideoImg2" src="/images/landing-27/img18.png" alt="" />
 
-        </Container>
+            <Container>
 
+                <Video></Video>
+
+                <div className="Landing__27__section_gaps"></div>
+
+                <CustomerReview></CustomerReview>
+
+            </Container>
+
+        </section>
 
        <div className="Landing__27__section_gaps"></div>
 
@@ -370,23 +388,109 @@ const index = () => {
         <div className="Landing__27__section_gaps"></div>
         
         {/* =======================================================================================
-                    Banner
+                    Order Sec
         ============================================================================================*/}
 
+        <section className='Landing__27__OrderSec'>
+
+            <img className='Landing__27__OrderSecImg' src="/images/landing-27/bg3.png" alt="" />
+
+                <div className='Landing__27__OrderSecAbs'>
+
+                    <Container>
+
+                    <div id="placeAnOrder">
+                        
+                        <Order></Order>
+
+                    </div>
+
+                    </Container>
+
+                </div>
+
+        </section>
 
 
+        <div className="Landing__27__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                   Shipping Details
         ============================================================================================*/}
+       
+        <section>
 
+            <Container>
 
+                <div className='Landing__27__ShippingDetails'>
 
+                    <div> 
+                        <img src="/images/landing-27/img21.png" alt="" />
+                        <h4>ফ্রি শিপিং</h4> 
+                    </div>
+
+                    <div> 
+                        <img src="/images/landing-27/img21.png" alt="" />
+                        <h4>5 দিনের রিটার্ন পলিসি</h4> 
+                    </div>
+
+                    <div> 
+                        <img src="/images/landing-27/img21.png" alt="" />
+                        <h4>100% নিরাপদ পেমেন্ট</h4> 
+                    </div>
+
+                    <div> 
+                        <img src="/images/landing-27/img21.png" alt="" />
+                        <h4>ক্যাশ অন ডেলিভারি</h4> 
+                    </div>
+
+                </div>
+
+            </Container>
+
+        </section>
+        
+           
+        <div className="Landing__27__section_gaps"></div>
 
         {/* =======================================================================================
-                    Banner
+                   Footer
         ============================================================================================*/}
+        <section className='Landing__27__FooterSec'>
 
+            <Container>
+
+                <div className='Landing__27__FooterContant'>
+                    
+                    <img src="/images/landing-27/logo2.png" alt="" />
+
+                    <h5>অর্ডার পেতে কল করুন এই নাম্বারে</h5>
+
+                    <h3>+8801799733234</h3>
+
+                    <div className='Landing__27__Hr'></div>
+
+                    <ul>
+
+                        <li>
+                            <Link href="">শর্তাবলী</Link>
+                        </li>
+
+                        <li>
+                            <Link href="">প্রাইভেসী পলিসি</Link>
+                        </li>
+                        
+                    </ul>
+                    <SocialMedia></SocialMedia>
+                    <TinyFooter></TinyFooter>
+
+
+
+                </div>
+
+            </Container>
+
+        </section>
 
 
 
