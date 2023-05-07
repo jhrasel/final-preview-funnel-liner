@@ -265,12 +265,14 @@ Banner
   top: 0;
   left:0;
   height: 401px;
+  z-index: -1;
 }
 .Landing__27__VideoImg2{
   position: absolute;
   top: 0;
   right: 0;
   height: 401px;
+  z-index: -1;
 }
 
 /* ================================================================================================
@@ -352,27 +354,27 @@ padding: 0 5%;
   padding-top: 46px ;
 }
 
-.grid-container {
+.Landing__27 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   padding-top: 44px;
   padding-bottom: 120px;
   
 }
-.grid-item {
+.Landing__27 .grid-item {
   border: 1px solid #FC9EA7;
   padding: 24px;
   font-size: 24px;
   text-align: center;
 }
 
-.grid-item:nth-child(odd){
+.Landing__27 .grid-item:nth-child(odd){
   border-left: none;
   color:#2C2C2C;
   font-weight: 600;
 }
 
-.grid-item:nth-child(even){
+.Landing__27 .grid-item:nth-child(even){
   border-left: none;
   border-right: none;
   color:#E42930;
@@ -588,16 +590,35 @@ margin-bottom: 44px;
 .Landing__27 a.bg {
   position: relative;
   padding: 14px 56px;
-  color: #FFF;
-  background-image: linear-gradient(to right,#E41320 0%,#E41320 51%, #E41320 100%);
-  background-size: 180% auto;
-  display: inline-block;
-  transition: .2s;
-  font-weight: 600;
-  border-radius: 20px;
   font-size: 24px;
   line-height: 55px;
 }
+
+.Landing__27__Banner__TextContent h2 {
+  margin-top: 44px;
+}
+
+.Landing__27 h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.Landing__27__LungiDetails2AbsImgDiv {
+  top: -224px;
+}
+
+.Landing__27 .grid-item {
+  border: 1px solid #FC9EA7;
+  padding: 24px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.Landing__27__ShippingDetails div h4 {
+  text-align: center;
+  font-size: 24px;
+}
+
 
 
 
