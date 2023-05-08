@@ -7,7 +7,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 // icon
 
-import { AiOutlineShoppingCart, AiOutlineMail} from 'react-icons/ai';
+import { AiOutlineShoppingCart} from 'react-icons/ai';
 
 // Common 
 
@@ -111,8 +111,6 @@ const index = () => {
 
                             </div>
 
-
-
                         </Col>
 
                     </Row>
@@ -181,16 +179,22 @@ const index = () => {
                     <div className="Landing__26__Contant__Ul">
 
                                 <div>প্রোটিন পাউডার</div>
+
                                 <div>প্রোটিন হাইড্রোলাইজড</div>
+
                                 <div>ওজন বৃদ্ধিকারী</div>
+
                                 <div>প্রি-ওয়ার্কআউটস</div>
+
                                 <div>ভিটামিন</div>
                     </div>
 
                     <div className="Landing__26__Contant__Ul  Landing__26__Contant__Ul2">
 
                                 <div>প্রোটিন পাউডার</div>
+
                                 <div>প্রোটিন হাইড্রোলাইজড</div>
+
                                 <div>ওজন বৃদ্ধিকারী</div>
                                 
                     </div>
@@ -606,9 +610,6 @@ const index = () => {
                             </div>
 
                         </div>
-
-
-
 
                 </Container>
 

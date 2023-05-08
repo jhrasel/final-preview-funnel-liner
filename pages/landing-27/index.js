@@ -197,7 +197,6 @@ const index = () => {
 
                 </Row>
 
-
             </Container>
 
         </section>
@@ -260,33 +259,54 @@ const index = () => {
 
                         </div>
                         
-
                         <div className="Landing__27__LungiDetails2Img6Div">
 
                             <div>
+
                                 <img src="/images/landing-27/img11.png" alt="" />
+
                                 <h4>মিনি চেক প্যাটার্ন</h4>
+
                             </div>
 
                             <div>
+
                                 <img src="/images/landing-27/img12.png" alt="" />
+
                                 <h4>মিনি চেক প্যাটার্ন</h4>
+
                             </div>
+
                             <div>
+
                                 <img src="/images/landing-27/img13.png" alt="" />
+
                                 <h4>মিনি চেক প্যাটার্ন</h4>
+
                             </div>
+
                             <div>
+
                                 <img src="/images/landing-27/img14.png" alt="" />
+
                                 <h4>মিনি চেক প্যাটার্ন</h4>
+
                             </div>
+
                             <div>
+
                                 <img src="/images/landing-27/img15.png" alt="" />
+
                                 <h4>মিনি চেক প্যাটার্ন</h4>
+
                             </div>
+                            
                             <div>
+
                                 <img src="/images/landing-27/img16.png" alt="" />
+
                                 <h4>মিনি চেক প্যাটার্ন</h4>
+
                             </div>
 
                         </div>
@@ -312,18 +332,31 @@ const index = () => {
                 <h2>আরো কিছু তথ্য আমাদের এই ব্র্যান্ড লুঙ্গির </h2>
 
                 <div class="grid-container">
+
                     <div class="grid-item">WEIGHT</div>
+
                     <div class="grid-item">0.22 kg</div>
-                    <div class="grid-item">DIMENSIONS</div>  
+
+                    <div class="grid-item">DIMENSIONS</div> 
+
                     <div class="grid-item">28 × 12 × 2 cm</div>
+
                     <div class="grid-item">BRAND</div>
+
                     <div class="grid-item">Lungi</div>  
+
                     <div class="grid-item">TYPE</div>
+
                     <div class="grid-item">Non-Stitched</div>
+
                     <div class="grid-item">SIZE</div>  
+
                     <div class="grid-item">2.10m</div>
+
                     <div class="grid-item">COLOR</div>
+
                     <div class="grid-item">Blue Lungis, Red</div>  
+
                 </div>
 
             </Container>
@@ -374,7 +407,6 @@ const index = () => {
 
         </section>
 
-
         <div className="Landing__27__section_gaps"></div>
         
         {/* =======================================================================================
@@ -415,23 +447,35 @@ const index = () => {
                 <div className='Landing__27__ShippingDetails'>
 
                     <div> 
+
                         <img src="/images/landing-27/img21.png" alt="" />
+
                         <h4>ফ্রি শিপিং</h4> 
+
                     </div>
 
                     <div> 
+
                         <img src="/images/landing-27/img21.png" alt="" />
+
                         <h4>5 দিনের রিটার্ন পলিসি</h4> 
+
                     </div>
 
                     <div> 
+
                         <img src="/images/landing-27/img21.png" alt="" />
+
                         <h4>100% নিরাপদ পেমেন্ট</h4> 
+
                     </div>
 
                     <div> 
+
                         <img src="/images/landing-27/img21.png" alt="" />
+
                         <h4>ক্যাশ অন ডেলিভারি</h4> 
+
                     </div>
 
                 </div>
@@ -471,7 +515,9 @@ const index = () => {
                         </li>
                         
                     </ul>
+                    
                     <SocialMedia></SocialMedia>
+
                     <TinyFooter></TinyFooter>
 
 
