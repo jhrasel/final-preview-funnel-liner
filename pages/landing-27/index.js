@@ -496,7 +496,7 @@ const index = () => {
 
                 <div className='Landing__27__FooterContant'>
                     
-                    <img src="/images/landing-27/logo2.png" alt="" />
+                    <img className='Landing__27__FooterContantImg' src="/images/landing-27/logo2.png" alt="" />
 
                     <h5>অর্ডার পেতে কল করুন এই নাম্বারে</h5>
 

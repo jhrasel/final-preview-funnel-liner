@@ -101,6 +101,10 @@ Navbar
   z-index: 2;
 }
 
+.Landing__27 .menubar_MenubarContent__jlW_b .menubar_LogoLeft__F_zxD img {
+height: 40px;
+}
+
 /* ================================================================================================
 Banner
 ===================================================================================================*/
@@ -529,6 +533,10 @@ Shipping Address
     width: 100%;
     background-size: cover;
     padding: 80px 0px;
+}
+
+.Landing__27__FooterContantImg{
+    height: 40px;
 }
 
 .Landing__27__FooterContant{
