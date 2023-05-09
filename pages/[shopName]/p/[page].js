@@ -7,26 +7,7 @@ import Cookies from "js-cookie";
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
 //landing pages
-import LandingOne from "../../../Components/test/landing-one/index";
-import LandingTwo from "../../../Components/test/landing-two/index";
-import LandingThree from "../../../Components/test/landing-three/index";
-import LandingFour from "../../../Components/test/landing-four/index";
 
-import LandingFive from "../../../Components/test/landing-five/index";
-import LandingSix from "../../../Components/test/landing-six/index";
-import LandingSeven from "../../../Components/test/landing-seven/index";
-import LandingEight from "../../../Components/test/landing-eight/index";
-import LandingNine from "../../../Components/test/landing-nine/index";
-import LandingTen from "../../../Components/test/landing-ten/index";
-
-import LandingEleven from "../../../Components/test/landing-eleven/index";
-import LandingTwelve from "../../../Components/test/landing-twelve/index";
-import LandingThirteen from "../../../Components/test/landing-thirteen/index";
-
-import Footer from "../../../Components/theme_1/Common/Footer";
-import Header from "../../../Components/theme_1/Common/Header";
-import SocialMedia from "../../../Components/theme_1/Common/SocialMedia";
-import TinyFooter from "../../../Components/theme_1/Common/TinyFooter";
 
 const Page = () => {
   const router = useRouter();
