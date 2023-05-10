@@ -12,6 +12,11 @@
     --probashi_bg : #FF0034;
 }
 
+.Landing__1 {
+    
+    overflow-x: hidden;
+}
+
 
 .Landing__1 .container a {
     font-weight: 400;
