@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+
 import Link from 'next/link';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -19,20 +19,6 @@ import { AiOutlineInstagram,AiOutlineWhatsApp } from "react-icons/ai";
 import { RiYoutubeLine } from "react-icons/ri";
 
 
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-
-
-// import required modules
-import { Autoplay, Navigation } from "swiper";
-
-
-
 const ChocolateBox = () => {
 
 
@@ -48,9 +34,10 @@ const ChocolateBox = () => {
                 Logo
                 -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
                 <section className='Logo'>
-                    <Menubar logoImage={landingImageUrl}></Menubar>
-                </section>
 
+                    <Menubar logoImage={landingImageUrl}></Menubar>
+
+                </section>
 
 
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------

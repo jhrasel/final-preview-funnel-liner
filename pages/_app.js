@@ -19,7 +19,7 @@ import '../styles/landing-pages-css/landing-common-css/landing-common.css';
 
 import '../styles/landing-pages-css/landing-1.css';
 
-// import '../styles/landing-pages-css/landing-2.css';
+import '../styles/landing-pages-css/landing-2.css';
 
 import '../styles/landing-pages-css/landing-3.css';
 
