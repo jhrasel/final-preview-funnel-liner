@@ -4,7 +4,7 @@ const index = () => {
 
     return (
 
-        <div className='Landing__One'>
+        <div className='Landing__2'>
 
             
         

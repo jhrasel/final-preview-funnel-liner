@@ -7,6 +7,7 @@ import Menubar from '@/components/LandingPage/Common/Menubar/Menubar';
 import landingImageUrl from "../../public/images/landing-1/logo.svg";
 import Video from '@/components/LandingPage/Common/Video/Video';
 import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
+import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
 
 // icon
 
@@ -591,6 +592,18 @@ const ChocolateBox = () => {
                 {/* section_gaps */}
                 <div className="section_gaps"></div>
 
+                {/* -------------------------------------------------------------------------------------------------------------------------------------------------
+                    OrderConfirmFrom
+                -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
+                
+                <Container>
+
+                    <CustomerReview></CustomerReview>
+
+                </Container>
+
+                <div className="section_gaps"></div>
+                
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------
                     OrderConfirmFrom
                 -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
