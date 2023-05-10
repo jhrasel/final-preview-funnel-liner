@@ -68,7 +68,7 @@ const ChocolateBox = () => {
                                     {/* <!-- text --> */}
                                     <div className='text'>
 
-                                        <h3>ভালোবাসার উপহারটি  মূল্যবান হয়। প্রিয়জনের রাগ  ভাঙাতে ফুল ,Coustomize Chocklet Gift Box, কার্ড  মুহূর্তের মধ্যে প্রিয়জনের মুখে হাসি ফোটাবে।</h3>
+                                        <h1>ভালোবাসার উপহারটি  মূল্যবান হয়। প্রিয়জনের রাগ  ভাঙাতে ফুল ,Coustomize Chocklet Gift Box, কার্ড  মুহূর্তের মধ্যে প্রিয়জনের মুখে হাসি ফোটাবে।</h1>
 
                                         <div className="OrderNow d_flex">
 
@@ -210,7 +210,7 @@ const ChocolateBox = () => {
                                     <img src="/images/landing-1/price_img.png" alt="" />
                                     <div className="overlay_text">
                                         <h2>আপনার এবং আপনার <br /> প্রিয়জনদের জন্য সেরা উপহার</h2>
-                                        <h1>মুল্য-১২০০ টাকা</h1>
+                                        <h5>মুল্য-১২০০ টাকা</h5>
                                         <div className="CallForOrder">
                                             <Link href='#order' to="form_part"  activeClass="active">
                                                 <span></span>
@@ -454,7 +454,7 @@ const ChocolateBox = () => {
                                                 অর্ডার করতে এখানে ক্লিক করুন
                                             </Link>
                                         </div>
-                                        <h1>মুল্য-১২০০ টাকা</h1>
+                                        <h5>মুল্য-১২০০ টাকা</h5>
                                         <h2>সারা দেশে ফ্রি হোম ডেলিভারি</h2>
                                     </div>
 
@@ -752,11 +752,7 @@ const ChocolateBox = () => {
 
                             <Col sm={4} xs={12}>
 
-                                <div className="FooterItem">
-
                                     <TinyFooter></TinyFooter>
-
-                                </div>
 
                             </Col>
 
