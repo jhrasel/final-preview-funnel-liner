@@ -71,6 +71,8 @@ import '../styles/landing-pages-css/landing-26.css';
 
 import '../styles/landing-pages-css/landing-27.css';
 
+import '../styles/landing-pages-css/landing-28.css';
+
 
 
 
