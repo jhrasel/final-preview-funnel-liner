@@ -330,6 +330,10 @@
     height: 15px;
 }
 
+.Landing__2 .BannerItem img{
+  width: 100%;
+}
+
 
 /* WhatHave */
 
@@ -442,13 +446,15 @@
     background: linear-gradient(360deg, transparent, #FF0034);
 }
 
-
+.Landing__2 .SariAboutText .CallForOrder{
+    margin-top: 30px;
+}
 
 /* Order From */
 .Landing__2 .SariPackage .OrderConfirmFrom {
     position: relative;
     background: #FEF5F7;
-    padding: 100px 0;
+    padding: 0px 0;
     overflow: hidden;
 }
 
@@ -531,6 +537,10 @@
     
   .Landing__2 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_CustomeInput__NQVsd input:checked+label:before {
     background:var(--bg_color4);
+  }
+
+  .Landing__2 .SariOrderRight img{
+    height: 500px;
   }
 
 
@@ -1394,6 +1404,41 @@
     .Landing__2 .ChocolateBox .gallery .overlay_img {
         bottom: -40px;
     }
+
+    .Landing__2 .ProbashiPackage .Banner .BannerOverlay img {
+        width: 100%;
+        height: 570px;
+       object-fit: cover;
+    }
+
+    .Landing__2 .ProbashiPackage .BannerContent {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .Landing__2 .ProbashiPackage .Banner h1 {
+        font-size: 34px;
+        line-height: 41px;
+        color: #000;
+        margin: 15px 0;
+    }
+
+
+    .Landing__2 .ProbashiPackage .WhatHaveImg .Overlay h2 {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
