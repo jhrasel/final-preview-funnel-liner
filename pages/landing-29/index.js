@@ -136,7 +136,6 @@ const StudentPackage = () => {
                                 <div className="VideoItem">
 
                                    <Video/>
-
                                 </div>
 
                             </Col>
