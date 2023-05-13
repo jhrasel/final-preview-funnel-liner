@@ -325,7 +325,7 @@ const index = () => {
             ============================================================================================*/}
             <section className='Landing__19__Video'>
 
-                {/* <Video></Video> */}
+                <Video></Video>
 
             </section>
 
