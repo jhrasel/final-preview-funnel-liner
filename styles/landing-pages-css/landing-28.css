@@ -197,19 +197,11 @@
    StandardPackage 
 --------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage{
     background: var(--white);
 }
 
 .Landing__28 .StandardPackage .Logo{
-=======
-.StandardPackage{
-    background: var(--white);
-}
-
-.StandardPackage .Logo{
->>>>>>> Stashed changes
     position: absolute;
     top: 0;
     left: 0;
@@ -226,7 +218,6 @@
 
 /* Banner */
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .Banner{
     padding: 0;
 }
@@ -240,21 +231,6 @@
 }
 
 .Landing__28 .StandardPackage .BannerContent{
-=======
-.StandardPackage .Banner{
-    padding: 0;
-}
-
-.StandardPackage .Banner .BannerBg img{
-    width: 100%;
-}
-
-.StandardPackage .Logo img {
-    height: 60px;
-}
-
-.StandardPackage .BannerContent{
->>>>>>> Stashed changes
     position: absolute;
     top: 150px;
     left: 0;
@@ -265,59 +241,35 @@
     text-align: center;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .BannerText h1{
-=======
-.StandardPackage .BannerText h1{
->>>>>>> Stashed changes
     color: var(--white);
     margin: 30px 0;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .BannerText h2{
-=======
-.StandardPackage .BannerText h2{
->>>>>>> Stashed changes
     color: var(--white);
     font-size: 35px;
     line-height: 45px;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .BannerText .Arrow svg{
-=======
-.StandardPackage .BannerText .Arrow svg{
->>>>>>> Stashed changes
     color: var(--white);
     font-size: 50px;
     line-height: 50px;
 }
 
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .BannerText ul{
-=======
-.StandardPackage .BannerText ul{
->>>>>>> Stashed changes
     margin-top: 20px !important;
     margin-left: 300px !important;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .BannerText ul img {
-=======
-.StandardPackage .BannerText ul img {
->>>>>>> Stashed changes
     height: 40px;
     margin-right: 20px;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .BannerText ul li{
-=======
-.StandardPackage .BannerText ul li{
->>>>>>> Stashed changes
     font-size: 20px;
     line-height: 30px;
     color: var(--white);
@@ -325,7 +277,6 @@
     margin-bottom: 30px;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .VideoItem{
     background: var(--bg_color3);
     border-radius: 20px;
@@ -333,33 +284,17 @@
 
 /* Price */
 .Landing__28 .StandardPackage .PriceContent{
-=======
-.StandardPackage .VideoItem{
-    background: var(--bg_color3);
-}
-
-/* Price */
-.StandardPackage .PriceContent{
->>>>>>> Stashed changes
     padding: 30px;
     border-radius: 20px;
     background: #FFDEE7;
     position: relative;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .PriceContent img{
     width: 100%;
 }
 
 .Landing__28 .StandardPackage .PriceItem{
-=======
-.StandardPackage .PriceContent img{
-    width: 100%;
-}
-
-.StandardPackage .PriceItem{
->>>>>>> Stashed changes
     position: absolute;
     top: 50%;
     left: 50%;
@@ -367,29 +302,17 @@
     text-align: center;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .PriceItem h2, .StandardPackage .PriceItem h3{
     color: var(--white);
 }
 
 .Landing__28 .StandardPackage .PriceItem h3{
-=======
-.StandardPackage .PriceItem h2, .StandardPackage .PriceItem h3{
-    color: var(--white);
-}
-
-.StandardPackage .PriceItem h3{
->>>>>>> Stashed changes
     padding: 20px 0;
     font-size: 20px;
     line-height: 30px;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .PriceItem a{
-=======
-.StandardPackage .PriceItem a{
->>>>>>> Stashed changes
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
@@ -399,26 +322,17 @@
     border-radius: 30px;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .SliderOverlayItem img {
-=======
-.StandardPackage .SliderOverlayItem img {
->>>>>>> Stashed changes
     height: 500px;
     width: auto;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .StandardPackage .OrderConfirmFromBg {
-=======
-.StandardPackage .OrderConfirmFromBg {
->>>>>>> Stashed changes
     background: #FFF3F3;
     border-radius: 30px;
     padding: 40px;
 }
 
-<<<<<<< Updated upstream
 .Landing__28 .video_VideoPlayers__MwD8T{
     padding: 20px;
 }
@@ -1578,5 +1492,3 @@
     }
 
 }
-=======
->>>>>>> Stashed changes
