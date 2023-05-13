@@ -180,10 +180,12 @@ Banner
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 30px;
+    z-index: 5;
+}
+
+.Landing__19__Banner__TextContent{
+    margin-top: 70px;
 }
 
 .Landing__19__Banner__Img img {
@@ -208,7 +210,7 @@ Banner
     color: var(--bg-color);
 }
 
-.Landing__19__Banner__Price a{
+.Landing__19__Banner__Price .mobailnum {
     font-size: 24px;
     line-height: 30px;
     padding: 10px 30px;
@@ -509,77 +511,62 @@ Landing__19__Price2
 /* ================================================================================================
 Landing__19__Footer
 ===================================================================================================*/
+
 .Landing__19__Footer{
-    margin-top: 400px;
-    position: relative;
-    overflow: hidden;
+        margin-top: 100px;
 }
 
-.Landing__19__Footer .Landing__19__Footer__Content{
-    position: absolute;
-    top: 300px;
-    left: 0;
-    width: 100%;
+.Landing__19__FooterTop {
+    text-align: center;
 }
 
-.Landing__19__Footer__List ul{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.Landing__19__FooterTop img{
+    width: 70%;
 }
+
 
 .Landing__19__Footer__List li{
-    margin-bottom: 20px;
-    width: 48%;
     display: flex;
-    align-items: flex-start;
+    margin-bottom: 20px;
     font-size: 20px;
     line-height: 30px;
 }
 
 .Landing__19__Footer__List li img{
     margin-right: 10px;
-    display: block;
+    margin-bottom: auto;
 }
 
-.Landing__19__Footer .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
+/* ========================================================================================
+            place in order
+==========================================================================================*/
+
+
+.Landing__19 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
     background: var(--bg-color);
 }
 
-.Landing__19__Footer .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
+.Landing__19 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
     color: var(--white);
 }
 
-.Landing__19__Footer .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0::after {
+.Landing__19 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0::after {
     border-bottom: solid 15px var(--bg-color);
 }
 
-.Landing__19__Footer .order_OrderConfirmRight__DSDPT button {
+.Landing__19 .order_OrderConfirmRight__DSDPT button {
     background: var(--bg-color);
 }
-
 
 
 /* ================================================================================================
 .Landing__19__TinyFooter
 ===================================================================================================*/
 .Landing__19__TinyFooter {
-    margin-top: -830px;
     position: relative;
 }
 
-.Landing__19__TinyFooter img{
-    width: 100%;
-}
 
-.Landing__19__FooterTop {
-    position: absolute;
-    text-align: center;
-    top: -1050px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 .Landing__19__TinyFooter__Content {
     position: absolute;
@@ -725,6 +712,71 @@ Landing__19__Footer
    .Landing__19__Banner__Img img {
     width: 100%;
 }
+
+
+.Landing__19 .CardBBlock{
+    display: block;
+    
+}
+
+.Landing__19__WhyBuy .Landing__19__WhyBuy__Item {
+    background: var(--white);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 260px;
+}
+
+.Landing__19__Product__Item .img {
+    height: auto;
+}
+
+.Landing__19__Banner {
+    height: auto;
+    position: relative;
+}
+
+.Landing__19__Banner__bg {
+    width: 100%;
+    height: 1200px;
+}
+
+.Landing__19__Banner__Img{
+    margin-top: 70px;
+}
+
+.Landing__19__Banner__Content {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    z-index: 5;
+}
+
+.Landing__19 .menubar_MenubarContent__jlW_b .menubar_Logo__pd9Tk::before {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: -94px;
+    width: 60px;
+    height: 2px;
+    background: #A0229D;
+}
+
+.Landing__19 .menubar_MenubarContent__jlW_b .menubar_Logo__pd9Tk::after {
+    position: absolute;
+    content: '';
+    top: 40px;
+    right: -110px;
+    width: 60px;
+    height: 2px;
+    background: #A0229D;
+}
+
+
 
 
 }

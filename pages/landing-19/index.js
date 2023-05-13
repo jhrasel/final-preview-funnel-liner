@@ -66,9 +66,13 @@ const index = () => {
 
                                     <div className="Landing__19__Banner__Price d_flex">
 
-                                        <button class="button type1">অর্ডার করুন</button>
+                                        <Link href="#placeAnOrder" >
 
-                                        <Link href='tel:01894844452'> <span>ফোনে অর্ডার করতে </span> ০১৮৯৪৮৪৪৪৫২</Link>
+                                                <button class="button type1">অর্ডার করুন</button>
+
+                                        </Link>
+
+                                        <Link href='#placeAnOrder' className='mobailnum'> <span>ফোনে অর্ডার করতে </span> ০১৮৯৪৮৪৪৪৫২</Link>
 
                                     </div>
 
@@ -293,7 +297,11 @@ const index = () => {
                                     <h2> মুল্য <br /> ১২০০ টাকা</h2>
                                     <h4>সারা দেশে ফ্রি হোম ডেলিভারি</h4>
 
-                                    <button class="button type1">অর্ডার করুন</button>
+                                    <Link href="#placeAnOrder">
+
+                                        <button class="button type1">অর্ডার করুন</button>
+
+                                    </Link>
 
                                 </div>
 
@@ -345,7 +353,12 @@ const index = () => {
                                 <div className="text">
 
                                     <h4>Yusera Repair Night Cream</h4>
-                                    <button class="button type1">অর্ডার করুন</button>
+
+                                    <Link href="#placeAnOrder">
+
+                                         <button class="button type1">অর্ডার করুন</button>
+
+                                    </Link>
 
                                 </div>
 
@@ -365,7 +378,12 @@ const index = () => {
                                 <div className="text">
 
                                     <h4> Aura Perfect Night Cream</h4>
-                                    <button class="button type1">অর্ডার করুন</button>
+
+                                    <Link href="#placeAnOrder">
+
+                                        <button class="button type1">অর্ডার করুন</button>
+
+                                    </Link>
 
                                 </div>
 
@@ -385,7 +403,13 @@ const index = () => {
                                 <div className="text">
 
                                     <h4>Some By Mi Days Miracle Cream</h4>
-                                    <button class="button type1">অর্ডার করুন</button>
+                                 
+
+                                    <Link href="#placeAnOrder">
+
+                                        <button class="button type1">অর্ডার করুন</button>
+
+                                    </Link>
 
                                 </div>
 
@@ -405,7 +429,12 @@ const index = () => {
                                 <div className="text">
 
                                     <h4>Aloe Soothing Night Cream</h4>
-                                    <button class="button type1">অর্ডার করুন</button>
+                                    
+                                    <Link href="#placeAnOrder">
+
+                                        <button class="button type1">অর্ডার করুন</button>
+
+                                    </Link>
 
                                 </div>
 
@@ -446,7 +475,7 @@ const index = () => {
                         <Row>
 
                             {/* item */}
-                            <Col lg={12} className='d_flex'>
+                            <Col lg={12} className='d_flex CardBBlock'>
 
                                 <div className="Landing__19__WhyBuy__Item">
 
@@ -550,8 +579,11 @@ const index = () => {
                                     <h4><span>50%</span>OFF</h4>
                                     <h3> মুল্য <br /> ১২০০ টাকা </h3>
 
-                                    <button class="button type1">অর্ডার করুন</button>
+                                    <Link href="#placeAnOrder">
 
+                                         <button class="button type1">অর্ডার করুন</button>
+
+                                    </Link>
                                 </div>
 
                             </div>
@@ -567,20 +599,28 @@ const index = () => {
             <div className="Landing__19_section_gaps"></div>
 
 
+
             {/* =======================================================================================
             
             ============================================================================================*/}
+
+
             <section className='Landing__19__Footer'>
 
-                <img className='FooterImg' src="/images/landing-19/footer.png" alt="" />
+                {/* <img className='FooterImg' src="/images/landing-19/footer.png" alt="" /> */}
 
                 <div className="Landing__19__Footer__Content">
 
                     <Container>
 
+                    <div className="Landing__19__FooterTop">
+                         <img src="/images/landing-19/footer-top.png" alt="" />
+                    </div>
+
+
                         <Row>
 
-                            <Col lg={12}>
+                            <Col lg={6}>
 
                                 <div className="Landing__19__Footer__List">
 
@@ -600,6 +640,19 @@ const index = () => {
                                             <img src="/images/landing-19/tik.png" alt="" />
                                             শুষ্ক ত্বকের জন্য সমৃদ্ধ ময়েশ্চারাইজার হালকা স্পর্শে গভীর যত্ন প্রদান করে
                                         </li>
+
+
+                                    </ul>
+
+                                </div>
+
+                            </Col>
+
+                            <Col lg={6}>
+
+                                <div className="Landing__19__Footer__List">
+
+                                    <ul>
 
                                         <li>
                                             <img src="/images/landing-19/tik.png" alt="" />
@@ -624,32 +677,46 @@ const index = () => {
 
                         </Row>
 
-                        <div className="Landing__19__Order">
-
-                            <Order></Order>
-
-                        </div>
 
                     </Container>
 
                 </div>
 
+            </section>
+
+            {/*=======================================================================================
+                        Place in Order
+            ===========================================================================================*/}
+
+
+            <section>
+
+                <Container>
+                        
+                        <div className='Landing__19__PlaseInOdr'>
+
+                            <div id="placeAnOrder">
+
+                                <Order></Order>
+
+                            </div>
+
+                        </div>
+                </Container>
 
             </section>
 
 
-
             {/* =======================================================================================
-            TinyFooter
+                        TinyFooter
             ============================================================================================*/}
+
+
             <section className='Landing__19__TinyFooter'>
 
                 <img src="/images/landing-19/tiny-footer.png" alt="" />
 
-                <div className="Landing__19__FooterTop">
-                    <img src="/images/landing-19/footer-top.png" alt="" />
-                </div>
-
+             
                 <div className="Landing__19__TinyFooter__Content">
 
                     <Container>
