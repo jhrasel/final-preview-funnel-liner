@@ -7,14 +7,18 @@ import ReactPlayer from 'react-player/youtube';
 import Order from '@/components/LandingPage/Common/Order/Order';
 import Menubar from '@/components/LandingPage/Common/Menubar/Menubar';
 import landingImageUrl from "../../public/images/landing-28/logo.svg";
+<<<<<<< Updated upstream
 import Video from '@/components/LandingPage/Common/Video/Video';
 import CustomerReview from '@/components/LandingPage/Common/CustomerReview/CustomerReview';
 import TinyFooter from '@/components/LandingPage/Common/TinyFooter/TinyFooter';
 
+=======
+>>>>>>> Stashed changes
 
 
 // icon
 import { BsArrowDown } from "react-icons/bs";
+<<<<<<< Updated upstream
 import { FaShippingFast } from "react-icons/fa";
 import { MdAvTimer } from "react-icons/md";
 import { RiShieldCheckLine } from "react-icons/ri";
@@ -22,6 +26,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineInstagram,AiOutlineWhatsApp } from "react-icons/ai";
 import { RiYoutubeLine } from "react-icons/ri";
 
+=======
+>>>>>>> Stashed changes
 
 
 
@@ -104,7 +110,10 @@ const StandardPackage = () => {
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------
                     Video
                 -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
+<<<<<<< Updated upstream
                
+=======
+>>>>>>> Stashed changes
                 <section className="Video">
 
                     <Container>
@@ -114,9 +123,13 @@ const StandardPackage = () => {
                             <Col lg={12}>
 
                                 <div className="VideoItem">
+<<<<<<< Updated upstream
 
                                    <Video></Video>
 
+=======
+                                    <ReactPlayer url='https://www.youtube.com/watch?v=GlNwHw5Sxk4' playing={true}/>
+>>>>>>> Stashed changes
                                 </div>
 
                             </Col>
@@ -225,7 +238,11 @@ const StandardPackage = () => {
 
                                                 <div className="BannerItem">
                                                     <div className="img">
+<<<<<<< Updated upstream
                                                         <img src="/images/landing-28/about_slider.png" alt="" />
+=======
+                                                        <img src="images/sari-package/about_slider.png" alt="" />
+>>>>>>> Stashed changes
                                                     </div>
                                                 </div>
                                                 
@@ -235,7 +252,11 @@ const StandardPackage = () => {
 
                                                 <div className="BannerItem">
                                                     <div className="img">
+<<<<<<< Updated upstream
                                                         <img src="/images/landing-28/about_slider.png" alt="" />
+=======
+                                                        <img src="images/sari-package/about_slider.png" alt="" />
+>>>>>>> Stashed changes
                                                     </div>
                                                 </div>
                                                 
@@ -245,7 +266,11 @@ const StandardPackage = () => {
 
                                                 <div className="BannerItem">
                                                     <div className="img">
+<<<<<<< Updated upstream
                                                         <img src="/images/landing-28/about_slider.png" alt="" />
+=======
+                                                        <img src="images/sari-package/about_slider.png" alt="" />
+>>>>>>> Stashed changes
                                                     </div>
                                                 </div>
                                                 
@@ -272,10 +297,16 @@ const StandardPackage = () => {
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------
                     StudentSlider
                 -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
+<<<<<<< Updated upstream
                 
                 <section className="StudentSlider">
 
                     <img src="/images/landing-28/StudentSlider_bg.png" alt="" />
+=======
+                <section className="StudentSlider">
+
+                    <img src="/images/student-package/StudentSlider_bg.png" alt="" />
+>>>>>>> Stashed changes
 
                     <div className="SliderOverlay">
 
@@ -336,11 +367,125 @@ const StandardPackage = () => {
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------
                 CustomerReview
                 -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
+<<<<<<< Updated upstream
                 <section >
 
                     <Container>
 
                             <CustomerReview/>
+=======
+                <section className="CustomerReview">
+
+                    <Container>
+
+                        <Row>
+
+                            <Col lg={12}>
+
+                            <div className="Header">
+                                <h2>Customer Review</h2>
+                            </div>
+
+                            </Col>
+
+                            {/* item */}
+                            <Col lg={6} sm={6}>
+
+                            <div className="CustomerReviewItem">
+
+                                <div className="Quate">
+                                <i class="flaticon-quote"></i>
+                                </div>
+
+                                <div className="img">
+                                <img src="images/profile3.png" alt="" />
+                                </div>
+
+                                <div className="text">
+
+                                <p>প্রিয়জনকে উপহার দেওয়ার প্রথম গিফট ছিল। আর প্রথম গিফট পেয়ে মুগ্ধ হয়ে গিয়েছে। অনেক ভালো লেগেছে আপনাদের উপহার প্যাকেজটা ।আর আমি স্পেশিয়ালি ধন্যবাদ জানাতে চাই ডেলিভারি টাইমে সব সময় যোগাযোগ রাখার জন্য। প্রোডাক্ট ডেলিভারি এমনই হওয়া উচিত, ডেলিভারি ঠিক সময়ে পেয়েছি।</p>
+                                <h3>Parvez Khan</h3>
+
+                                </div>
+
+                            </div>
+
+                            </Col>
+
+                            {/* item */}
+                            <Col lg={6} sm={6}>
+
+                            <div className="CustomerReviewItem">
+
+                                <div className="Quate">
+                                <i class="flaticon-quote"></i>
+                                </div>
+
+                                <div className="img">
+                                <img src="images/profile5.png" alt="" />
+                                </div>
+
+                                <div className="text">
+
+                                <p>I bought a chocolate box from here. The quality is remarkable. It's well worth the money for its high-quality products; I highly recommended it!</p>
+                                <h3>Majed Islam</h3>
+
+                                </div>
+
+                            </div>
+
+                            </Col>
+
+                            {/* item */}
+                            <Col lg={6} sm={6}>
+
+                            <div className="CustomerReviewItem">
+
+                                <div className="Quate">
+                                <i class="flaticon-quote"></i>
+                                </div>
+
+                                <div className="img">
+                                <img src="images/profile6.png" alt="" />
+                                </div>
+
+                                <div className="text">
+
+                                <p>জোস একটা গিফট প্রোডাক্ট ! মজার বিষয় হচ্ছে খুব দ্রুত আর ঠিক টাইমে ডেলিভারি দেয় ওরা। ধন্যবাদ Gift Valy কে।</p>
+                                <h3>Aishik Acharaya Argha</h3>
+
+                                </div>
+
+                            </div>
+
+                            </Col>
+
+                            {/* item */}
+                            <Col lg={6} sm={6}>
+
+                            <div className="CustomerReviewItem">
+
+                                <div className="Quate">
+                                <i class="flaticon-quote"></i>
+                                </div>
+
+                                <div className="img">
+                                <img src="images/profile4.png" alt="" />
+                                </div>
+
+                                <div className="text">
+
+                                <p>প্রোডাক্টটা অনেক ক্রিয়েটিভ ছিল । আপনারা অনেক সুন্দর ভাবে বক্সটা সাজিয়েছেন, আমার খুবই ভালো লেগেছে এবং আমি উপহার যাকে দিয়েছি সেও খুবই পছন্দ করেছে সবচেয়ে ভালো লেগেছে আপনাদের খুবই দ্রুত ডেলিভারি করা। প্যাকেজিং সুন্দর ছিল।</p>
+                                <h3>Rashid Khan</h3>
+
+                                </div>
+
+                            </div>
+
+                            </Col>
+
+                        </Row>
+>>>>>>> Stashed changes
 
                     </Container>
 
@@ -362,6 +507,7 @@ const StandardPackage = () => {
                 {/* section_gaps */}
                 <div className="section_gaps"></div>
 
+<<<<<<< Updated upstream
                
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------
                     Delivary
@@ -427,10 +573,76 @@ const StandardPackage = () => {
                     </Row>
 
                 </Container>
+=======
+                {/* -------------------------------------------------------------------------------------------------------------------------------------------------
+                    Delivary
+                -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
+                <section className="Delivary">
+
+                    <Container>
+
+                        <Row>
+
+                            <Col lg={12}>
+
+                                <div className="DelivaryContent">
+
+                                    {/* item */}
+                                    <div className="DelivaryItem d_flex">
+
+                                        <div className="img">
+                                            <i class="flaticon-delivery"></i>
+                                        </div>
+
+                                        <div className="text">
+                                            <h3>Fastest Delivery</h3>
+                                            <p>100% Free for all orders</p>
+                                        </div>
+
+                                    </div>
+
+                                    {/* item */}
+                                    <div className="DelivaryItem d_flex">
+
+                                        <div className="img">
+                                            <i class="flaticon-24-hours-support"></i>
+                                        </div>
+
+                                        <div className="text">
+                                            <h3>Great Support 24/7</h3>
+                                            <p>We care your experiences</p>
+                                        </div>
+
+                                    </div>
+
+                                    {/* item */}
+                                    <div className="DelivaryItem d_flex">
+
+                                        <div className="img">
+                                            <i class="flaticon-secure-shield"></i>
+                                        </div>
+
+                                        <div className="text">
+                                            <h3>secure Payment</h3>
+                                            <p>100% Secure Payment Method</p>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </Col>
+
+                        </Row>
+
+                    </Container>
+>>>>>>> Stashed changes
 
                 </section>
 
 
+<<<<<<< Updated upstream
                 {/* section_gaps */}
                 <div className="section_gaps"></div>
 
@@ -468,10 +680,50 @@ const StandardPackage = () => {
                 </section>
 
 
+=======
+                 {/* section_gaps */}
+                 <div className="section_gaps"></div>
+
+                {/* -------------------------------------------------------------------------------------------------------------------------------------------------
+                    FollowUs
+                -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
+                <section className="FollowUs">
+
+                    <Container>
+
+                        <Row>
+
+                            <Col lg='12'>
+
+                                <div className="Header">
+                                    <h2>Follow Us On Social Media</h2>
+                                </div>
+
+                                <div className="SocialIcon d_flex d_center">
+
+                                    <Link href='https://www.facebook.com/GiftValyShop/' className="fb"><i class="flaticon-facebook-app-symbol"></i></Link>
+                                    <Link href='' className="instagram"><i class="flaticon-instagram-1"></i></Link>
+                                    <Link href='https://www.youtube.com/@giftvaly8386' className="youtube"><i class="flaticon-youtube-4"></i></Link>
+                                    <Link href='https://wa.me/01894844456' className="whatsapp"><i class="flaticon-whatsapp-1"></i></Link>
+
+                                </div>
+
+                            </Col>
+                            
+
+                        </Row>
+
+                    </Container>
+
+                </section>
+
+                
+>>>>>>> Stashed changes
                 {/* section_gaps */}
                 <div className="section_gaps"></div>
 
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream
                 Footer
                 -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
                 <section className="StudentFooter">
@@ -510,6 +762,48 @@ const StandardPackage = () => {
                     </Row>
 
                 </Container>
+=======
+                    Footer
+                -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
+                <section className="StudentFooter">
+
+                    <Container>
+
+                        <Row className="d_flex d_justify">
+
+                            <Col lg={4} sm={5}>
+
+                                <div className="FooterItem">
+                                    <p>Copyright © 2023 All rights reserved.</p>
+                                </div>
+
+                            </Col>
+
+                            <Col lg={4} sm={2}>
+
+                                <div className="FooterLogo">
+                                    <img src="images/logo.svg" alt="" />
+                                </div>
+
+                            </Col>
+
+                            <Col lg={4} sm={5}>
+
+                                <div className="FooterItem">
+
+                                    <ul>
+                                        <li> <Link href=''>Terms & Conditions</Link> </li>
+                                        <li> <Link href=''>Privacy Policy</Link> </li>
+                                    </ul>
+                                    
+                                </div>
+
+                            </Col>
+
+                        </Row>
+
+                    </Container>
+>>>>>>> Stashed changes
 
                 </section>
 
