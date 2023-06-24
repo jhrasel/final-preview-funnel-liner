@@ -99,7 +99,20 @@ Navbar
   margin-top: 58px;
   position: absolute;
   z-index: 2;
+} 
+
+
+.Landing__27 .MenubarContent .LogoLeft {
+  text-align: left;
+  margin-top: 58px;
+  position: absolute;
+  z-index: 2;
+  background: red;
 }
+
+/* .LogoLeft{
+  background: red;
+} */
 
 .Landing__27 .menubar_MenubarContent__jlW_b .menubar_LogoLeft__F_zxD img {
 height: 40px;

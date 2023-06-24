@@ -65,7 +65,7 @@ const index = () => {
 
                                 <div className='Landing__27__AbsB_Box'>
 
-                                    <img src="images/landing-27/img3.png" alt="" />
+                                    <img src="/images/landing-27/img3.png" alt="" />
 
                                     <h6>01894844452</h6>
 
